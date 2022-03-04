@@ -15,8 +15,8 @@ const Logo = ({ className, isMobile }) => {
         <img
           src={
             pathname.includes('purchase') || pathname.includes('contact') || isMobile
-              ? './images/icons/logo.svg'
-              : './images/DIGITALAX-white.png'
+              ? './images/logo.png'
+              : './images/logo.png'
           }
           alt='logo'
         />
