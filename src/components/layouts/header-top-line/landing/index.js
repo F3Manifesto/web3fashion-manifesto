@@ -1,77 +1,58 @@
-import React, { useState, useMemo } from 'react'
-import styles from './styles.module.scss'
+import React, { useState } from "react";
+import styles from "./styles.module.scss";
 
-const LandingHeader = (props) => {
-  const { textColor } = props
-  const linkStyle = {
-    color: textColor || '#74a3f3',
-    borderBottomColor: textColor || '#74a3f3'
-  }
+const Header = () => {
+  const [show, setShow] = useState(false);
   return (
-    <div className={styles.navigationBar}>
-      <div className={styles.branding}>
-        <a href='https://www.digitalax.xyz/homepage'>
-          <span
-            className={styles.brand}
-            style={{
-              color: textColor || '#74a3f3'
-            }}
-          >Digitalax
-          </span>
-          <span className={styles.subBrand}>Web3 Fashion Economy</span>
-        </a>
+    <>
+      <div className={styles.wrapper}>
+        <img src="/images/logo.png" className={styles.logo} />
+        <div className={styles.links}>
+          <a href="https://docs.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+            DOCUMENTATION
+          </a>
+          <a href="https://docs.f3manifesto.xyz/web3-fashion-manifesto/map" className={styles.link} target="_blank" rel="noreferrer">
+            Web3 Fashion manifesto
+          </a>
+          <a href="https://mirror.xyz/f3manifesto.eth" className={styles.link} target="_blank" rel="noreferrer">
+            Sub-thread weekly
+          </a>
+          <a href="https://themanifest.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+            The Manifest Gallery
+          </a>
+          <a href="https://web3cc0openlibrary.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+            Web3 CC0 Open Library
+          </a>
+        </div>
+        <button className={styles.mobileBtn} onClick={() => setShow(!show)}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
       </div>
+      {show && (
+        <div className={styles.mobileWrapper}>
+          <div className={styles.links}>
+            <a href="https://docs.f3manifesto.xyz" className={styles.link} target="_blank" rel="noreferrer">
+              DOCUMENTATION
+            </a>
+            <a href="https://docs.f3manifesto.xyz/web3-fashion-manifesto/map" className={styles.link} target="_blank" rel="noreferrer">
+              Web3 Fashion manifesto
+            </a>
+            <a href="https://mirror.xyz/f3manifesto.eth" className={styles.link} target="_blank" rel="noreferrer">
+              Sub-thread weekly
+            </a>
+            <a href="https://themanifest.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+              The Manifest Gallery
+            </a>
+            <a href="https://web3cc0openlibrary.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+              Web3 CC0 Open Library
+            </a>
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
 
-      <div className={styles.listLink}>
-        <ul>
-          <li>
-            <a
-              style={linkStyle}
-              href='https://blog.digitalax.xyz/'
-            >
-              Blog Updates
-            </a>
-          </li>
-          <li>
-            <a
-              style={linkStyle}
-              href='https://www.digitalax.xyz/marketplace'
-            >
-              Marketplace
-            </a>
-          </li>
-          <li>
-            <a
-              style={linkStyle}
-              href='https://www.digitalax.xyz/whitepaper'
-            >
-              R&D
-            </a>
-          </li>
-          <li>
-            <a
-              style={linkStyle}
-              href='https://staking.digitalax.xyz'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Staking
-            </a>
-          </li>
-          <li>
-            <a
-              style={linkStyle}
-              href='https://espa.digitalax.xyz'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Esports Platform
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  )
-}
-
-export default LandingHeader
+export default Header;
