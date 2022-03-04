@@ -44,14 +44,14 @@ const LandingPage = () => {
     <>
       <div className={styles.wrapper}>
         <div className={styles.bodyWrapper}>
-          <div className={styles.header}> DIGIFIZZY </div>
-          <div className={styles.subTitle}> Mod the Metaverse </div>
+          <div className={styles.header}> Web3 Fashion Manifesto</div>
+          <div className={styles.subTitle}>A rally flag for the entire web3 fashion movement</div>
           <div className={styles.magazineWrapper}>
             <img
               className={styles.mainMagazine}
-              src="/images/nft/10/home.png"
+              src="/images/nft/1/cover.png"
               onClick={() => {
-                router.push('/magazines/10');
+                router.push('/manifesto');
               }}
             />
           </div>
