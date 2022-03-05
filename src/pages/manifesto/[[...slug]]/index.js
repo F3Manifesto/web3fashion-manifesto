@@ -35,7 +35,7 @@ const MagazinePages = () => {
 
           if (
             digitalaxSubscriptionCollectors[0]
-            && digitalaxSubscriptionCollectors[0].parentsOwned.filter((value) => value.name.includes(`DIGIFIZZY ${details[issueIndex][0].issueIndex}`)).length
+            && digitalaxSubscriptionCollectors[0].parentsOwned.filter((value) => value.name.includes(`Web3 Fashion Manifesto ${details[issueIndex][0].issueIndex}`)).length
           ) {
             dispatch(globalActions.setContentUnlocked(true))
             contentUnlocked = true

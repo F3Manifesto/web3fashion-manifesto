@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
-const Footer = () => {
+const LandingFooter = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerWrapper}>
@@ -64,5 +64,5 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default LandingFooter
 

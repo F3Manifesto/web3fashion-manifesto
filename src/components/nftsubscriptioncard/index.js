@@ -25,7 +25,7 @@ const NftSubscriptionCard = ({ details, id, burn721 }) => {
         <div className={styles.title}> {issueName} </div>
         <div className={styles.details}>
           <div className={styles.issueIndex}> {issueIndex} </div>
-          <Link href={`/magazines/${id}/hidden`}>
+          <Link href={`/manifesto/hidden`}>
             <a className={styles.hiddenLink}> HIDDEN CONTENT </a>
           </Link>
         </div>

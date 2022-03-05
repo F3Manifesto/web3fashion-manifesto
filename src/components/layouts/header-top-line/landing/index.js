@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.scss";
 
-const Header = () => {
+const LandingHeader = () => {
   const [show, setShow] = useState(false);
   return (
     <>
@@ -55,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default LandingHeader;

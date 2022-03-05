@@ -1,5 +1,5 @@
 import React, { memo, useEffect } from 'react';
-import Link from 'next/link';
+//import Link from 'next/link';
 import Router, { useRouter } from 'next/router';
 import BottomLine from '@components/bottom-line';
 import api from '@services/api/api.service';
@@ -51,7 +51,7 @@ const LandingPage = () => {
               className={styles.mainMagazine}
               src="/images/nft/1/cover.png"
               onClick={() => {
-                router.push('/manifesto');
+                router.push('/manifesto/1');;
               }}
             />
           </div>
@@ -63,3 +63,4 @@ const LandingPage = () => {
 };
 
 export default memo(LandingPage);
+

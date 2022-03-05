@@ -4,182 +4,98 @@
   @include magazineWrapper();
   h1 {
     position: absolute;
-    width: 47px;
-    height: 576px;
-    left: 36px;
-    top: 534px;
-    
-    font-family: Fresca;
+    width: 755px;
+    height: 392px;
+    left: 83px;
+    top: 103px;
+
+    font-family: NewYork;
     font-style: normal;
     font-weight: normal;
-    font-size: 120px;
-    line-height: 80%;
-    /* or 96px */
+    font-size: 95px;
+    line-height: 116px;
+    display: flex;
+    align-items: center;
+
     
-    
-    color: #FFFFFF;    
+    color: #4E4AFF;   
   }
 
   h2 {  
-    font-family: Corben;
+    position: absolute;
+    width: 666px;
+    height: 101px;
+    left: 83px;
+    top: 426px;
+
+    font-family: NewYork;
     font-style: normal;
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 80%;
-    /* or 56px */
-    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
 
-    &.india {
-      position: absolute;
-      width: 50px;
-      height: 280px;
-      left: 117px;
-      top: 693px;
+    color: #4E4AFF;
     }
-
-    &.forweb3 {
-      position: absolute;
-      width: 358px;
-      height: 112px;
-      left: 116px;
-      top: 985px;
-    }
-  }
 
   h3 {
     position: absolute;
-    width: 708px;
-    height: 98px;
-    left: 33px;
-    top: 1130px;
-    
-    font-family: 'Burst My Bubble';
-    font-size: 80px;
-    line-height: 70px;
+    width: 666px;
+    height: 106px;
+    left: 83px;
+    top: 611px;
+
+    font-family: NewYork;
+    font-style: normal;
     font-weight: normal;
-  
-    color: #FFFFFF;    
+    font-size: 70px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+
+    color: #4E4AFF;  
   }
 
   h4 {
     position: absolute;
-    width: 478px;
-    height: 60px;
-    left: 95px;
-    top: 1253px;
-    
-    font-family: Carme;
-    font-size: 50px;
-    line-height: 120.53%;
-    text-align: center;
-    
-    color: #FFFFFF;    
+    width: 42px;
+    height: 64px;
+    left: 203px;
+    top: 664px;
+
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: #4E4AFF;
   }
 
   h5 {
     position: absolute;
-    width: 602px;
-    height: 96px;
-    left: 33px;
-    top: 1307px;
+    width: 448px;
+    height: 23px;
+    left: 229px;
+    top: 653px;
     
-    font-family: Neon Lights;
+    font-family: NewYork;
     font-style: normal;
     font-weight: normal;
-    font-size: 80px;
-    line-height: 120.53%;
-    color: #FFFFFF;
-  }
-
-  h6 {
-    position: absolute;
-    width: 469px;
-    height: 84px;
-    left: 33px;
-    top: 1396px;
-    
-    font-family: Cinzel;
-    font-style: normal;
-    font-weight: 900;
     font-size: 70px;
-    line-height: 120.53%;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
     
-    color: #FFFFFF;    
-  }
-  
-  .digifizzy1 {
-    position: absolute;
-    width: 47px;
-    height: 648px;
-    left: 749px;
-    top: 748px;
-    
-    font-family: Internal Rainbows;
-    font-size: 60px;
-    line-height: 120.53%;   
-    color: #FF0505;    
+    color: #4E4AFF;    
   }
 
-  .digifizzy2 {
+  .line1 {
     position: absolute;
-    width: 47px;
-    height: 648px;
-    left: 755px;
-    top: 748px;
-    
-    font-family: Internal Rainbows;
-    font-size: 60px;
-    line-height: 120.53%;
-    color: #05FF69;
-    
-  }
-
-  .digifizzy3 {
-    position: absolute;
-    width: 47px;
-    height: 648px;
-    left: 764px;
-    top: 748px;
-    
-    font-family: Internal Rainbows;
-    font-size: 60px;
-    line-height: 120.53%;
-    color: #FFFFFF;
-  }
-
-  .issue1 {
-    position: absolute;
-    width: 13px;
-    height: 288px;
-    left: 830px;
-    top: 1091px;
-    word-wrap: break-word;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 120.53%;
-    text-align: center;
-    color: #FF0000;
-    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
-  }
-
-  .issue2 {
-    position: absolute;
-    width: 13px;
-    height: 288px;
-    left: 833px;
-    top: 1091px;
-    word-wrap: break-word;
-    
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 120.53%;
-    text-align: center;
-    color: #FF0000;
-    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);    
+    width: 834px;
+    height: 0px;
+    left: 63px;
+    top: 1353px;
   }
 }

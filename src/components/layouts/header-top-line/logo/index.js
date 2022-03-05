@@ -20,7 +20,6 @@ const Logo = ({ className, isMobile }) => {
           }
           alt='logo'
         />
-        <p className={styles.description}>Web3 Fashion Economy</p>
       </a>
     </Link>
   )
