@@ -75,4 +75,19 @@
   }
 }
 
+.collect {
+  background: $black;
+  color: #fff;
+  border: 0;
+
+  &:not([disabled]) {
+    @include active();
+  }
+
+  &[disabled]  {
+    background-color: rgba(#111, 0.9);
+    color: $darkGray3;
+  }
+}
+
 

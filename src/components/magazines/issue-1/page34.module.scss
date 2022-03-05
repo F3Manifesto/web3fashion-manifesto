@@ -1,0 +1,113 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: #FFFFFF;
+
+  h1 {
+    position: absolute;
+    width: 756px;
+    height: 240px;
+    left: 102px;
+    top: 102px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4F4F4F;
+  }
+
+  h2 {
+    position: absolute;
+    width: 176px;
+    height: 46px;
+    left: 392px;
+    top: 390px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4F4F4F;
+  }
+
+  h3 {
+    position: absolute;
+    width: 278px;
+    height: 28px;
+    left: 341px;
+    top: 511px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #4F4F4F;
+  }
+
+  h4 {
+    position: absolute;
+    width: 589px;
+    height: 840px;
+    left: 185px;
+    top: 525px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4F4F4F;
+  }
+
+  .emblem {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .infinity {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 463px;
+    top: 452px;    
+  }
+
+  hr {
+    position: absolute;
+    width: 711px;
+    height: 0px;
+    left: 124px;
+    top: 360px;
+    
+    border: 1px dashed #000000;
+  }
+}

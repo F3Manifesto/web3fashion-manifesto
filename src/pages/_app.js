@@ -65,7 +65,7 @@ const NetworkWrapper = (props) => {
 const MyApp = ({ Component, pageProps, store, err }) => {
   const router = useRouter();
   const { pathname } = router;
-  const isMagazineContents = pathname.substr(0, 10) === '/magazines';
+  const isMagazineContents = pathname.substr(0, 10) === '/manifesto';
   // const width = window.innerWidth
   // const isMobile = width <= 768
 
