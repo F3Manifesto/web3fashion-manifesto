@@ -3,44 +3,17 @@ import styles from './coverpage.module.scss'
 
 const CoverPage = () => (
   <div className={styles.wrapper}>
-    <img src='/magazine/1/images/cover.jpg' width='960' />
+    <img src='/magazine/1/images/cover/cover.png' width='960' />
     <h1>
-      I D & E G 0
+      The Web3 Fashion Manifesto
     </h1>
     <h2 className={styles.india}>
-      I N D I A
+      A rally flag for the entire web3 fashion and open metaverse movement.
     </h2>
     <h2 className={styles.forweb3}>
-      FOR WEB3
+      By F<h3>3</h3>Manifesto
     </h2>
-    <h3>
-      The Next<br />
-      Real Estate Rush
-    </h3>
-    <h4>
-      Onboarding the 99%
-    </h4>
-    <h5>
-      METAHUMANISM
-    </h5>
-    <h6>
-      XR Couture
-    </h6>
-    <div className={styles.digifizzy1}>
-      D I G I F I Z Z Y
-    </div>
-    <div className={styles.digifizzy2}>
-      D I G I F I Z Z Y
-    </div>
-    <div className={styles.digifizzy3}>
-      D I G I F I Z Z Y
-    </div>
-    <div className={styles.issue1}>
-      Issue one
-    </div>
-    <div className={styles.issue2}>
-      Issue one
-    </div>
+    <img src='/magazine/1/images/cover/line.png' width='834' />
   </div>
 )
 

@@ -45,7 +45,7 @@ const MagazinePages = () => {
         }
 
         if (issueIndex < 0) {
-          Router.push(`/magazines/${magazineIssues[0].issueId}`)
+          Router.push(`/manifesto/${magazineIssues[0].issueId}`)
           return
         }
 
@@ -57,7 +57,7 @@ const MagazinePages = () => {
 
         if (pageNumber > magazineIssues[issueIndex].freePageCount && !contentUnlocked) {
           console.log('redirecting... to : ', magazineIssues[issueIndex].freePageCount)
-          Router.push(`/magazines/${issueId}/${magazineIssues[issueIndex].freePageCount}`)
+          Router.push(`/manifesto/${issueId}/${magazineIssues[issueIndex].freePageCount}`)
           return
         }
         setCurrentPage(pageNumber)

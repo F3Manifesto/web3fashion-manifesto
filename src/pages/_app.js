@@ -79,12 +79,12 @@ const MyApp = ({ Component, pageProps, store, err }) => {
   return (
     <Provider store={store}>
       <Head>
-        <title>First In-Depth NFT Metaverse Magazine</title>
+        <title>Web3 Fashion Manifesto</title>
         <meta
           name="description"
-          content="DIGIFIZZY is the first in-depth Metaverse Magazine bringing together top voices and creators across digital fashion, gaming, modding, NFTs, web3, crypto, DeFi, music, art. We are proving out an entirely new publishing model through decentralized NFT unlockable content drops."
+          content="A Rally Flag for the Entire Web3 Fashion Movement."
         />
-        <link rel="icon" type="image/png" href="/images/icons/favicon-digitalax.ico" />
+        <link rel="icon" type="image/png" href="/images/icons/favicon.ico" />
       </Head>
       <InitWrapper>
         <HeaderTopLine isMagazineContents={isMagazineContents} />
