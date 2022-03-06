@@ -3,6 +3,8 @@ import styles from './coverpage.module.scss'
 
 const CoverPage = () => (
   <div className={styles.wrapper}>
+    <a href="https://polygonscan.com/tx/0x12e26a2043404817541a97523fe412256de1c432a508a2fca3e4ce59ec2c050b" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftblue.png'></img></a>
     <img src='/magazine/1/cover/cover.png' width='960' />
     <h1>
       The Web3 Fashion Manifesto

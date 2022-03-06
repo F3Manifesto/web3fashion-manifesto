@@ -3,6 +3,8 @@ import styles from './page12.module.scss'
 
 const Page12 = () => (
   <div className={styles.wrapper}>
+    <a href="https://polygonscan.com/tx/0xbcb82b2024890703f89a20aa530f764620f646ae206dd4071d024c2de13f467d" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>
     <h1>
     “The cultural authenticity of cloth arises not from the purity of its origins but from the ways in which individuals and groups turn textiles to their own purposes.”
     </h1>
@@ -26,6 +28,8 @@ const Page12 = () => (
       What we see now is like a dim image in a mirror; then we shall see face-to-face."</p></h8>
       <h9>Ghost In The Shell (1995)</h9>
       <img className={styles.cover} src='./magazine/1/12/cover (2).png' />
+      <a href="https://polygonscan.com/tx/0x9273adf519c05fab9048d7c6bcb78361f9b8f738ca9655ae7a3c3481ffa27b51" target="_blank" rel="noreferrer">
+    <img className={styles.nftblack} src='/images/nftwhite.png'></img></a>
       <img className={styles.survival} src='./magazine/1/12/survival.png' />
       <img className={styles.isnt} src='./magazine/1/12/isnt.png' />
       <img className={styles.enough} src='./magazine/1/12/enough.png' />

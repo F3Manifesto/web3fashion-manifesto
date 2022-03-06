@@ -25,6 +25,14 @@
     color: #4F4F4F;
   }
 
+  .nftblack{
+    position: relative;
+    width: 57px;
+    height: 57px;
+    left: 1837px;
+    top: 17px;
+  }
+
   h2 {
     position: absolute;
     width: 421px;
@@ -169,7 +177,7 @@
     
     color: #4F4F4F;
   }
-
+  
   .cover {
   position: absolute;
   width: 960px;
@@ -234,5 +242,13 @@
     height: 120px;
     left: 973px;
     top: 1343px;
+  }
+
+  .nftwhite{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 878px;
+    top: 17px; 
   }
 }

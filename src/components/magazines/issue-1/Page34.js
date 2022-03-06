@@ -3,6 +3,8 @@ import styles from './page34.module.scss'
 
 const Page34 = () => (
   <div className={styles.wrapper}>
+    <a href="https://polygonscan.com/tx/0x449ec5512cbf25d672fd24e823113e363b229a243c890f8be25637c398f6e2da" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>
     <h1><p>When raised by systems of miscommunication, distrust, and uncanny self-medication, 
       a call to reclaim the crown of inherent natural rights expressed through self-sovereign 
       independence, the handicraft of creative ingenuity, and unbridled networks of free association 
@@ -41,6 +43,8 @@ If you’re not afraid of the previous odds, you shouldn’t be afraid of these 
 <strong>Because there is always demand for more thread. Always.</strong>
 </p></h4>
 <img className={styles.emblem} src='./magazine/1/34/emblem.png' />
+<a href="https://polygonscan.com/tx/0x3823feaa13b3b693d176b376599f6d36397079f31ca02b4313f02f210b7a3a64" target="_blank" rel="noreferrer">
+    <img className={styles.nftblack} src='/images/nftwhite.png'></img></a>
   </div>
 )
 

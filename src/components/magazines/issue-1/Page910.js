@@ -4,6 +4,8 @@ import Button from '@components/buttons/button'
 
 const Page910 = () => (
   <div className={styles.wrapper}>
+<a href="" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>
     <h1>The Right to Create</h1>
     <img className={styles.planes} src='./magazine/1/910/planes.png' />
     <h2>TO CREATE * TO GOVERN * TO VOTE * TO STAKE</h2>

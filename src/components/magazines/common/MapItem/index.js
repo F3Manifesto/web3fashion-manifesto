@@ -39,6 +39,8 @@ const MapItem = (props) => {
         top: windowWidth > 640 ? `${itemData.y}%` : `${750 * (itemData.y / 100)}px`
       }}
       onClick={onClick}
+
+      
     >
       <div
         style={{
@@ -49,6 +51,17 @@ const MapItem = (props) => {
       </div>
     </motion.div>
   )
+
+  return(
+      <hover.div>
+      className={styles.mapItemWrapper}
+      whileHover={{
+        scale: 1.1,
+        rotate: -itemData.rotate
+      }}
+
+      </hover.div>
+    )
 }
 
 export default MapItem

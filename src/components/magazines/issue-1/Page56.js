@@ -3,6 +3,8 @@ import styles from './page56.module.scss'
 
 const Page56 = () => (
   <div className={styles.wrapper}>
+      <a href="https://polygonscan.com/tx/0x6d7388ceeaaeb7496211027f1a991484d19a73c772cec232e1c3f87b6af1d9fe" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>
     <h1>Declaration of Patterns & First Principles</h1>
     <h2>Declaration of Patterns & First Principles</h2>
     <h3><p>Relying on cloth alone is a risky way to preserve patterns. It assumes that each new practitioner has a teacher to translate the embedded code into manual practice. How to create patterns remains insider knowledge. 

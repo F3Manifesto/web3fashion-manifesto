@@ -1,0 +1,187 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: black;
+
+  h1 {
+    position: absolute;
+    width: 754px;
+    height: 1026px;
+    left: 83px;
+    top: 235px;
+    
+    font-family: Game Over;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 38px;
+    /* or 38% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+
+  h2 {
+    position: absolute;
+    width: 815px;
+    height: 313px;
+    left: 1032px;
+    top: 47px;
+    
+    font-family: Klik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  
+.code{
+  width: 480px;
+  height: 50px;
+  margin-left: 1200px;
+  margin-top: 383px;
+  
+}
+
+  h3 {
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 1329px;
+    top: 465px;
+    
+    font-family: Klik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  h4 {
+    position: absolute;
+    width: 225px;
+    height: 37px;
+    left: 1327px;
+    top: 1138px;
+    
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  video {
+    position: absolute;
+    width: 960px;
+    height: 535px;
+    left: 960px;
+    top: 538px;
+  }
+
+  h5 {
+
+    position: absolute;
+    width: 589px;
+    height: 114px;
+    left: 1145px;
+    top: 1186px;
+    
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+  }
+
+  h6 {
+    position: absolute;
+    width: 549px;
+    height: 19px;
+    left: 1164px;
+    top: 1417px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height, or 106% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+  }
+
+
+  .cc0text {
+    color: #FFFFFF;  
+  }
+
+  .collectbutton{
+    width: 166px;
+    height: 42px;
+    left: 1356px;
+    top: 1326px;
+    
+    position: absolute;
+
+    background: #FFEF62;
+    width: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+}
+
+  
+  
