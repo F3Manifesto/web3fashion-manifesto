@@ -2,38 +2,95 @@
 
 .wrapper {
   @include magazineWrapper();
-
-  .background {
+  h1 {
     position: absolute;
-    width: 960px;
-    height: 1497px;
-    left: 0px;
-    top: 0px;
-  }
-
-  .logo {
-    position: absolute;
-    width: 237px;
-    height: 297px;
-    left: 40px;
-    top: 1145px;
-  }
-
-  .text {
-    position: absolute;
-    width: 47px;
-    height: 648px;
-    left: 845px;
-    top: 37px;
+    width: 755px;
+    height: 219px;
+    left: 83px;
+    top: 201px;
     
-    font-family: Internal Rainbows;
+    font-family: NewYork;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
-    line-height: 120.53%;
-    /* or 72px */
+    line-height: 73px;
+    display: flex;
+    align-items: center;
     
-    
-    color: #FFFFFF;
+    color: #4E4AFF;
+  }
+
+  h2 {
+  position: absolute;
+  width: 280px;
+  height: 34px;
+  left: 83px;
+  top: 420px;
+  
+  font-family: NewYork;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  
+  color: #4E4AFF;
+}
+
+.section1 {
+  ul {
+ //   padding: 10px;
+ //   list-style-position: inside;
+ //   text-align: center;
+  //  max-width:50%; margin:auto; text-align:auto;
+
+    li {
+      color: #4e4aff;
+      max-width:auto;
+      font-family: NewYork;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.8vw;
+      line-height: 3.5vw;
+      @media (max-width: 576px) {
+        font-size: 16px;
+        line-height: 22px;
+      }
+      a {
+        font-family: NewYork;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8vw;
+        line-height: 3.5vw;
+        display: block;
+        width:max-content;
+
+        @media (max-width: 576px) {
+          font-size: 16px;
+          line-height: 22px;
+        }
+
+
+       // display: block;
+       // text-decoration-line: underline;
+
+        color: #4e4aff;
+
+        &:hover {
+          opacity: 0.8;
+
+        }
+      }
+    }
+  }
+}
+
+ .line1 {
+    position: absolute;
+    width: 726px;
+    height: 0px;
+    left: 83px;
+    top: 657px;    
   }
 }
