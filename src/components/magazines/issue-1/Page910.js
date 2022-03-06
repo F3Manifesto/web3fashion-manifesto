@@ -27,6 +27,7 @@ Half-heartedness won’t achieve to change what you said you are against. You se
 <br></br><br></br>
 This road demands courage and stamina. With these tools you quicken your ascent. Use them!
 </p></h3>
+<img className={styles.righttocreate} src='./magazine/1/910/rightocreate.png' />
  </div>
 )
 

@@ -10,7 +10,6 @@ const Backcover = () => (
     <h2 className={styles.h2}>
     Stay up to date across:
     </h2>
-    <div className={styles.section1}>
 
           <li>
           <a href="https://twitter.com/f3manifesto" target= "_blank" rel="noreferrer">Twitter</a>
@@ -34,7 +33,6 @@ const Backcover = () => (
           <a href="https://github.com/F3Manifesto" target= "_blank" rel="noreferrer">Github</a>
           </li>
    
-      </div>
     <img className={styles.line1} src='/magazine/1/cover/line.png' width='834' />
   </div>
 )
