@@ -1,8 +1,30 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useDispatch } from 'react-redux'
 import styles from './page78.module.scss'
-import Button from '@components/buttons/button'
+import {
+  openModalYellow,
+  closeModalYellow
+} from '@actions/modals.actions'
 
-const Page78 = () => ( 
+const Page78 = () => {
+  const dispatch = useDispatch()
+
+  const onClickOkayButton = () => {
+    dispatch(closeModalYellow())
+  }
+  
+  const onClickCollectButton = () => {
+    dispatch(
+      openModalYellow({
+        title: 'Coming, Soon!',
+        buttonText: 'Okay',
+        text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
+        onClick: () => onClickOkayButton()
+      })
+    )
+  }
+
+  return ( 
   <div className={styles.wrapper}>
     <h1><p>The power of liquidity in how it shapes the flows of capital to each moment and market participant playing the game to decide in countless increments at all scales who governs the rules to change the rules of the game.
     <br></br><br></br>
@@ -52,7 +74,7 @@ Come and claim your stake.
 
 <a
   className={styles.collectbutton}
-  href="https://docs.f3manifesto.xyz/"
+  onClick={onClickCollectButton}
   target="_blank"
   rel="noreferrer"
   >
@@ -64,5 +86,6 @@ Come and claim your stake.
  </div>
 
 ) 
+}
 
 export default Page78

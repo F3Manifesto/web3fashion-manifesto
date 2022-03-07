@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './page910.module.scss'
-import Button from '@components/buttons/button'
 
-const Page910 = () => (
+const Page910 = () => {
+  return (
   <div className={styles.wrapper}>
 <a href="" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>
@@ -48,5 +48,6 @@ This road demands courage and stamina. With these tools you quicken your ascent.
  </div>
  </div>
 )
+}
 
 export default Page910

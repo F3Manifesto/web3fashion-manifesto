@@ -1,10 +1,19 @@
-/*import React from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import cn from 'classnames'
 import styles from './styles.module.scss'
 
 const Modal = ({
-  className, title, withCloseIcon, text, onClose, children, titleStyle
+  className,
+  title,
+  titleStyle,
+  text,
+  textStyle,
+  children,
+  withCloseIcon,
+  closeIcon,
+  closeIconStyle,
+  onClose
 }) => (
   <div className={styles.wrapper}>
     <div className={cn(styles.modal, className)}>
@@ -14,15 +23,15 @@ const Modal = ({
           {withCloseIcon && (
             <button
               onClick={onClose}
-              className={styles.closeIcon}
+              className={cn(styles.closeIcon, closeIconStyle)}
             >
-              <img src='./images/icons/close-button.svg' alt='close-icon' />
+              <img src={closeIcon || './images/icons/close-button.svg'} alt='close-icon' />
             </button>
           )}
         </div>
       )}
       <div>
-        {!!text && text.map((item) => <p key={item} className={styles.modalBodyText}>{item}</p>)}
+        {!!text && text.map((item) => <p key={item} className={cn(textStyle, styles.modalBodyText)}>{item}</p>)}
       </div>
       {children}
     </div>
@@ -49,4 +58,4 @@ Modal.defaultProps = {
   titleStyle: {}
 }
 
-export default Modal */
+export default Modal

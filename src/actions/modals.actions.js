@@ -55,3 +55,6 @@ export const closeBuynowNftLimitModal = () => (dispatch) => dispatch(closeModal(
 
 export const openUnlockModal = (params) => (dispatch) => dispatch(openModal('isShowModalUnlock', 'hideScroll', params))
 export const closeUnlockModal = () => (dispatch) => dispatch(closeModal('isShowModalUnlock', 'addScroll'))
+
+export const openModalYellow = (params) => (dispatch) => dispatch(openModal('isShowModalYellow', 'hideScroll', params))
+export const closeModalYellow = () => (dispatch) => dispatch(closeModal('isShowModalYellow', 'addScroll'))

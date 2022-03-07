@@ -7,6 +7,7 @@ import BuyNowNftSubscription from './buy-now-nft-subscription'
 import ModalNftSubscriptionAReady from './modal-nft-subscription-ready'
 import BuyNowNftCooldown from './buy-now-nft-cooldown'
 import BuyNowNftLimit from './buy-now-nft-limit'
+import ModalYellow from './modal-yellow'
 import Unlock from './modal-unlock'
 
 const Modals = () => {
@@ -19,7 +20,8 @@ const Modals = () => {
     isNftSubscriptionReady,
     isShowBuyNowNftCooldown,
     isShowBuyNowNftLimit,
-    isShowModalUnlock
+    isShowModalUnlock,
+    isShowModalYellow
   } = modals
 
   return (
@@ -32,6 +34,7 @@ const Modals = () => {
       {isShowBuyNowNftCooldown && <BuyNowNftCooldown />}
       {isShowBuyNowNftLimit && <BuyNowNftLimit />}
       {isShowModalUnlock && <Unlock />}
+      {isShowModalYellow && <ModalYellow />}
     </>
   )
 }
