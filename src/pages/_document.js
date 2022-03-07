@@ -1885,6 +1885,11 @@ class MyDocument extends Document {
               font-family: "Lao MN";
               src: url("./fonts/Lao MN.ttc");
             }
+
+            @font-face {
+              font-family: 'NewYork';
+              src: url("./fonts/NewYork.otf");
+            }
           `
             }}
           />
