@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import PropTypes from 'prop-types'
 import cn from 'classnames'
 import styles from './styles.module.scss'
@@ -49,4 +49,4 @@ Modal.defaultProps = {
   titleStyle: {}
 }
 
-export default Modal
+export default Modal */

@@ -20,6 +20,7 @@ import getOrCreateStore from '../lib/with-redux-store';
 import config from '../utils/config';
 import '../assets/scss/global.scss';
 import styles from './styles.module.scss';
+import { className } from 'postcss-selector-parser';
 
 if (config.SENTRY_DSN) {
   Sentry.init({
@@ -124,6 +125,7 @@ const serializeWrapper = (value, cb) => {
   }
   return value;
 };
+
 
 export default withRedux((initialState) => getOrCreateStore(initialState), {
   serializeState: (state = {}) => serializeWrapper(state, serialize),

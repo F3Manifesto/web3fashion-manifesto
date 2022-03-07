@@ -5,7 +5,7 @@ import Button from '@components/buttons/button'
 const Page1314 = () => (
   <div className={styles.wrapper}>
     <img className={styles.back1} src='./magazine/1/1112/back3.png' />
-    <h1>A simple machine serves as a host for self-advancing derivative content. It manifests a mechanical advantage by amplification of the effort exerted as it is converted into greater degrees of productive capacity utilization and expansion.  Revolutionary content from decentralized sources enter the amplification device and by repetition of schematic action reduces the effort required while the capacity number of yield that can be carried goes up. 
+    <h1>A simple machine serves as a host for self-advancing derivative content. It manifests a mechanical advantage by amplification of the effort exerted as it is converted into greater degrees of productive capacity utilisation and expansion.  Revolutionary content from decentralised sources enter the amplification device and by repetition of schematic action reduces the effort required while the capacity number of yield that can be carried goes up. 
 </h1>
     <h2>Within the mechanisms perspective, it’s the delta between load and effort that increases, removing almost entirely the bounds of the elastic limit. Yield stress goes to infinity and beyond.
 </h2>

@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styles from './page78.module.scss'
 import Button from '@components/buttons/button'
 
-const Page78 = () => (
+const Page78 = () => ( 
   <div className={styles.wrapper}>
     <h1><p>The power of liquidity in how it shapes the flows of capital to each moment and market participant playing the game to decide in countless increments at all scales who governs the rules to change the rules of the game.
     <br></br><br></br>
@@ -62,6 +62,7 @@ Come and claim your stake.
 <h5> <a className={styles.cc0text} href="https://github.com/F3Manifesto/ccomaterials/tree/main/icoinedweb3fashion"
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h5>
  </div>
-)
+
+) 
 
 export default Page78
