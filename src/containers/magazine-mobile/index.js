@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import styles from './styles.module.scss'
 
 const MobileViewer = () => (
@@ -19,4 +19,4 @@ const MobileViewer = () => (
   </>
 )
 
-export default MobileViewer
+export default MobileViewer*/
