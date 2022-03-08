@@ -47,7 +47,7 @@ const InitWrapper = (props) => {
 const InitLoader = () => (
   <div className={styles.initLoaderWrapper}>
     <video autoPlay muted loop className={styles.loadingVideo}>
-      <source src="/video/init-loading.mp4" type="video/mp4" />
+      <source src="/video/loader.mp4" type="video/mp4" />
     </video>
   </div>
 );
