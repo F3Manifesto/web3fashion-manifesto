@@ -92,7 +92,7 @@ export default class BaseActions {
       throw new Error(`Action "${action}" in reducer not found`)
     }
     return (dispatch) => {
-      dispatch(this.reducer.actions[action](payload))
+    dispatch(this.reducer.actions[action](payload))
     }
   }
 
