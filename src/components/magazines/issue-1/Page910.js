@@ -1,7 +1,31 @@
 import React from 'react'
 import styles from './page910.module.scss'
+import { useDispatch } from 'react-redux'
+import {
+  openModalYellow,
+  closeModalYellow
+} from '@actions/modals.actions'
+
 
 const Page910 = () => {
+
+  const dispatch = useDispatch()
+
+  const onClickOkayButton = () => {
+    dispatch(closeModalYellow())
+  }
+  
+  const onClickCollectButton = () => {
+    dispatch(
+      openModalYellow({
+        title: 'Coming, Soon!',
+        buttonText: 'Okay',
+        text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
+        onClick: () => onClickOkayButton()
+      })
+    )
+  }
+
   return (
   <div className={styles.wrapper}>
 <a href="" target="_blank" rel="noreferrer">
@@ -36,8 +60,12 @@ This road demands courage and stamina. With these tools you quicken your ascent.
 <div>
 
 <a
-  className={styles.collectbutton}
+  /*className={styles.collectbutton}
   href="https://docs.f3manifesto.xyz/"
+  target="_blank"
+  rel="noreferrer"*/
+  className={styles.collectbutton}
+  onClick={onClickCollectButton}
   target="_blank"
   rel="noreferrer"
   >

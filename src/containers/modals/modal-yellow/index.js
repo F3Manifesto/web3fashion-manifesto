@@ -37,7 +37,7 @@ const ModalYellow = () => {
         titleStyle={styles.title}
         text={[text || 'Message']}
         textStyle={styles.body}
-        closeIcon='/images/blue_closeicon.png'
+        closeIcon='/images/cancel 1 (2).svg'
         closeIconStyle={styles.closeIcon}
       >
         <div className={styles.buttonWrapper}>

@@ -1890,6 +1890,62 @@ class MyDocument extends Document {
               font-family: 'NewYork';
               src: url("./fonts/NewYork.otf");
             }
+
+            @font-face {
+              font-family: 'Mom´sTypewriter';
+              src: url("./fonts/Mom差___.ttf");
+            }
+
+            @font-face {
+              font-family: 'Traveling _Typewriter';
+              src: url("./fonts/TravelingTypewriter.otf");
+            }
+
+            @font-face {
+              font-family: 'Traveling _Typewriter';
+              src: url("./fonts/TravelingTypewriter.otf");
+            }
+
+            @font-face {
+              font-family: 'Patterning';
+              src: url("./fonts/Patterning FREE.otf");
+            }
+
+            @font-face {
+              font-family: 'Long Fox';
+              src: url("./fonts/Long Fox.otf");
+            }
+
+            @font-face {
+              font-family: 'Karmatic Arcade';
+              src: url("./fonts/ka1 2.ttf");
+            }
+
+            @font-face {
+              font-family: 'Klik';
+              src: url("./fonts/Klik-Light 2.otf");
+            }
+
+            @font-face {
+              font-family: 'Arcade';
+              src: url("./fonts/Arcade Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'CMU Serif';
+              src: url("./fonts/cmunbi.ttf");
+            }
+
+            @font-face {
+              font-family: 'Game Over';
+              src: url("./fonts/game_over.ttf");
+            }
+
+            @font-face {
+              font-family: 'IrishUncialfabeta-Bold'; 
+              src: url("./fonts/IrishUncialfabeta-Bold.woff2");
+            }
+            
           `
             }}
           />

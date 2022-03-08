@@ -3,6 +3,17 @@
   max-width: 500px;
   padding: 30px;
 
+.closeIcon {
+    right: 15px;
+    top: 15px;
+
+    img {
+      width: 20px;
+      height: 20px;
+      
+    }
+}
+
   .title {
     color: #4E4AFF;
     font-family: NewYork;
@@ -15,15 +26,6 @@
     font-family: NewYork;
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .closeIcon {
-    right: 15px;
-    top: 15px;
-    img {
-      width: 20px;
-      height: 20px;
-    }
   }
 
   .buttonWrapper {
