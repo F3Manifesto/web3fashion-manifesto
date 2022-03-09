@@ -109,12 +109,14 @@ const HeaderTopLine = ({
         
         <div className={cn(styles.links, isCollapse ? styles.expandedMenu : '')}>
         <img src="/images/logo.png" className={styles.logo} />
+        <span className={styles.span}></span>
         <a href="https://docs.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
             DOCUMENTATION
           </a>
-          <a href="https://docs.f3manifesto.xyz/web3-fashion-manifesto/map" className={styles.link} target="_blank" rel="noreferrer">
+          <a href="https://web3fashionmanifesto.f3manifesto.xyz/manifesto/1/" className={styles.link} target="_blank" rel="noreferrer">
             Web3 Fashion manifesto
           </a>
+          
           <a href="https://mirror.xyz/f3manifesto.eth" className={styles.link} target="_blank" rel="noreferrer">
             Sub-thread weekly
           </a>
@@ -124,7 +126,8 @@ const HeaderTopLine = ({
           <a href="https://web3cc0openlibrary.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
             Web3 CC0 Open Library
           </a>
-          <div className={styles.signBtn}>
+          
+       {/* <div className={styles.signBtn}>
             {user ? (
               <div className={styles.buttonWrapper}>
                 <SmallPhotoWithText
@@ -154,12 +157,13 @@ const HeaderTopLine = ({
             ) : (
               <Button className={styles.signinButton} onClick={() => handleClick()}>
                 {buttonText}
-              </Button>
-            )}
-          </div>
-          <a href='javascript:void(0);' className={styles.collapseIcon} onClick={onIconHander}>
+            </Button>
+            ) }
+          </div>  */}
+        
+          {/* <a href='javascript:void(0);' className={styles.collapseIcon} onClick={onIconHander}>
             &#9776;
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
@@ -176,7 +180,7 @@ HeaderTopLine.propTypes = {
 HeaderTopLine.defaultProps = {
   className: '',
   isShowStaking: false,
-  buttonText: 'SIGN IN',
+ // buttonText: 'SIGN IN',
 }
 
 export default HeaderTopLine

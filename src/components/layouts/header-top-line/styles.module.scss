@@ -121,10 +121,12 @@
 
 
 .links {
- display: flex;
+  display: flex;
   align-items: center;
   background: #4e4aff;
-  padding-right: 125px;
+  padding-right: 35px;
+
+  
 
   .link {
     @include active();
@@ -137,8 +139,8 @@
         /* identical to box height */
         
     padding: 0 10px;
-    padding-top: 20px;
-    
+    padding-top: 10px;
+    white-space: nowrap;
   
     text-decoration-line: underline;
   
@@ -151,46 +153,71 @@
     &:focus {
       outline: none;
     }
-  
-    @media screen and (max-width: 640px) {
-      text-align: left!important;
-      line-height: 30px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 10px;
     }
+  
   }
 
-  @media (max-width: 768px) {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+  .span {
+    padding-left: 37%;
+  }
+}
+
+
+
+
+.logo {
+  padding-left: 10px;
+  margin-top: 10px;
+
+  @media screen and (max-width: 1000px) {
+    width: 70px;
+  }
+
+  @media screen and (max-width: 648px) {
+    width: 50px;
+  }
+}  
+
+
+
+  /*@media (max-width: 768px) {
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
   }
 
   @media screen and (min-width: 1200px) {
-    justify-content: flex-end;
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
   }
-  @media screen and (max-width: 640px) {
-    flex-direction: row;
-    justify-content: flex-end;
+ /* @media screen and (max-width: 640px) {
+   /* flex-direction: row;
+   padding-right: 35px;
+   display: flex;
+   align-items: center;
     // margin: 0;
     a {
       display: none;
     }
+        float: none;
+        display: block;
+        text-align: left;
 
-   .collapseIcon {
+      } */
+
+  /* .collapseIcon {
       position: absolute;
       display: block;
       top: 27px;
       right: 27px;
     }
-    
-  }  
-}
-
-.logo {
-  margin-right: 425px;
-  margin-top: 8px;
-}  
-
+    */
+  
+/*
 .rightBox {
   width: 100%;
   display: flex;
@@ -199,10 +226,10 @@
 
   @include media-sm {
     align-items: center;
-    justify-content: space-between;
+    //justify-content: space-between;
   }
 }
-
+*/
 .whiteWrapper, .whiteWrapper *  {
   color: #ffef62!important;
   background: #4e4aff;
