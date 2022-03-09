@@ -44,7 +44,11 @@ const LandingPage = () => {
   return (
     <>
       <div className={styles.wrapper}>
+        <video autoPlay muted loop className={styles.videoBackground}>
+          <source src={'/video/background.mp4'} />
+        </video>
         <div className={styles.bodyWrapper}>
+
           <div className={styles.header}> Web3 Fashion Manifesto</div>
           <div className={styles.subTitle}>A rally flag for the entire web3 fashion movement.</div>
           <div className={styles.magazineWrapper}>
