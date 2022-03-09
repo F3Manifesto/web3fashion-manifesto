@@ -1892,6 +1892,11 @@ class MyDocument extends Document {
             }
 
             @font-face {
+              font-family: 'Lemon Milk';
+              src: url("./fonts/LEMONMILK-Regular.otf");
+            }
+
+            @font-face {
               font-family: 'Mom´sTypewriter';
               src: url("./fonts/Mom差___.ttf");
             }
