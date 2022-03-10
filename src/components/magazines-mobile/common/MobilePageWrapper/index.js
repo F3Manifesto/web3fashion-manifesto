@@ -6,7 +6,7 @@ const WebPageWrapperDiv = styled.div`
   background-color: black;
   overflow: scroll;
 
-  height: ${props => `${props.windowHeight - 80}px`};
+  height: ${props => `${props.windowHeight - 55}px`};
   width: ${props => `${props.windowWidth}px`};
   min-width: ${props => `${props.windowWidth}px`};
   max-width: ${props => `${props.windowWidth}px`};

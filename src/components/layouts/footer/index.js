@@ -4,7 +4,7 @@ import LandingFooter from './landing'
 const Footer = ({ isMagazineContents }) => {
   const isMobile = !(window.innerWidth > 768)
 
-  if (isMagazineContents && !isMobile) {
+  if (isMagazineContents) {
     return null
   }
 
