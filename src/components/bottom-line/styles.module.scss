@@ -5,13 +5,14 @@
 
 .bottomLine {
   width: 100%;
-  border: 2px solid;
+  border: 4px solid white;
+  color: white;
   overflow: hidden;
 }
 
 .animationForm {
   display: flex;
-  animation: scrolling 12s linear infinite;
+  animation: scrolling 13s linear infinite;
 
   .node {
     display: flex;
@@ -21,7 +22,7 @@
       padding: 1rem 3rem;
       background: transparent;
       font-family: "Inter";
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
       text-transform: uppercase;
       white-space: nowrap;

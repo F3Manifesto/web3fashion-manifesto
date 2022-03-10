@@ -4,10 +4,11 @@ import styles from './styles.module.scss'
 
 const BottomLine = ({ borderWhite = true }) => {
   const items = [
-    'UNLOCKABLE NFT BUNDLES',
-    'FIRST MAGAZINE FOR THE METAVERSE',
-    'FASHION, GAMING, ART, CRYPTO, NFTs, WEB3 ',
-    'BRIDGING DIGI-PHYSICAL'
+    'CC0',
+    'OPEN ACCESS',
+    'WEB3',
+    'SELF SOVEREIGN',
+    'WEB3 FASHION'
   ]
 
   return (
