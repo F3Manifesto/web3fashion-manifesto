@@ -113,17 +113,6 @@ const MagazinePages = () => {
 
   }
 
-  if (width <= 768) {
-    console.log('~~~~~~~~~~ here')
-    return (
-      <MagazineMobile
-        issueId={issueId}
-        initPage={currentPage}
-        onSwitchViewer={switchViewer}
-      />
-    )    
-  }
-
   return (
     <MapViewer
       issueId={issueId}
