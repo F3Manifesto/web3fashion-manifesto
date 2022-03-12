@@ -2,58 +2,159 @@
 
 .wrapper {
   @include magazineWrapper();
-  height: 2730px;
-  background-color: black;
+  height: 2591px;
   color: white;
   position: relative;
 
+  .nftblack{
+    position: absolute;
+width: 57px;
+height: 57px;
+left: 307px;
+top: 17px;
+  }
+
   h1 {
     position: absolute;
-    width: 217px;
-    height: 2425px;
-    left: 126px;
-    top: 100px;
+width: 244px;
+height: 180px;
+left: 65px;
+top: 93px;
 
-    font-family: A DAY WITHOUT SUN;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 700px;
-    line-height: 600px;
+font-family: 'Mom´sTypewriter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #4F4F4F;
   }
 
-  video {
-    position: absolute;
-    width: 341px;
-    height: 316px;
-    left: 21px;
-    top: 2367px;
-    
-    font-family: A DAY WITHOUT SUN;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 300px;
-    line-height: 374px;
-    text-align: center;
-    
-    color: #FFFFFF;
-  }
+ h2 {
+  position: absolute;
+  width: 213px;
+  height: 43px;
+  left: 84px;
+  top: 252px;
+  
+  font-family: 'Mom´sTypewriter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  
+  color: #4F4F4F;
+ }
 
   h3 {
     position: absolute;
-    width: 1041px;
-    height: 59px;
-    left: 38px;
-    top: 1072px;
+width: 244px;
+height: 61px;
+left: 65px;
+top: 337px;
 
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
+font-family: 'Mom´sTypewriter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
 
-    color: #FFFFFF;
+color: #4F4F4F;
+  }
 
-    transform-origin: 0 0;
-    transform: rotate(-90deg);
+  h4 {
+    position: absolute;
+width: 244px;
+height: 31px;
+left: 84px;
+top: 425px;
+
+font-family: 'Mom´sTypewriter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #4F4F4F;
+  }
+
+  h5 {
+    position: absolute;
+width: 244px;
+height: 61px;
+left: 65px;
+top: 498px;
+
+font-family: 'Mom´sTypewriter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #4F4F4F;
+  }
+
+  h6 {
+    position: absolute;
+width: 237px;
+height: 31px;
+left: 84px;
+top: 577px;
+
+font-family: 'Mom´sTypewriter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #4F4F4F;
+  }
+
+  h7 {
+    position: absolute;
+width: 249px;
+height: 1188px;
+left: 63px;
+top: 701px;
+
+font-family: 'Traveling _Typewriter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #4F4F4F;
+  }
+
+  h8 {
+    position: absolute;
+width: 249px;
+height: 540px;
+left: 63px;
+top: 1968px;
+
+font-family: 'Mom´sTypewriter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #4F4F4F;
   }
 }

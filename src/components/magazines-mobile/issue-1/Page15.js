@@ -4,42 +4,45 @@ import styles from './page15.module.scss'
 const Page15 = () => {
   return (
     <div className={styles.wrapper}>
-      <img src='./magazine/1/images/mobile/moshed-2.png' className={styles.backImage}/>
+      <img src='./magazine/1/images/mobile/moshed.png' className={styles.backImage}/>
+      <div className={styles.shadow}>
+        <h1 className={styles.shadow1}>
+          If life is a game, it’s not played under fair rules.
+        </h1>
+        <h1 className={styles.shadow2}>
+          If life is a game, it’s not played under fair rules.
+        </h1>
+        <h1 className={styles.shadow3}>
+          If life is a game, it’s not played under fair rules.
+        </h1>
+        <h1>
+          If life is a game, it’s not played under fair rules.
+        </h1>
+      </div>
+      <div className={styles.lawrence}>
+        Lawrence.
+      </div>
       <p className={styles.section1}>
-        But those in opposition to UBI are quick to point out that it will increase tax collection, 
-        which can trigger higher inflation. When that happens, commodity prices go up, and the buying power decreases, 
-        if not withers. However, there are instances wherein gloom instead of doom occurred with UBI. In 2011, 
-        Kuwait provided $4,000 to every citizen despite experiencing high inflation. Contrary to fearful belief, 
-        the country’s inflation rate decreased to under four percent after the universal income.
-        <br /><br />
-        Meanwhile, Alaska has some semblance of basic income since 1982. 
-        Before the first release, the state had a higher inflation rate than the rest of the United States. 
-        But as the dividends started, Alaska had lower inflation than the other 50 states combined. 
-        Dauphin town in Canada eliminated poverty in five years through a universal income. 
-        There were also UBI experiments in Namibia, India, Finland, and Canada.
-        <br /><br />
-        The stimulus checks from the United States government are also an iteration of universal basic income. 
-        Meanwhile, the first check was for a maximum of $1,200 with an additional $500 per dependent. 
-        Stimulus check number two was worth $600 per person with another $600 per qualifying child. 
-        But given that economic recovery is not an overnight result, US President Joe Biden is also proposing to continue issuing checks worth $300 per child for 12 months.
+        If life is a game, it’s not played under fair rules. 
+        The rich are getting more while the struggling ones continue to feel the brunt of the suffering. 
+        People who argue that perseverance is the key out of poverty do not understand that sometimes, 
+        the cards are stacked unfavorably with no easy way out. It’s not that the underprivileged are lazy. 
+        Instead, the well-off have a considerable head start.
       </p>
-      <h1 className={styles.shadow1}>
-        While the plan looks promising, the distribution of the checks is ripe with concerns. Identifying the rightful number of recipients might be challenging without an updated list of residents in an area. Likewise, releasing it through a government agency adds another gateway which leads to distribution delays. Crowds will also gather at check releasing sites, making it contradicting to social distancing guidelines.
-      </h1>
-      <h1 className={styles.shadow2}>
-        While the plan looks promising, the distribution of the checks is ripe with concerns. Identifying the rightful number of recipients might be challenging without an updated list of residents in an area. Likewise, releasing it through a government agency adds another gateway which leads to distribution delays. Crowds will also gather at check releasing sites, making it contradicting to social distancing guidelines.
-      </h1>
-      <h1 className={styles.shadow3}>
-        While the plan looks promising, the distribution of the checks is ripe with concerns. Identifying the rightful number of recipients might be challenging without an updated list of residents in an area. Likewise, releasing it through a government agency adds another gateway which leads to distribution delays. Crowds will also gather at check releasing sites, making it contradicting to social distancing guidelines.
-      </h1>
-      <h1>
-        While the plan looks promising, the distribution of the checks is ripe with concerns. Identifying the rightful number of recipients might be challenging without an updated list of residents in an area. Likewise, releasing it through a government agency adds another gateway which leads to distribution delays. Crowds will also gather at check releasing sites, making it contradicting to social distancing guidelines.
-      </h1>
+      <img src='./magazine/1/images/Group 1146.png' className={styles.dollarSign}/>
+      <div className={styles.textWrapper}>
       <p className={styles.section2}>
-        Distributing through bank accounts poses some problems because the Federal Deposit Insurance Corporation revealed 
-        that 7.1 million American households do not have a single bank account. 
-        If a beneficiaries list depends on that alone, some rightful recipients will not receive much-needed assistance.
+        Even before the COVID-19 pandemic, the divide was already prominent. 
+        The 2020 World Global Inequality Data by the World Inequality Lab highlights that Latin America and the Middle East are the most imbalanced regions for wealth distribution. 
+        In these areas, the top ten wealthiest individuals make up 54 and 56 percent of the average national income, respectively.
       </p>
+      <p className={styles.section3}>
+        In Africa, the top ten percent own half of the national income. However, 
+        the divide is more prominent in nations that experienced European colonization and racial injustice, 
+        partly because of outdated taxation systems and the absence of land reform. 
+        The Asian region saw the wealthiest possess close to 60 percent of income share, especially in India, wherein the difference in classes emerge even more.
+      </p>
+      </div>
     </div>
   )
 }

@@ -1,9 +1,122 @@
 @import './styles.module.scss';
 .wrapper {
   @include magazineWrapper();
-  height: 960px;
+  height: 1018px;
   img {
     width: 100%;
     height: 100%;
   }
+
+  h1{
+    position: absolute;
+width: 295px;
+height: 113px;
+left: 40px;
+top: 151px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+
+color: #4E4AFF;
+  }
+
+  h2{
+    position: absolute;
+width: 278px;
+height: 101px;
+left: 40px;
+top: 232px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #4E4AFF;
+  }
+
+  h3{
+    position: absolute;
+width: 55px;
+height: 37px;
+left: 40px;
+top: 394px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #4E4AFF;
+  }
+
+  h4{
+    position: absolute;
+width: 17px;
+height: 37px;
+left: 90px;
+top: 412px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #4E4AFF;
+  }
+
+  h5{
+    position: absolute;
+width: 131px;
+height: 37px;
+left: 109px;
+top: 394px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #4E4AFF;
+  }
+
+  .line1{
+    position: absolute;
+width: 311px;
+height: 0px;
+left: 32px;
+top: 905px;
+
+border: 2px solid #4E4AFF;
+  }
+
+  .nftwhite{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 307px;
+    top: 17px;
+  }
+
 }

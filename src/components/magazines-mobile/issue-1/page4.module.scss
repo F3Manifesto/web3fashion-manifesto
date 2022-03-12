@@ -2,17 +2,21 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: white;
-  display: flex;
-  height: 100vh;
-  position: relative;
+  height: 586px;
 
-  img {
-    object-fit: fill;
+  .emblem {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 586px;
     left: 0px;
     top: 0px;
+  }
+
+  .nftblack {
+    position: absolute;
+width: 57px;
+height: 57px;
+left: 307px;
+top: 17px;
   }
 }
