@@ -2,212 +2,146 @@
 
 .wrapper {
   @include magazineWrapper();
-  height: 3332px;
-  background-image: url('/magazine/1/images/mobile/oasis-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: white;
-  color: black;
-  position: relative;
-  text-align: left;
+  height: 1536px;
 
-  h1 {
+  .cover {
     position: absolute;
-    width: 340px;
-    height: 169px;
-    left: 40px;
-    top: 82px;
-
-    font-family: Archie Websters;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 130px;
-    line-height: 143px;
-
-    color: #FFFFFF;
-  }
-
-  p {
-    font-family: Mada;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 16.5px;
-    color: #FFFFFF;
-    position: absolute;
-
-
-    span {
-      font-family: Mad Galaxy Demo;
-      font-size: 17px;
-      line-height: 18.7px;
-    }
-
-    &.section1 {
-      width: 191px;
-      height: 110px;
-      left: 136px;
-      top: 432px;
-    }
-
-    &.section2 {
-      width: 275px;
-      height: 74px;
-      left: 40px;
-      top: 591px;
-    }
-
-    &.section3 {
-      width: 267px;
-      height: 102px;
-      left: 40px;
-      top: 714px;
-    }
-
-    &.section4 {
-      width: 260px;
-      height: 119px;
-      left: 40px;
-      top: 896px;
-    }
-
-    &.section5 {
-      width: 157px;
-      height: 67px;
-      left: 40px;
-      top: 1067px;
-    }
-
-    &.section6 {
-      width: 195px;
-      height: 153px;
-      left: 142px;
-      top: 1249px;
-    }
-
-    &.section7 {
-      width: 275px;
-      height: 153px;
-      left: 41px;
-      top: 1355px;
-    }
-
-    &.section8 {
-      width: 293px;
-      height: 193px;
-      left: 40px;
-      top: 1399px;
-    }
-
-    &.section9 {
-      width: 293px;
-      height: 189px;
-      left: 38px;
-      top: 2139px;
-    }
-
-    &.section10 {
-      width: 100px;
-      height: 100px;
-      left: 39px;
-      top: 2404px;
-    }
+    width: 375px;
+    height: 1536px;
+    left: 0px;
+    top: 0px;
     
-    &.section11 {
-      width: 282px;
-      height: 159px;
-      left: 38px;
-      top: 2506px;
-    }
-
-    &.section12 {
-      width: 223px;
-      height: 448px;
-      left: 38px;
-      top: 2710px;
-    }
   }
 
   h2 {
     position: absolute;
-    font-family: Archie Websters;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 90px;
-    line-height: 110%;
-    color: #FFFFFF;
-
-    &.title1 {
-      width: 326px;
-      height: 224px;
-      left: 41px;
-      top: 1635px;
-    }
+    width: 258px;
+    height: 420px;
+    left: 59px;
+    top: 61px;
     
-    &.title2 {
-      width: 326px;
-      height: 224px;
-      left: 34px;
-      top: 1872px;
-    }
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
   }
 
-  .logoImage1 {
+  video {
     position: absolute;
-    width: 79px;
-    height: 79px;
-    left: 40px;
-    top: 432px;
-  }
-
-  .logoImage2 {
-    position: absolute;
-    width: 84px;
-    height: 84px;
-    left: 216px;
-    top: 1058px;
-  }
-
-  .logoImage3 {
-    position: absolute;
-    width: 89px;
-    height: 89px;
-    left: 40px;
-    top: 1253px;
-  }
-
-  .logoImage4 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 154px;
-    top: 2385px;
-  }
-
-  .logoImage5 {
-    position: absolute;
-    width: 209px;
-    height: 243px;
-    left: 39px;
-    top: 3179px;
-  }
+    width: 375px;
+    height: 242px;
+    left: 0px;
+    top: 503px;
+   }
 
   h3 {
     position: absolute;
-    width: 23px;
-    height: 630px;
-    left: 289px;
-    top: 2725px;
-
-    font-family: Archie Websters;
+    width: 299px;
+    height: 37px;
+    left: 38px;
+    top: 824px;
+    
+    font-family: 'NewYork';
     font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 110%;
-    /* or 88px */
-
-
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
     color: #FFFFFF;
+      
+  }
+
+  h4 {
+    position: absolute;
+    width: 243px;
+    height: 266px;
+    left: 66px;
+    top: 881px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    border: 0.2px solid #FFFFFF;
+  }
+
+  .collect {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 105px;
+    top: 1171px;
+    
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .collectbutton{
+    height: 38px;
+    left: 1380px;
+    top: 1130px;
+    position: absolute;
+
+    background: #FFEF62;
+    width: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+
+  h5 {
+    position: absolute;
+    width: 208px;
+    height: 57px;
+    left: 84px;
+    top: 1254px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* or 119% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+  }
+
+  .cc0text {
+    color: #FFFFFF;  
   }
 
   

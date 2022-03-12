@@ -2,47 +2,27 @@
 
 .wrapper {
   @include magazineWrapper();
-  height: 3120px;
+  height: 1869px;
   background-color: white;
-  color: black;
-  position: relative;
-  text-align: left;
 
-  .backImage1 {
-    position: absolute;
-    width: 375px;
-    height: 1300px;
-    left: 0px;
-    top: 0;
-    transform-origin: 0 0;
-    transform: scale(1.05, 2.4);
-  }
+h1 {
+  position: absolute;
+width: 258px;
+height: 1554px;
+left: 59px;
+top: 61px;
 
-  p {
-    position: absolute;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 22px;
-    color: #000000;
+font-family: 'Courier New';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
 
-    &.section1 {
-      width: 294px;
-      height: 1800px;
-      left: 42px;
-      top: 41px;
-    }
+color: #000000;
+}
 
-    &.section2 {
-      width: 294px;
-      height: 1108px;
-      left: 42px;
-      top: 1722px;
-    }
 
-    span {
-      font-weight: 700;
-    }
-  }
 }
