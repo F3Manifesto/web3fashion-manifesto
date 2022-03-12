@@ -4,43 +4,29 @@ import styles from './page5.module.scss'
 const Page5 = () => {
   return (
     <div className={styles.wrapper}>
-      <img src='./magazine/1/images/mobile/05-01.png' className={styles.backImage1} />
-      <img src="./magazine/1/images/mobile/05-02.png" className={styles.backImage2} />
-        
-      <h1><span>The Next</span><br />Real Estate Rush</h1>
-      <h2>It’s not physical. it’s virtual.</h2>
-      <h3>Written by Peezy R.</h3>
-      <p>
-        <span className={styles.italicText}>
-          Just as the world is grasping the idea of digital art and NFTs, a real estate boom is breaking out. 
-          And it's not happening in your backyard: it's happening in the virtual realms of the metaverse.
-        </span>
-        <br /><br />
+      <a href="https://polygonscan.com/tx/0x6d7388ceeaaeb7496211027f1a991484d19a73c772cec232e1c3f87b6af1d9fe" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>
+    <h1>Declaration of Patterns & First Principles</h1>
+    <h2>Declaration of Patterns & First Principles</h2>
+    <h3><p>Relying on cloth alone is a risky way to preserve patterns. It assumes that each new practitioner has a teacher to translate the embedded code into manual practice. How to create patterns remains insider knowledge. 
+<br></br><br></br>
+That’s why what Marx Ziegler did was so radical. A master weaver in the southern German town of Ulm, Ziegler was dismayed to see the city’s textile merchants turning to suppliers as far away as Holland to satisfy the demand for their famous linens. Ulm’s weavers, they complained, couldn’t keep up with seventeenth- century fashions for patterned tablecloths, bed hangings, and window curtains. 
+<br></br><br></br>
+“It is sometimes held”, Ziegler lamented, “that it would be impossible to make something like it in our own land, as though we were not blessed with as much intelligence as other people.” Yet, he himself had made all kinds of textiles, from fine linens to heavy rugs, and had mastered patterns requiring as many as thirty-two different shafts. Nor did he believe his neighbours lacked enterprise or talent. 
+<br></br><br></br>
+The problem, he concluded, was that ambitious Ulm weavers had little chance to learn how to recreate patterns, because those who had the know-how hoarded their expertise. “There are those who understand the art but are selfishly concerned that nothing should be revealed”, he observed. So, breaking with his profession’s traditional secrecy, Ziegler decided to write an instructional manual. In 1667 ‘Weber Kunst und Bild Buch’ or ‘The Weavers Art and Tie-Up Book’, became the first book of weaving patterns ever published. 
+<br></br><br></br>
+It took professional boldness for Ziegler to put his weaving know-how into print. It also required a written code: a way of translating the directions for woven patterns into easily decipherable diagrams. Just as musical scores record which notes to sound, Ziegler’s book used lines and graph paper to show weavers how to thread their looms and which shafts to raise to create specific patterns. His diagrams provided a layer of abstraction between material practice and pure mathematics. Today’s weaving drafts descend from its notation. 
+<br></br><br></br>
+Ziegler’s book expressed the period’s growing belief in sharing useful knowledge—the attitude that a century later would culminate in Diderot’s massive ‘Encyclopédie’, with its detailed, illustrated articles on mechanical arts, ranging from wig making to slate mining and including several types of weaving. “I hold that it would be possible to produce many more artists in all branches of knowledge”, Ziegler wrote, “if only there were no shortage of publishers.” He thus played a role in what economic historian Joel Mokyr has called the Industrial Enlightenment, as scientific theorists and practical craftsmen increasingly joined forces, informing one another’s understanding and making both kinds of knowledge more widely accessible.
+<br></br><br></br>
+Weavers have long used private notation to record patterns. Condemning the secrecy of his fellow craftsman, Ziegler wrote that “tie up books must be necessary for draw loom and treadle-loom weavers, since without them no one could learn to weave or accomplish anything of the sort.” But before his book, those diagrams were trade secrets. Only when its intermediary code became public, and therefore visible to non-weavers, could weaving inspire outsiders to learn from its examples or apply their ingenuity in its formerly closed domain. 
+<br></br><br></br>
+Ziegler's book and similar manuals, writes Harlizius-Klück, “made the art of weaving public, and its notation became standardized and common. With the notation close to the machine, they furthermore facilitated mutual understanding of the interaction between pattern drafting and loom parts for nonweavers and through this enabled engineers and inventors to play around with the mechanisms finally leading to an automated loom.”
+</p></h3>
+<h4>Excerpt from “The Fabric of Civilization” by Virginia Postrel</h4>
+</div>
 
-        In Hong Kong, the most expensive piece of real estate housing has been sitting on the market for three years, and you could own it for a cool $450 million. 
-        It's a property located at the Peak, the most prestigious neighborhood in the most expensive real estate market in the world, 
-        a colonial estate covering over 7,700 square meters, offering breathtaking views of the region, 
-        secluded in an evergreen paradise of Victoria Peak with nary a neighbor in sight. 
-        A buyer paid over $178 million for a mansion in the same affluent neighborhood, representing the most lucrative residential sale in the entire continent.
-        <br /><br />
-
-        $450 million isn't chump change. In fact, it's downright obscene in a world where 36% of the population live under less than $1 a day. 
-        Local whispers talk about how outrageous the going prices for real estate in the area go, if not downright absurd. 
-        More astounding is the fact that these homes and apartments that they're mostly empty. 
-        What price is too much for a piece of real estate that's been depreciating since 1991?
-        <br /><br />
-
-        True enough, we as a species are terrible judges of an asset's value, particularly when they are pegged at a higher value than their actual utility really is. 
-        It's the same reason why we find prices of real estate at the Peak, or a particular piece of art goes for eye-watering sums of money.
-        <br /><br />
-
-        But the truth is, asset values are determined by whatever society's collective agreement dictates it to be. It has nothing at all to do with utility.
-        <br /><br />
-
-        Art valuation works the same — its value is nothing more than what we agree on. It doesn't matter what materials went to its production or its utility. 
-        That's why most of us mere mortals cannot process their true worth. If you think otherwise, then I've got some tulip bulbs for you to buy. 
-      </p>
-    </div>
   )
 }
 

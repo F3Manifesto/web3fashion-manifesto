@@ -4,34 +4,26 @@ import styles from './page6.module.scss'
 const Page6 = () => {
   return (
     <div className={styles.wrapper}>
-      <img src='magazine/1/images/mobile/06-01.png' className={styles.backOrange} />
-      <div className={styles.section1}>
-        It's only elementary that people would be shocked to find out when acclaimed auction house Christie's sold a piece of digital NFT artwork for $69 million — for a piece of art that doesn't physically exist.
-        <br/><br/>
-        The shock was mainly because most people find it hard to reconcile the value of a digital piece of art, whose production costs are next to nothing compared to the price it went for, and whose value is more closely tied to its scarcity (perceived or otherwise) than its actual utility.
-        <br/><br/>
-        The same is happening for the real estate boom that's happening right under the collective industry's nose, and it's happening in the corners of the metaverse—the virtual worlds where not only digital art, real estate, avatars, and fashion can be bought and sold as NFTs. The world where digital natives and their avatars can explore, socialize, play, and live.
-      </div>
-      <div className={styles.logo_t}>T</div>
-      <div className={styles.section2}>
-        <span>he Value of Virtual Real Estate.</span> Everybody gets digital art, but virtual real estate is a different thing. Why should anyone spend money on a virtual piece of real estate that doesn't exist in real life? What makes pixelated parcels of land on a virtual world accessible through a website a real, tangible asset?
-        <br/><br/>
-        This requires a bit more context. That said, if you've ever played a video game — doesn't matter if it's on the Atari or the NES, or if it's Super Mario, FIFA, Final Fantasy, Fortnite, or Call of Duty — then you would know that as your character explores the virtual world, you'd be spending oodles and oodles of time roaming through the vast expanses of the countless artificial universes these games offer.
-      </div>
-      <div className={styles.section3}>
-        And the virtually limitless expanses of virtual worlds provide opportunities for brands to market, advertise, or engage with the emerging digital population. In-game advertising, after all, is a multi-billion-dollar industry that needs no further introduction.
-        <br/><br/>
-        Furthermore, virtual real estate presents an opportunity for companies to purchase virtual parcels of land within the metaverses that they form part of — and the possibilities are endless. Companies can build entire cityscapes within those metaverses and monetize them as they see fit— such as putting up a building and leasing out ad and store space, create living spaces that they can rent out, or any revenue-generating venture, for that matter. The possibilities are endless.
-      </div>
-      
-      <p className={styles.section4}>
-        Case in point: Beeple's $69 million NFT artwork entitled "Everydays: the First 5000 Days" was purchased by NFT fund founder and investor who goes by the pseudonym Metakovan. And based on his estimation, $69 million is a pittance compared to the value of what could be this generation's definitive piece of art, pegging its value at a staggering $1 billion. That's not a typo, and neither is it beyond the realm of imagination. Eventually, the crypto investor intends to create a virtual museum — yet another piece of virtual real estate — with which to display his vast collection of rare NFTs in the emergent metaverse. 
-      </p>
-      <p className={styles.section5}>
-        Think of how someone holding the NFT rights to the high-resolution video of Michael Jordan hitting the iconic game-winning shot over Bryon Russell in Game 6 of the 1998 NBA Finals to win his sixth and last NBA Championship. The holder can then put it up for display within a virtual world where individuals can view it using their VR headset for a fee. It sounds like something out of a sci-fi plotline — but the technology is already here. 
-      </p>
-      <img src='./magazine/1/images/moshed-05-07-17-22-22 (1).gif' className={styles.rightImage4} />
-    </div>
+    <h5><p>With the rise and spread of ad targeted hyper networks of mass persuasion and misinformation, these new money, mad king, tech behemoth, monopolisers of capital, time and attention have re-enshrined the near ancient selfish secrecy of those who understand the art yet believe nothing should be revealed––condemning us all to the loss of know-how and destruction of all the wealth that could have been. 
+<br></br><br></br>
+The counterparty action starts with gathering the components that make primary production uncensorable. 
+<br></br><br></br>
+The first of these is entirely familiar to every generation born yesterday or a century ago. Relatively new yet quickly interwoven into every serious practice of society, economics, work and play, what we call social media is really a small collection of a few essential features across a handful of distinguishable channels. They each emphasise a distinct aspect of user content and interactions, with the most notable of them including video uploads & streaming of practically any length, topic or purpose, quick sometimes threaded bursts of micro posts that can be photos, text, images, polls or short videos, algorithmically fed to you short clips quickly edited, filtered and overlaid with music, and, IRC meets voiceover IP with a fresh coat of paint. The features they have in common are practically invisible to us all by now, from profile photos and user accounts to upvotes, downvotes, private messages, reposts, follows and blocks.
+<br></br><br></br>
+These are all fully understood, easily replicable mass scale responsive interfaces built on branded social graphs. 
+<br></br><br></br>
+These social graphs begin to deliver on what makes the free flow of endlessly original content and personal coordination between friends and strangers alike so damn powerful. They begin, but for the lack of personal sovereignty, quickly fail to prevent misinformation, polarization, and attacks against our ever more valuable private data from letting all users down hard.
+<br></br><br></br>
+It isn’t until community governance, shared ownership and dispute resolution are rooted in a manifest stake for each participant across all cultures and societies that social graphs actually deliver. 
+<br></br><br></br>
+The unexpected benefits that make graphs, owned and operated through decentralised social coordination, and enshrined item by item, choice by choice within instant cultural delivery mechanisms, which we have come to call NFTs, just hit different.
+<br></br><br></br>
+Independent from anyone who would normally try, given any chance, to cut you off from your rights to stake, strike, create, vote and govern, and freely associate with whoever you please,  there are a surprisingly small number of mechanisms that make DAOs, NFTs, and really anything in web3, work so much better than any of the previous attempts that have come before. They are at a minimum; the ability to mint, transfer, add a primary sale price, set a token URI, burn, stake and add a relationship. 
+<br></br><br></br>
+Systems collapse when the yield stress of the carrying capacity within an ecosystem is breached. These convex flares snap to produce market crashes and a perpetual generation of Halting errors. The only counter to disentangle this tug of war is through a factorial decentralisation of the capital stack, where diverse pools of capital supply are able to provide frictionless entry, strike, swap, and aggregate discovery to prevent outsized capital flow distortions and disincentives. 
+<br></br><br></br>
+How does real capital make itself available with the ability to move from the places where it gathers to places where it is useful in real time continuously, whilst actively preventing and incentivising against tyrannies of the minority, the majority and malicious actions generated by tugs of war between both extremes?</p></h5>
+  </div> 
   )
 }
 
