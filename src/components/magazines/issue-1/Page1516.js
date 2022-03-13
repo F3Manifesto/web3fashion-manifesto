@@ -1,4 +1,5 @@
-import React from 'react'
+//import React from 'react'
+import React, { useRef, useState } from 'react'
 import styles from './page1516.module.scss'
 import { useDispatch } from 'react-redux'
 import {
@@ -9,7 +10,7 @@ import {
 
 const Page1516 = () => {
 
-    const dispatch = useDispatch()
+  const dispatch = useDispatch()
 
   const onClickOkayButton = () => {
     dispatch(closeModalYellow())
@@ -25,6 +26,9 @@ const Page1516 = () => {
       })
     )
   }
+
+  const [play, setPlay] = useState(false)
+  const ref = useRef()
 
   return (
   <div className={styles.wrapper}>
@@ -65,9 +69,17 @@ You enter the Konami code on the keypad.
 </h2>
 <img className={styles.code} src='./magazine/1/1516/code.png' />
 <h3>Door unlocked. You got in.</h3>
-<video autoPlay muted loop>
+<video ref={ref} autoPlay muted loop>
       <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' />
     </video>
+    <img
+        src={`./magazine/1/1516/15_16_${!play ? 'play' : 'pause'}.png`}
+        className={styles.play}
+        onClick={() => {
+          setPlay(!play)
+          ref.current.muted = play
+        }}
+      />
     <h4>The CC0 Arcade</h4>
 <h5>Walking into an arcade in the early days of the Metaverse was basically a goddamn religious experience. With quietly spoken words, “with these quietly spoken words: “I've never really had a religious experience in a religious place”. 
 <br></br><br></br>
