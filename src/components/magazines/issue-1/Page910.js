@@ -56,7 +56,11 @@ This road demands courage and stamina. With these tools you quicken your ascent.
 <img className={styles.righttocreate} src='./magazine/1/910/rightocreate.png' />
 <img className={styles.greenrectangle} src='./magazine/1/910/greenrectangle.png' />
 <h4>The Right to Create</h4>
-<h5>A patchwork jacket woven with textile patterns of textual self sovereignty, named “I Coined Web3 Fashion”. Shaking off the shackles of a world where it is far more common to take credit for what you haven’t done, it’s exceptionally rare to have the near superpower of a transparent decentralised record and occasionally stand up in contrast to take credit for what you have done. That’s one small part of the message contained within “I Coined Web3 Fashion”. </h5>
+<h5>In the rise of this computer state, computer state, we must stand up for our right to create. 
+<br></br><br></br>
+pgp --gen-key [user ID] --key-type [key type] --bits [bits #] --passphrase [passphrase]
+<br></br><br></br>
+Not your keys not your creativity.</h5>
 <div>
 
 <a

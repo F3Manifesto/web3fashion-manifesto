@@ -66,10 +66,12 @@ You enter the Konami code on the keypad.
 <img className={styles.code} src='./magazine/1/1516/code.png' />
 <h3>Door unlocked. You got in.</h3>
 <video autoPlay muted loop>
-      <source src='./magazine/1/videos/cc0arcade.mp4' type='video/mp4' />
+      <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' />
     </video>
     <h4>The CC0 Arcade</h4>
-<h5>A patchwork jacket woven with textile patterns of textual self sovereignty, named “I Coined Web3 Fashion”. Shaking off the shackles of a world where it is far more common to take credit for what you haven’t done, it’s exceptionally rare to have the near superpower of a transparent decentralised record and occasionally stand up in contrast to take credit for what you have done. That’s one small part of the message contained within “I Coined Web3 Fashion”. </h5>
+<h5>Walking into an arcade in the early days of the Metaverse was basically a goddamn religious experience. With quietly spoken words, “with these quietly spoken words: “I've never really had a religious experience in a religious place”. 
+<br></br><br></br>
+This is the first NFT in a series for the CC0 Arcade and you’re entry ticket to the next game.</h5>
 <div>
 
 <a
