@@ -1,4 +1,5 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
 import styles from './page8.module.scss'
 import {
   openModalYellow,
@@ -41,7 +42,7 @@ Well it matters, but this is a funny story that speaks to a greater pattern; I C
 Come and claim your stake. 
 </p></h2>
 <video autoPlay muted loop>
-      <source src='./magazine/1/videos/icoinedweb3fashion.mp4' playsinline autoplay loop muted type='video/mp4' />
+      <source src='./magazine/1/videos/icoinedweb3fashion.mp4' playsInline autoPlay loop muted type='video/mp4' />
     </video>
 <h3>I Coined Web3 Fashion</h3>
 <h4>A patchwork jacket woven with textile patterns of textual self sovereignty, named “I Coined Web3 Fashion”. Shaking off the shackles of a world where it is far more common to take credit for what you haven’t done, it’s exceptionally rare to have the near superpower of a transparent decentralised record and occasionally stand up in contrast to take credit for what you have done. That’s one small part of the message contained within “I Coined Web3 Fashion”. </h4>
