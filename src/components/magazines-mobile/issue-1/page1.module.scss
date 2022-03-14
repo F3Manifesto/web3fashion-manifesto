@@ -9,9 +9,9 @@
 
   .nftblack{
     position: absolute;
-    width: 57px;
-    height: 57px;
-    left: 307px;
+    width: 30px;
+    height: 30px;
+    left: 330px;
     top: 17px;
   }
 
@@ -38,7 +38,7 @@
     width: 213px;
     height: 43px;
     left: 84px;
-    top: 252px;
+    top: 260px;
     
     font-family: 'Mom´sTypewriter';
     font-style: normal;
@@ -74,7 +74,7 @@
     width: 244px;
     height: 31px;
     left: 84px;
-    top: 425px;
+    top: 410px;
 
     font-family: 'Mom´sTypewriter';
     font-style: normal;
@@ -110,7 +110,7 @@
     width: 237px;
     height: 31px;
     left: 84px;
-    top: 577px;
+    top: 560px;
 
     font-family: 'Mom´sTypewriter';
     font-style: normal;
@@ -160,6 +160,8 @@
   }
 
   .text3 {
+    font-family: 'Mom´sTypewriter';
+    font-style: normal;
     position: absolute;
     width: 249px;
     height: 100px;
@@ -169,7 +171,9 @@
 
   .nftwhite {
     position: absolute;
-    right: 10px;
+    width: 30px;
+    height: 30px;
+    left: 330px;
     top: 10px;
   }
 }

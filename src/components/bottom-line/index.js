@@ -8,7 +8,10 @@ const BottomLine = ({ borderWhite = true }) => {
     'OPEN ACCESS',
     'WEB3',
     'SELF SOVEREIGN',
-    'WEB3 FASHION'
+    'WEB3 FASHION',
+    'THE MANIFESTO',
+    'dezinformatsiya',
+    'ZERO KNOWLEDGE'
   ]
 
   return (

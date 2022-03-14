@@ -28,7 +28,7 @@ const Page1 = () => {
         <div className={styles.text2}><p>"Just as there are many parts needed to make a human a human there's a remarkable number of things needed to make an individual what they are. A face to distinguish yourself from others. A voice you aren't aware of yourself. The hand you see when you awaken. The memories of childhood, the feelings for the future. That's not all. There's the expanse of the data net my cyber-brain can access. All of that goes into making me what I am. Giving rise to a consciousness that I call "me." And simultaneously confining "me" within set limits.
         <br></br><br></br>
         What we see now is like a dim image in a mirror; then we shall see face-to-face."</p></div>
-        <div className={styles.text3}>Ghost In The Shell (1995)</div>
+        <div className={styles.text3}>-Ghost In The Shell (1995)</div>
     </div>
   )
 }

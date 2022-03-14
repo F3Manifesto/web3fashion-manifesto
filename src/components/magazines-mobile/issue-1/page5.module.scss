@@ -7,9 +7,9 @@
 
  .nftwhite {
   position: absolute;
-  width: 57px;
-  height: 57px;
-  left: 307px;
+  width: 30px;
+  height: 30px;
+  left: 330px;
   top: 17px;
  }
 
@@ -18,16 +18,18 @@
   width: 275px;
   height: 23.49px;
   left: 50px;
-  top: 103.51px;
+  top: 104.8px;
   
   font-family: 'Patterning';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 23px;
   /* identical to box height */
   
   text-align: center;
+  -webkit-text-stroke: 0.5px black;
+  color: #FFFFFF; 
  }
 
  h2 {
@@ -39,7 +41,7 @@
   
   font-family: 'Patterning';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 23px;
   /* identical to box height */
@@ -73,13 +75,13 @@
   width: 221px;
   height: 30px;
   left: 77px;
-  top: 1906px;
+  top: 1923px;
   
   font-family: 'Montserrat';
   font-style: italic;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 10px;
+  line-height: 11px;
   display: flex;
   align-items: center;
   text-align: center;

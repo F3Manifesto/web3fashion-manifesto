@@ -77,23 +77,28 @@
 
       @include media-xs {
         font-size: 15px;
+        font-weight: 600;
         margin-bottom: 25px;
       }
 
       @include media-sm {
         font-size: 18px;
+        font-weight: 600;
       }
 
       @include media-md {
         font-size: 21px;
+        font-weight: 600;
       }
 
       @include media-lg {
         font-size: 20px;
+        font-weight: 600;
       }
 
       @include media-xl {
         font-size: 25px;
+        font-weight: 600;
       }
 
       line-height: 110%;

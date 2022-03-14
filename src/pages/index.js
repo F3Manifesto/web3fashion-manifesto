@@ -65,6 +65,7 @@ const LandingPage = () => {
                 router.push('/manifesto/1');;
               }}
             />
+            <div></div>
           </div>
         </div>
         <BottomLine transparent={false} />
