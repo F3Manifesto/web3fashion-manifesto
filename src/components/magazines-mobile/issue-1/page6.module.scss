@@ -4,26 +4,26 @@
   @include magazineWrapper();
   height: 1898px;
   background-color: #FFFFFF;
-  color: #FFFFFF;
+  color: black;
   position: relative;
 
-  .h5 {
+  h5 {
     position: absolute;
-width: 258px;
-height: 1764px;
-left: 59px;
-top: 61px;
+    width: 258px;
+    height: 1764px;
+    left: 59px;
+    top: 61px;
 
-font-family: 'Courier New';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
   }
 
 }
