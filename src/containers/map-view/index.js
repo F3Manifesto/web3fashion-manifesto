@@ -93,7 +93,7 @@ const MapViewer = forwardRef((props, ref) => {
         width < 768 ?
         <ViewerSwitchMobile
           mapSwitch
-          viewers={['webview', 'magazineview', 'exit']}
+          viewers={['magazineview', 'exit']}
           onSwitchViewer={onSwitchViewer}
         /> :
         <ViewerSwitch

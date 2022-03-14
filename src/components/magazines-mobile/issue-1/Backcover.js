@@ -5,8 +5,8 @@ const Backcover = () => {
   return (
     <div className={styles.wrapper}>
       <img src="./magazine/1/backcover/mobilecover.png" className={styles.background} />
-      <h1 className={styles.header}>The Manifesto Pages Evolve At Continuous Intervals.</h1>
-      <h2 className={styles.digi2}>Check Back Soon for More.</h2>
+      <h1>The Manifesto Pages Evolve At Continuous Intervals.</h1>
+      <h2>Check Back Soon for More.</h2>
     </div>
   );
 };
