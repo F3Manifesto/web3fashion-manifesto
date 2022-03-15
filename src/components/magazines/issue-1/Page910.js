@@ -28,7 +28,7 @@ const Page910 = () => {
 
   return (
   <div className={styles.wrapper}>
-<a href="" target="_blank" rel="noreferrer">
+<a href="https://polygonscan.com/tx/0x02d8c80ae1e0ffeb3fa6d485b30dec8c90c3c7b06f6a7342bee410d09dd8d668" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>
     <h1>The Right to Create</h1>
     <img className={styles.planes} src='./magazine/1/910/planes.png' />
@@ -54,6 +54,9 @@ Half-heartedness won’t achieve to change what you said you are against. You se
 This road demands courage and stamina. With these tools you quicken your ascent. Use them!
 </p></h3>
 <img className={styles.righttocreate} src='./magazine/1/910/rightocreate.png' />
+<video playsInline autoPlay loop muted>
+        <source src='./magazine/1/videos/righttocreate.mp4' type='video/mp4' />
+</video>
 <img className={styles.greenrectangle} src='./magazine/1/910/greenrectangle.png' />
 <h4>The Right to Create</h4>
 <h5>In the rise of this computer state, computer state, we must stand up for our right to create. 

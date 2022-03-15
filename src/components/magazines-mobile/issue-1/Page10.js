@@ -26,10 +26,12 @@ const Page10 = () => {
 
   return (
     <div className={styles.wrapper}>
+      
       <img className={styles.background} src='./magazine/1/910/rightocreatebackmob.png' />
       <video playsInline autoPlay loop muted>
         <source src='./magazine/1/videos/righttocreate.mp4' type='video/mp4' />
       </video>
+      <img className={styles.green} src='./magazine/1/910/greenmobile.png' />
       <h1>The Right to Create</h1>
       <h2>In the rise of this computer state, computer state, we must stand up for our right to create. 
 <br></br><br></br>
