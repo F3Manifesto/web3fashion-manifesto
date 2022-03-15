@@ -1,0 +1,125 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 1536px;
+
+  .background {
+    position: relative;
+    width: 375px;
+    height: 1256px;
+  }
+
+  video {
+    position: absolute;
+width: 375px;
+height: 242px;
+left: 0px;
+top: 275px;
+  }
+
+
+h1 {
+  position: absolute;
+width: 263px;
+height: 37px;
+left: 56px;
+top: 547px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+h2 {
+  position: absolute;
+width: 243px;
+height: 171px;
+left: 66px;
+top: 602px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+/* or 127% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+  .collect {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 105px;
+    top: 1171px;
+    
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .collectbutton {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 105px;
+    top: 803px;    
+
+    background: #FFEF62;
+    width: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.7rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+
+  h3 {
+    position: absolute;
+width: 208px;
+height: 57px;
+left: 84px;
+top: 889px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* or 119% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #000000;
+  }
+
+  .cc0text {
+    color:black;  
+  }
+
+  
+}
