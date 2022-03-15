@@ -7,6 +7,22 @@ import {
 } from '@actions/modals.actions'
 
 const Page10 = () => {
+  const dispatch = useDispatch()
+
+  const onClickOkayButton = () => {
+    dispatch(closeModalYellow())
+  }
+  
+  const onClickCollectButton = () => {
+    dispatch(
+      openModalYellow({
+        title: 'Coming, Soon!',
+        buttonText: 'Okay',
+        text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
+        onClick: () => onClickOkayButton()
+      })
+    )
+  }
 
   return (
     <div className={styles.wrapper}>
