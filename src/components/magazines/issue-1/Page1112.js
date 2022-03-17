@@ -5,7 +5,7 @@ import Button from '@components/buttons/button'
 const Page1112 = () => (
   <div className={styles.wrapper}>
     <img className={styles.back1} src='./magazine/1/1112/back1112.png' />
-    <a href="https://polygonscan.com/tx/0xc3dc438c2c01fe9c33429730fcaed429952d3f50c65d7992a47ca7656f79139c" target="_blank" rel="noreferrer">
+    <a href="" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftwhite.png'></img></a>
     <h1>The CC0 Arcade</h1>
     <h2><strong>This wonderful world is filled with things with far more power than us. But if you’re smart about where you are, when you show up and which devices you know how to ride, you can catch a wave and go places.</strong></h2>
