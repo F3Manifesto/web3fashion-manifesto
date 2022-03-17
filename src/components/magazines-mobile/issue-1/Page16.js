@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import styles from './page16.module.scss'
 import {
@@ -8,6 +8,7 @@ import {
 
 const Page16 = () => {
   const dispatch = useDispatch()
+  const [play, setPlay] = useState(false)
 
   const onClickOkayButton = () => {
     dispatch(closeModalYellow())

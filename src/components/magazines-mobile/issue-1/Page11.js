@@ -17,9 +17,9 @@ const Page11 = () => {
     <h2><strong>This wonderful world is filled with things with far more power than us. But if you’re smart about where you are, when you show up and which devices you know how to ride, you can catch a wave and go places.</strong></h2>
     <h3><strong>Yet, yes, you need ammunition, not a ride.</strong></h3>
     <h4>This amplification thing–is it a grind, a dare, or a windfall? <br></br><br></br>
-What’s the difference?</h4>
-<img className={styles.arcadelines} src='./magazine/1/1112/arcadelines.png' />
-<img className={styles.line2} src='./magazine/1/1112/line2.png' /> 
+    What’s the difference?</h4>
+    <img className={styles.arcadelines} src='./magazine/1/1112/arcadelines.png' />
+    <img className={styles.line2} src='./magazine/1/1112/line2.png' /> 
   </div> 
   )
 }
