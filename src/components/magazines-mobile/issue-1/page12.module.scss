@@ -1,0 +1,55 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 1244px;
+  background-color: black;
+
+  .back1 {
+    width: 375px;
+  height: 1244px;
+  }
+
+  h5{
+    position: absolute;
+    width: 258px;
+    height: 400px;
+    left: 59px;
+    top: 65px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  h6 {
+    position: absolute;
+    width: 258px;
+    height: 280px;
+    left: 59px;
+    top: 819px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+}

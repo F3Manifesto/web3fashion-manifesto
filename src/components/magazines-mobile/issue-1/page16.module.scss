@@ -1,0 +1,174 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 1167px;
+  background-color: black;
+
+  .back1 {
+    position: relative;
+    width: 375px;
+    height: 1167px;    
+  }
+
+  h2 {
+    position: absolute;
+    width: 258px;
+    height: 484px;
+    left: 59px;
+    top: 59px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  
+.code{
+  position: absolute;
+  width: 281px;
+  height: 30px;
+  left: 47px;
+  top: 590px;
+  
+  
+}
+
+  h3 {
+    position: absolute;
+    width: 165px;
+    height: 30px;
+    left: 105px;
+    top: 667px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* identical to box height, or 200% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  h4 {
+    position: absolute;
+    width: 225px;
+    height: 37px;
+    left: 75px;
+    top: 1065px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  video {
+    position: absolute;
+    width: 375px;
+    height: 242px;
+    left: 0px;
+    top: 744px;    
+  }
+
+  h5 {
+    position: absolute;
+    width: 243px;
+    height: 190px;
+    left: 66px;
+    top: 1115px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+  }
+
+  h6 {
+    position: absolute;
+    width: 208px;
+    height: 57px;
+    left: 84px;
+    top: 1427px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* or 119% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+  }
+
+
+  .cc0text {
+    color: #FFFFFF;  
+  }
+
+  .collectbutton{
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 105px;
+    top: 1344px;
+    
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+}
+
+.play {
+  position: absolute;
+  width: 26.61px;
+  height: 26.61px;
+  left: 307px;
+  top: 750px;  
+}
+  

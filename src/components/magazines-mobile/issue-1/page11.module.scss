@@ -1,0 +1,118 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 1244px;
+  background-color: black;
+
+  .back1 {
+    position: relative;
+    width: 375px;
+    height: 1244px;
+  }
+
+  .nftwhite {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 330px;
+  top: 17px;
+  }
+
+
+h1 {
+  position: absolute;
+  width: 331px;
+  height: 34px;
+  left: 22px;
+  top: 120px;
+  
+  font-family: 'Karmatic Arcade';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #579AFF;
+}
+
+h2 {
+
+  position: absolute;
+  width: 272px;
+  height: 150px;
+  
+  font-family: 'Klik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+  
+   h3 {
+    position: absolute;
+    width: 224px;
+    height: 114px;
+    
+    font-family: 'Arcade';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    /* or 152% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #579AFF;
+   }
+
+   h4 {
+    position: absolute;
+    width: 295px;
+    height: 104px;
+    left: 40px;
+    top: 521px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 173% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+   }
+  
+   .arcadelines {
+    position: absolute;
+    width: 388px;
+    height: 490px;
+    left: -6px;
+    top: 754px;
+   }
+
+   .line2 {
+    position: absolute;
+    width: 251px;
+    height: 0px;
+    left: 62px;
+    top: 669px;
+   }
+}

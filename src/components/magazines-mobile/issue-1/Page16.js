@@ -1,15 +1,12 @@
-//import React from 'react'
-import React, { useRef, useState } from 'react'
-import styles from './page1516.module.scss'
+import React from 'react'
 import { useDispatch } from 'react-redux'
+import styles from './page16.module.scss'
 import {
   openModalYellow,
   closeModalYellow
 } from '@actions/modals.actions'
 
-
-const Page1516 = () => {
-
+const Page16 = () => {
   const dispatch = useDispatch()
 
   const onClickOkayButton = () => {
@@ -19,47 +16,15 @@ const Page1516 = () => {
   const onClickCollectButton = () => {
     dispatch(
       openModalYellow({
-        title: 'Coming, Soon!',
+        title: 'Coming Soon!',
         buttonText: 'Okay',
         text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
         onClick: () => onClickOkayButton()
       })
     )
   }
-
-  const [play, setPlay] = useState(false)
-  const ref = useRef()
-
   return (
-  <div className={styles.wrapper}>
-    <h1>Welcome to the CC0 Arcade. 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-Are you ready to play the infinite game? 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-Choose your destiny. 
-<br></br>
-<br></br>
-<br></br>
-Craft<br></br>
-Defend<br></br>
-Scale<br></br>
-<br></br>
-<br></br>
-<br></br>
-(_claim your stake_)
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-Insert CC0 to begin. 
-<br></br>
-</h1>
+    <div className={styles.wrapper}>
 <h2>
 Down through the street level entrance you find yourself winding through the back alley. Passing by poorly lit street art, trash cans in the way, and uncertain looking flaneurs who might be tenants or fellow players, wasting time smoking expired cigars. You wonder if nothing else works as planned, you have a back up career in teaching people like these how to take up less space with their poses and how to not block the path of the next people like you to come along this way. 
 <br></br><br></br>
@@ -69,7 +34,7 @@ You enter the Konami code on the keypad.
 </h2>
 <img className={styles.code} src='./magazine/1/1516/code.png' />
 <h3>Door unlocked. You got in.</h3>
-<video ref={ref} autoPlay muted loop>
+<video playsInline autoPlay loop muted>
       <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' />
     </video>
     <img
@@ -101,8 +66,10 @@ This is the first NFT in a series for the CC0 Arcade and your entry ticket to th
 </div>
 <h6> <a className={styles.cc0text} href="https://github.com/F3Manifesto/ccomaterials/tree/main/cc0arcade"
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h6>
+
+
  </div>
-)
+  )
 }
 
-export default Page1516
+export default Page16
