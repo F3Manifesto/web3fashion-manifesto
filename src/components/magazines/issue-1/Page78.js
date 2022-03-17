@@ -16,7 +16,7 @@ const Page78 = () => {
   const onClickCollectButton = () => {
     dispatch(
       openModalYellow({
-        title: 'Coming, Soon!',
+        title: 'Coming Soon!',
         buttonText: 'Okay',
         text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
         onClick: () => onClickOkayButton()
