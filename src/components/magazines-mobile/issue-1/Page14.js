@@ -12,7 +12,7 @@ const Page14 = () => {
     <div className={styles.wrapper}>
     <img className={styles.back1} src='./magazine/1/1112/back4.png' />
 <h5>Determined to map the layout of potentiality at lower cost of effort from these returned assemblages, the intrepid player wonders aloud about the use of network analysis and the bedrock propensity of asymmetric encryption within all modern economic devices. Some gear from the loot box of amplifications deconstructed follow:</h5>
-<h7>
+<h7 className={styles.links}>
 <li>
 <span>
 Degree Distribution

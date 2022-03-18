@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import styles from './page16.module.scss'
 import {
@@ -9,6 +9,7 @@ import {
 const Page16 = () => {
   const dispatch = useDispatch()
   const [play, setPlay] = useState(false)
+  const ref = useRef()
 
   const onClickOkayButton = () => {
     dispatch(closeModalYellow())
@@ -24,6 +25,7 @@ const Page16 = () => {
       })
     )
   }
+
   return (
     <div className={styles.wrapper}>
 <h2>
@@ -35,7 +37,7 @@ You enter the Konami code on the keypad.
 </h2>
 <img className={styles.code} src='./magazine/1/1516/code.png' />
 <h3>Door unlocked. You got in.</h3>
-<video playsInline autoPlay loop muted>
+<video ref={ref} playsInline autoPlay loop muted>
       <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' />
     </video>
     <img

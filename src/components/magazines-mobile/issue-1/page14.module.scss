@@ -2,13 +2,13 @@
 
 .wrapper {
   @include magazineWrapper();
-  height: 1167px;
+  height: 1000px;
   background-color: black;
 
   .back1 {
     position: relative;
     width: 375px;
-    height: 1167px;    
+    height: 1000px;    
   }
 
   h5{
@@ -32,7 +32,7 @@
     color: #FFFFFF;    
   }
 
-  h7 {
+  .links {
     position: absolute;
     width: 258px;
     height: 175px;
@@ -46,11 +46,18 @@
     line-height: 25px;
     /* or 167% */
     
-    display: flex;
+    display: inherit;
     align-items: center;
     text-align: center;
     
     color: #FFFFFF;
+    
+  }
+
+
+  li span{
+    position: relative;
+  left: 0px;
   }
 
   h6 {
@@ -58,7 +65,7 @@
     width: 258px;
     height: 425px;
     left: 59px;
-    top: 618px;
+    top: 500px;
     
     font-family: 'Klik';
     font-style: normal;
