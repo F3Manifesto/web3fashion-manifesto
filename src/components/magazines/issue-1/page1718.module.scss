@@ -16,8 +16,8 @@
   $cursor-duration: calc($duration / $width);
   $cursor-wait-duration: 0.8s;
   $cursor-wait-iteration: 2;
-  $paragraph-lengths: (18, 37, 138, 125, 231, 320, 100, 150, 156, 81, 17);
-
+  $paragraph-lengths: (18 1, 37 1, 138 3, 125 3, 231 4, 320 6, 100 2, 150 3, 156 3, 81 2, 17 1);
+  
   @keyframes letters {
     // animation, go from left to right
     from {
@@ -75,7 +75,7 @@
     font-family: 'Courier';
     font-size: 20px;
     line-height: 1.5;
-    word-break: break-all; // this has to be a predictable height and width to work
+    word-wrap: break-word; // this has to be a predictable height and width to work
     overflow: hidden;
     color: $text;
 
@@ -116,9 +116,9 @@
   $iterations: 1;
   $total-delay: 0s;
 
-  @each $length in $paragraph-lengths {
+  @each $length, $lines in $paragraph-lengths {
     $this-characters: $length;
-    $this-lines: ceil(calc($this-characters / $width)); 
+    $this-lines: $lines; 
     $this-selector: '.type';
     $this-delay: $total-delay;
     $this-type-delay: calc($this-delay + $cursor-wait-duration * $cursor-wait-iteration); 
