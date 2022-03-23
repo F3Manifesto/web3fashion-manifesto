@@ -5,86 +5,144 @@
   position: relative;
   width: 1920px;
   height: 1497px;
+  padding-top: 111px;
   background-color: #1A1A1A;
-  
- .one {
-    color: lime; 
-    font-family: "Courier";
-    font-size: 25px;
-    line-height: 30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-    margin-left: 72px;
-    // margin: 30px 194px 0 72px;
-    width: 300px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: type 3s steps(20, end); 
+
+  $width: 63;
+  $text: #33FF00;
+  $bg: #1A1A1A;
+  $cursor-speed: 35; // characters per second
+  $duration: calc($width / $cursor-speed * 1s);
+  $cursor-duration: calc($duration / $width);
+  $cursor-wait-duration: 0.8s;
+  $cursor-wait-iteration: 2;
+  $paragraph-lengths: (18, 37, 138, 125, 231, 320, 100, 150, 156, 81, 17);
+
+  @keyframes letters {
+    // animation, go from left to right
+    from {
+      left: 0;
+    }
+    to {
+      left: $width + ch;
+    }
   }
 
-  .two {
-    color: lime; 
-    font-family: "Courier";
-    font-size: 25px;
-    line-height: 30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-    margin-left: 72px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 600px;
-    animation: type2 8s steps(40, end); 
+  @keyframes lines {
+      // go from top to bottom
+      from {
+        top: -1%;
+      }
+      to {
+        top: 100%;
+      }
   }
 
-  .three {
-    color: lime; 
-    font-family: "Courier";
-    font-size: 25px;
-    line-height: 30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-    margin-left: 72px;
-    white-space: nowrap;
+  @keyframes cursor-type { 
+    50% { 
+      border-color: $bg; 
+    } 
+  }
+
+  @keyframes cursor-wait { 
+    0% { 
+      box-shadow: inset 2px 0 0 0 rgba(255, 255, 255, 0); 
+    } 
+    1% { 
+      box-shadow: inset 2px 0 0 0 rgba(255, 255, 255, 1);
+    }
+    40% { 
+      box-shadow: inset 2px 0 0 0 rgba(255, 255, 255, 1);
+    }
+  }
+
+  .test {
+    display: none;
+    animation-name: cursor-wait;
+    animation-duration: $cursor-wait-duration;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+    animation-fill-mode: backward;
+    animation-delay:0s; 
+    padding-left: 10px;
+  }
+
+  .type {
+    margin-left: 70px;
+    margin-bottom: 30px;
+    position: relative;
+    width: $width + ch;
+    font-family: 'Courier';
+    font-size: 20px;
+    line-height: 1.5;
+    word-break: break-all; // this has to be a predictable height and width to work
     overflow: hidden;
-    width: 1800px;
-    animation: type3 16s steps(120, end); 
+    color: $text;
+
+      // falls back to displaying static text
+    @supports (width: 1ch) {
+      &:before,
+      &:after {
+        box-sizing: border-box;
+        content: '';
+        position: absolute;
+        z-index: 1;
+        display: block;
+        height: 34px;
+        width: 100%;
+        background-color: $bg; 
+      }
+
+      &:before {
+        // cursor and first line mask
+        border-left: 2px solid transparent;
+        top: 100%;
+        animation-name: letters, lines, cursor-type, cursor-wait;
+        animation-fill-mode: both, both, both, backwards;
+      }
+
+      &:after {
+        // mask for subsequent lines
+        content: '';
+        height: 100%;
+        top: 100%;
+        left: 0;
+        margin-top: 1.5em;
+      }
+    }
   }
-  
-  // p:nth-child(4){
-  //   animation: type3 8s steps(60, end);
-  // }
-  
-  p a{
-    color: lime;
-    text-decoration: none;
-  }
-  
-  span{
-    animation: blink 1s infinite;
-  }
-  
-  @keyframes type { 
-    from { width: 0; } 
-  } 
-  
-  @keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; } 
-  }
-  
-  @keyframes type3{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; } 
-  }
-  
-  @keyframes blink{
-    to{opacity: .0;}
-  }
-  
-  ::selection{
-    background: #1A1A1A;
+
+
+  $iterations: 1;
+  $total-delay: 0s;
+
+  @each $length in $paragraph-lengths {
+    $this-characters: $length;
+    $this-lines: ceil(calc($this-characters / $width)); 
+    $this-selector: '.type';
+    $this-delay: $total-delay;
+    $this-type-delay: calc($this-delay + $cursor-wait-duration * $cursor-wait-iteration); 
+
+    @for $i from 1 to $iterations {
+      $this-selector: $this-selector + ' + .type';
+    }
+    
+    #{$this-selector} {
+      &:before {
+        animation-duration: $duration, ($duration * $this-lines), $cursor-duration, $cursor-wait-duration;
+        animation-timing-function: steps($width, end), steps($this-lines, end), step-end, ease-out;
+        animation-iteration-count: $this-lines, 1, $this-characters, $cursor-wait-iteration;  
+        animation-delay: $this-type-delay, $this-type-delay, $this-type-delay, $this-delay; 
+      }
+
+      &:after {
+        animation: lines ($duration * $this-lines) steps($this-lines, end) 1;
+        animation-fill-mode: both;
+        animation-delay: $this-type-delay;
+      }
+    }
+    $total-delay: $this-type-delay + calc($this-characters / $cursor-speed);
+    $iterations: $iterations + 1;  
   }
 }
   
