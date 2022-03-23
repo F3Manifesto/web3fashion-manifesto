@@ -1,0 +1,80 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background-color: #1A1A1A;
+
+ 
+  body{
+    background: #1A1A1A;
+    padding-top: 0px;
+  } 
+  
+ .one {
+    color: lime; 
+    font-family: "Courier";
+    font-size: 25px;
+    line-height: 30px;
+    margin: 30px 194px 0 72px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 10s steps(60, end); 
+  }
+
+  .two {
+    color: lime; 
+    font-family: "Courier";
+    font-size: 25px;
+    line-height: 30px;
+    margin: 35px 194px 0 72px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type2 8s steps(60, end); 
+  }
+
+  .three {
+    color: lime; 
+    font-family: "Courier";
+    font-size: 25px;
+    line-height: 30px;
+    margin: 35px 194px 0 72px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type3 8s steps(60, end); 
+  }
+  
+  p:nth-child(4){
+    animation: type3 8s steps(60, end);
+  }
+  
+  p a{
+    color: lime;
+    text-decoration: none;
+  }
+  
+  span{
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  ::selection{
+    background: #1A1A1A;
+  }
+}
+  
