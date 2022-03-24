@@ -6,11 +6,11 @@
   width: 1920px;
   height: 1497px;
   padding-top: 111px;
-  background-color: #1A1A1A;
+  background-color: #151515;
 
   $width: 63;
   $text: #33FF00;
-  $bg: #1A1A1A;
+  $bg: #151515;
   $cursor-speed: 35; // characters per second
   $duration: calc($width / $cursor-speed * 1s);
   $cursor-duration: calc($duration / $width);
@@ -143,6 +143,114 @@
     }
     $total-delay: $this-type-delay + calc($this-characters / $cursor-speed);
     $iterations: $iterations + 1;  
+  }
+
+  .code {
+    position: absolute;
+    width: 960px;
+    height: 350px;
+    left: 960px;
+    top: 1147px;
+    opacity: 30%;
+  }
+
+  h1 {
+    position: absolute;
+    width: 58px;
+    height: 37px;
+    left: 1411px;
+    top: 748px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+  }
+
+  h2 {
+    position: absolute;
+    width: 278px;
+    height: 55px;
+    left: 1301px;
+    top: 801px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .collect {
+    position: absolute;
+
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .collectbutton{
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 1375px;
+    top: 1018px; 
+
+    background: #FFEF62;
+    width: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+
+  .cc0text {
+    color: white;  
+  } 
+
+  h6 {
+    position: absolute;
+    width: 549px;
+    height: 19px;
+    left: 1165px;
+    top: 1099px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height, or 106% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;    
   }
 }
   
