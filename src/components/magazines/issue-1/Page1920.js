@@ -1,8 +1,10 @@
 //import React from 'react'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from './page1920.module.scss'
 
 const Page1920 = () => {
+
+  const refCanvas = useRef()
 
   useEffect(() => {
 
@@ -50,25 +52,25 @@ const Page1920 = () => {
     };
     
     var text = new Controls();
-    var gui = new dat.GUI({
-      load: json,
-      preset: 'Shell'
-    });
+    // var gui = new dat.GUI({
+    //   load: json,
+    //   preset: 'Shell'
+    // });
   
-    gui.remember(text);
+    // gui.remember(text);
     
-    gui.add(text, 'a', 0, 100);
-    gui.add(text, 'b', 0.1, 10, 0.01);
-    gui.add(text, 'c', 0, 20);
-    gui.add(text, 'speed').min(0).max(10).step(0.1);
-    gui.add(text, 'elementsCount').min(100).max(10000).step(1);
-    gui.add(text, 'time')
-     .min(-50).max(50).step(0.1).listen()
-     .onFinishChange(function(newTime) {
-      text.time = newTime;
-     });
+    // gui.add(text, 'a', 0, 100);
+    // gui.add(text, 'b', 0.1, 10, 0.01);
+    // gui.add(text, 'c', 0, 20);
+    // gui.add(text, 'speed').min(0).max(10).step(0.1);
+    // gui.add(text, 'elementsCount').min(100).max(10000).step(1);
+    // gui.add(text, 'time')
+    //  .min(-50).max(50).step(0.1).listen()
+    //  .onFinishChange(function(newTime) {
+    //   text.time = newTime;
+    //  });
     
-    gui.addColor(text, 'color');
+    // gui.addColor(text, 'color');
     
     var sizeX = 2;
     var sizeY = 2;
@@ -76,13 +78,13 @@ const Page1920 = () => {
     var getDimensions = function() {
       var offsetHeight = 40; // Codepen fix
       return {
-        width: window.innerWidth,
-        height: window.innerHeight,
+        width: 1920,
+        height: 1497,
         offsetHeight: offsetHeight
       }
     }
     
-    var canvas = document.getElementById('canvas');
+    var canvas = refCanvas.current
     var ctx = canvas.getContext('2d');
     
     function init() {
@@ -136,7 +138,7 @@ const Page1920 = () => {
 
   return (
     <div className={styles.wrapper}>
-      <canvas id="canvas"></canvas>
+      <canvas id="canvas" ref={refCanvas}></canvas>
     </div>
   )
 }
