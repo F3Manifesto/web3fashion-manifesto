@@ -330,6 +330,7 @@ class MyDocument extends Document {
           <script src='/arkane-network/web3-arkane-provider.js' />
           <script dangerouslySetInnerHTML={{ __html: scriptTxt }} />
           <script async src='https://www.googletagmanager.com/gtag/js?id=G-Y06VSWY6VY' />
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js' />
           <script dangerouslySetInnerHTML={{ __html: gaScriptText }} />
           {this.getGoogleFontsLinks()}
 
