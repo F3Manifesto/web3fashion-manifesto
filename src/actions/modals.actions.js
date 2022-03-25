@@ -58,3 +58,6 @@ export const closeUnlockModal = () => (dispatch) => dispatch(closeModal('isShowM
 
 export const openModalYellow = (params) => (dispatch) => dispatch(openModal('isShowModalYellow', 'hideScroll', params))
 export const closeModalYellow = () => (dispatch) => dispatch(closeModal('isShowModalYellow', 'addScroll'))
+
+export const openModalContent = (params) => (dispatch) => dispatch(openModal('isShowModalContent', 'hideScroll', params))
+export const closeModalContent = () => (dispatch) => dispatch(closeModal('isShowModalContent', 'addScroll'))

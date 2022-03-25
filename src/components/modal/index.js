@@ -13,7 +13,7 @@ const Modal = ({
   withCloseIcon,
   closeIcon,
   closeIconStyle,
-  onClose
+  onClose,
 }) => (
   <div className={styles.wrapper}>
     <div className={cn(styles.modal, className)}>

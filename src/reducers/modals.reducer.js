@@ -11,6 +11,7 @@ const DEFAULT_FIELDS = Map({
   isShowBuyNowNftLimit: false,
   isShowModalUnlock: false,
   isShowModalYellow: false,
+  isShowModalContent: false,
   params: null
 })
 

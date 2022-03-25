@@ -37,10 +37,27 @@
 
   video {
     position: absolute;
-width: 960px;
-//height: 418px;
-left: 960px;
-top: 460px;
+    width: 960px;
+    //height: 418px;
+    left: 960px;
+    top: 460px;
+  }
+
+  .zoomButton {
+    position: absolute;
+    right: 5px;
+    top: 890px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    padding: 0;
+    object-fit: fill;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background: transparent;
+      transform: scale(1.1);
+    }    
   }
 
   h2 {

@@ -1,0 +1,26 @@
+.contentModal {
+  max-width: 500px;
+  padding: 30px;
+
+
+  .zoomWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 0.3s;
+
+    video,
+    img {
+      margin-top: 100px;
+      height: 80vh;
+      object-fit: contain;
+      transition: all 0.3s;
+    }
+  }
+}
