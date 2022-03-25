@@ -959,8 +959,19 @@ class MyDocument extends Document {
             }
 
             @font-face {
+              font-family: 'Underground';
+              src: url("./fonts/underground 2.ttf");
+            }
+
+            @font-face {
               font-family: 'Montserrat';
               src: url("./fonts/Montserrat-Regular.ttf");
+              font-weight: 400;
+            }
+
+            @font-face {
+              font-family: 'MADE Future X';
+              src: url("./fonts/MADE Future X Regular PERSONAL USE.otf");
               font-weight: 400;
             }
 
