@@ -13,7 +13,50 @@
     background-color: #ffffff;
 
   }
+
+  h1 {
+    position: absolute;
+    width: 409px;
+    height: 86px;
+    left: 67px;
+    top: 65px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+    
+    
+    color: #000000;
+  }
   
+  h2 {
+    position: absolute;
+    width: 595px;
+    height: 34px;
+    left: 1290px;
+    top: 1388px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 20px;
+    /* or 40% */
+    
+    
+    color: #000000;
+  }
+
+  .nftwhite {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1829px;
+    top: 17px;
+  }
 
 }
   

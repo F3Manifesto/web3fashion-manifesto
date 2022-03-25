@@ -43,6 +43,8 @@ const onClickCollectButton = () => {
 }
   return (
     <div className={styles.wrapper}>
+ <a href="https://polygonscan.com/tx/0x02d8c80ae1e0ffeb3fa6d485b30dec8c90c3c7b06f6a7342bee410d09dd8d668" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftwhite.png'></img></a>     
       {
         paragraphList.map((item, index) => (
           <p className={styles.type} key={index}>

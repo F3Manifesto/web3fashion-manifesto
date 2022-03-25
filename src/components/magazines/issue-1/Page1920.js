@@ -15,7 +15,7 @@ const Page1920 = () => {
       this.time = 0;
       this.speed = 5;
       this.elementsCount = 5000;
-      this.color = "#00ff00";
+      this.color = 'black';
     };
     
     var cases = {
@@ -27,7 +27,7 @@ const Page1920 = () => {
           time: 15,
           speed: 2.5,
           elementsCount: 5000,
-          color: '#00ff00'
+          color: 'black'
         }
       },
       
@@ -138,7 +138,11 @@ const Page1920 = () => {
 
   return (
     <div className={styles.wrapper}>
+     <a href="https://polygonscan.com/tx/0x02d8c80ae1e0ffeb3fa6d485b30dec8c90c3c7b06f6a7342bee410d09dd8d668" target="_blank" rel="noreferrer">
+    <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>     
+      <h1>Meanwhile, inside the box, Schrödinger's cat plans its revenge.</h1>
       <canvas id="canvas" ref={refCanvas}></canvas>
+      <h2>Someone knows something.</h2>
     </div>
   )
 }
