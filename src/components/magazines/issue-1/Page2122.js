@@ -1,8 +1,21 @@
 //import React from 'react'
 import React, { useEffect, useRef } from 'react'
 import styles from './page2122.module.scss'
+import  {openModalContent} from '@actions/modals.actions'
+
 
 const Page2122 = () => {
+
+  const contentRef = useRef()
+
+  const onClickZoomOut = (isVideo, link) => {
+    dispatch(
+      openModalContent({
+        isVideo,
+        link
+      })
+    )
+  }
 
   return (
     <div className={styles.wrapper}>
@@ -49,9 +62,18 @@ There's until next week to prepare. Probably the least of her worries.
 
 <img className={styles.rect} src='/magazine/1/2122/Rectangle 1905.png'></img>
 
-<video className={styles.zk}  autoPlay muted loop>
+<video className={styles.zk} playsInline autoPlay muted loop onClick={() => onClickZoomIn()}>
       <source src='./magazine/1/videos/zeitgeist.mp4' type='video/mp4' />
 </video>
+
+<div
+        ref={contentRef}
+        className={styles.zoomButton}
+        onClick={() => onClickZoomOut(true, './magazine/1/videos/zeitgeist.mp4')}
+      >
+        <img src="/images/expandwhite.png" />
+      </div>
+
     </div>
   )
 }

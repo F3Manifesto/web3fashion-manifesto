@@ -181,7 +181,7 @@
   
     color: #4E4AFF;
   } 
-}
+
 
 .play {
   position: absolute;
@@ -190,4 +190,22 @@
   left: 1842px;
   top: 556px;
 }
-  
+
+.zoomButton {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 1860px;
+  top: 1018px;
+   
+  border: none;
+  padding: 0;
+  object-fit: fill;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background: transparent;
+    transform: scale(1.1);
+  }    
+}
+}

@@ -236,10 +236,28 @@ img {
   .videoglasses {
     position: absolute;
     width: 763px;
-    height: 485px;
+    //height: 485px;
     left: 100px;
-    top: 649px;    
+    top: 649px;
   }
+
+  .zoomButton {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 796px;
+    top: 1071px;
+    border: none;
+    padding: 0;
+    object-fit: fill;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background: transparent;
+      transform: scale(1.1);
+    }    
+  }
+
 
   .background {
     position: absolute;

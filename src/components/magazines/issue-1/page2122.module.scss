@@ -53,5 +53,23 @@ top: 27px;
   top: 0px;
   
 }
+
+.zoomButton {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 1606px;
+  top: 440px;
+   
+  border: none;
+  padding: 0;
+  object-fit: fill;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background: transparent;
+    transform: scale(1.1);
+  }    
+}
 }
   

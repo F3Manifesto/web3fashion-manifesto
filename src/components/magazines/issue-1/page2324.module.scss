@@ -335,5 +335,22 @@ img {
   
     color: #4E4AFF;
   } 
+
+  .zoomButton {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 795px;
+    top: 1073px;    
+    border: none;
+    padding: 0;
+    object-fit: fill;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background: transparent;
+      transform: scale(1.1);
+    }    
+  }
 }
   

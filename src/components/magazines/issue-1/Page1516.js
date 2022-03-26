@@ -4,13 +4,16 @@ import styles from './page1516.module.scss'
 import { useDispatch } from 'react-redux'
 import {
   openModalYellow,
-  closeModalYellow
+  closeModalYellow,
+  openModalContent
 } from '@actions/modals.actions'
 
 
 const Page1516 = () => {
 
   const dispatch = useDispatch()
+  const contentRef = useRef()
+
 
   const onClickOkayButton = () => {
     dispatch(closeModalYellow())
@@ -70,7 +73,7 @@ You enter the Konami code on the keypad.
 <img className={styles.code} src='./magazine/1/1516/code.png' />
 <h3>Door unlocked. You got in.</h3>
 <video ref={ref} autoPlay muted loop>
-      <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' />
+      <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' onClick={() => onClickZoomIn()}/>
     </video>
     <img
         src={`./magazine/1/1516/15_16_${!play ? 'play' : 'pause'}.png`}
@@ -80,6 +83,16 @@ You enter the Konami code on the keypad.
           ref.current.muted = play
         }}
       />
+
+<div
+        ref={contentRef}
+        className={styles.zoomButton}
+        onClick={() => onClickZoomOut(true, './magazine/1/videos/finalwithaudio.mp4')}
+      >
+        <img src="/images/expandwhite.png" />
+      </div>
+
+
     <h4>The CC0 Arcade</h4>
 <h5>Walking into an arcade in the early days of the Metaverse was basically a goddamn religious experience. With quietly spoken words, “I've never really had a religious experience in a religious place”. 
 <br></br><br></br>

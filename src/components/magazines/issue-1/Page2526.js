@@ -1,15 +1,17 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import styles from './page2526.module.scss'
 import { useDispatch } from 'react-redux'
 import {
   openModalYellow,
-  closeModalYellow
+  closeModalYellow,
+  openModalContent
 } from '@actions/modals.actions'
 
 
 const Page2526 = () => {
 
   const dispatch = useDispatch()
+  const contentRef = useRef()
 
   const onClickOkayButton = () => {
     dispatch(closeModalYellow())
@@ -22,6 +24,15 @@ const Page2526 = () => {
         buttonText: 'Okay',
         text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
         onClick: () => onClickOkayButton()
+      })
+    )
+  }
+
+  const onClickZoomOut = (isVideo, link) => {
+    dispatch(
+      openModalContent({
+        isVideo,
+        link
       })
     )
   }
@@ -53,9 +64,18 @@ const Page2526 = () => {
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h3>
  </div>
 
- <video className={styles.videoglasses}  autoPlay muted loop>
-      <source src='./magazine/1/videos/cyberglasses.mp4' type='video/mp4' />
+ <video className={styles.videoglasses} playsInline autoPlay muted loop onClick={() => onClickZoomIn()}>
+      <source src='./magazine/1/videos/gloves.mp4' type='video/mp4' />
 </video>
+
+<div
+        ref={contentRef}
+        className={styles.zoomButton}
+        onClick={() => onClickZoomOut(true, './magazine/1/videos/gloves.mp4')}
+      >
+        <img src="/images/expandwhite.png" />
+      </div>
+
 
 <h7 className={styles.h7}>Cypherline Braided Gloves (Film Edition)</h7>
 <h8 className={styles.h8}>Personal tactile keys that secure and surround us.</h8>

@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useDispatch } from 'react-redux'
 import styles from './page78.module.scss'
 import {
   openModalYellow,
-  closeModalYellow
+  closeModalYellow,
+  openModalContent
 } from '@actions/modals.actions'
 
 const Page78 = () => {
   const dispatch = useDispatch()
+  const contentRef = useRef()
 
   const onClickOkayButton = () => {
     dispatch(closeModalYellow())
@@ -20,6 +22,15 @@ const Page78 = () => {
         buttonText: 'Okay',
         text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
         onClick: () => onClickOkayButton()
+      })
+    )
+  }
+
+  const onClickZoomOut = (isVideo, link) => {
+    dispatch(
+      openModalContent({
+        isVideo,
+        link
       })
     )
   }
@@ -65,12 +76,20 @@ Well it matters, but this is a funny story that speaks to a greater pattern; I C
 <br></br><br></br>
 Come and claim your stake. 
 </p></h2>
-<video autoPlay muted loop>
+<video playsInline autoPlay loop muted onClick={() => onClickZoomIn()}>
       <source src='./magazine/1/videos/icoinedweb3fashion.mp4' type='video/mp4' />
     </video>
 <h3>I Coined Web3 Fashion</h3>
 <h4>A patchwork jacket woven with textile patterns of textual self sovereignty, named “I Coined Web3 Fashion”. Shaking off the shackles of a world where it is far more common to take credit for what you haven’t done, it’s exceptionally rare to have the near superpower of a transparent decentralised record and occasionally stand up in contrast to take credit for what you have done. That’s one small part of the message contained within “I Coined Web3 Fashion”. </h4>
 <div>
+
+<div
+        ref={contentRef}
+        className={styles.zoomButton}
+        onClick={() => onClickZoomOut(true, './magazine/1/videos/icoinedweb3fashion.mp4')}
+      >
+        <img src="/images/expand.png" />
+      </div>
 
 <a
   className={styles.collectbutton}
