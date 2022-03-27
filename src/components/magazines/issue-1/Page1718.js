@@ -56,7 +56,10 @@ const onClickCollectButton = () => {
       }
       <p className={styles.test}>Test</p>
       <h1>д13а</h1>
-      <h2>Dezinformatisya. It's not really your choice.</h2>
+      <h2>Dezinformatisya. Dezinformatsiya Et Cetera. The art of disinformation. Awake and aware, but not quite conscious, your signals have been pre-programmed, pre-scripted in the code. You get paid in crypto. Sometimes in digital machines. You’re a human computer.
+ <br></br> <br></br>
+ Another walking logic bomb.
+ </h2>
       <div>
 
 <a

@@ -33,6 +33,15 @@ const Page1516 = () => {
   const [play, setPlay] = useState(false)
   const ref = useRef()
 
+  const onClickZoomOut = (isVideo, link) => {
+    dispatch(
+      openModalContent({
+        isVideo,
+        link
+      })
+    )
+  }
+
   return (
   <div className={styles.wrapper}>
     <h1>Welcome to the CC0 Arcade. 
@@ -86,10 +95,10 @@ You enter the Konami code on the keypad.
 
 <div
         ref={contentRef}
-        className={styles.zoomButton}
+        
         onClick={() => onClickZoomOut(true, './magazine/1/videos/finalwithaudio.mp4')}
       >
-        <img src="/images/expandwhite.png" />
+        <img className={styles.zoomButton} src="/images/expandwhite.png" />
       </div>
 
 

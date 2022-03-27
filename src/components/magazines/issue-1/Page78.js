@@ -85,10 +85,9 @@ Come and claim your stake.
 
 <div
         ref={contentRef}
-        className={styles.zoomButton}
         onClick={() => onClickZoomOut(true, './magazine/1/videos/icoinedweb3fashion.mp4')}
       >
-        <img src="/images/expand.png" />
+        <img className={styles.zoomButton} src="/images/expand.png" />
       </div>
 
 <a

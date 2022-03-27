@@ -73,10 +73,10 @@ const Page910 = () => {
       
       <div
         ref={contentRef}
-        className={styles.zoomButton}
+        
         onClick={() => onClickZoomOut(true, './magazine/1/videos/righttocreate.mp4')}
       >
-        <img src="/images/expandwhite.png" />
+        <img className={styles.zoomButton} src="/images/expandwhite.png" />
       </div>
       
       <img className={styles.greenrectangle} src='./magazine/1/910/greenrectangle.png' />

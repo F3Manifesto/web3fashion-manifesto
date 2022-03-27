@@ -2,12 +2,14 @@
 import React, { useEffect, useRef } from 'react'
 import styles from './page2122.module.scss'
 import  {openModalContent} from '@actions/modals.actions'
+import { useDispatch } from 'react-redux'
 
 
 const Page2122 = () => {
 
   const contentRef = useRef()
-
+  const dispatch = useDispatch()
+  
   const onClickZoomOut = (isVideo, link) => {
     dispatch(
       openModalContent({
@@ -68,10 +70,9 @@ There's until next week to prepare. Probably the least of her worries.
 
 <div
         ref={contentRef}
-        className={styles.zoomButton}
         onClick={() => onClickZoomOut(true, './magazine/1/videos/zeitgeist.mp4')}
       >
-        <img src="/images/expandwhite.png" />
+        <img className={styles.zoomButton} src="/images/expandwhite.png" />
       </div>
 
     </div>
