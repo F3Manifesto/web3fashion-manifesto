@@ -4,12 +4,26 @@ import styles from './page2122.module.scss'
 import  {openModalContent} from '@actions/modals.actions'
 import { useDispatch } from 'react-redux'
 
-
 const Page2122 = () => {
 
-  const contentRef = useRef()
   const dispatch = useDispatch()
+  const contentRef = useRef()
+
+  const onClickOkayButton = () => {
+    dispatch(closeModalYellow())
+  }
   
+  const onClickCollectButton = () => {
+    dispatch(
+      openModalYellow({
+        title: 'Coming Soon!',
+        buttonText: 'Okay',
+        text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
+        onClick: () => onClickOkayButton()
+      })
+    )
+  }
+
   const onClickZoomOut = (isVideo, link) => {
     dispatch(
       openModalContent({
@@ -18,6 +32,8 @@ const Page2122 = () => {
       })
     )
   }
+
+
 
   return (
     <div className={styles.wrapper}>
@@ -74,6 +90,30 @@ There's until next week to prepare. Probably the least of her worries.
       >
         <img className={styles.zoomButton} src="/images/expandwhite.png" />
       </div>
+
+<h7 className={styles.h7}>ZK Cypherpunk Zeitgeist Jump Gate #1</h7>
+<h8 className={styles.h8}>Can you resist the temptation to jump? 
+<br></br><br></br>
+Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</h8>
+<div>
+
+<a 
+  /*className={styles.collectbutton}
+  href="https://docs.f3manifesto.xyz/"
+  target="_blank"
+  rel="noreferrer"*/
+  className={styles.collectbutton2}
+  onClick={onClickCollectButton}
+  target="_blank"
+  rel="noreferrer"
+  >
+  {" "}Collect{" "}
+</a> 
+<h9 className={styles.h9}> <a className={styles.cc0text2} href="https://github.com/F3Manifesto/ccomaterials/blob/main/zero"
+  target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h9>
+ </div>
+
+      <img className={styles.zerorender} src='/magazine/1/2122/zerorender.png'></img>
 
     </div>
   )

@@ -72,6 +72,9 @@ const Page2324 = () => {
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h9>
  </div>
 
+ <img className={styles.zeroglasses} src='./magazine/1/2324/zeroglasses.png' />
+
+
 
 
 <img className={styles.glovediagram} src='./magazine/1/2324/test.png' />
