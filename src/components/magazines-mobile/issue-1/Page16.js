@@ -37,7 +37,7 @@ You enter the Konami code on the keypad.
 </h2>
 <img className={styles.code} src='./magazine/1/1516/code.png' />
 <h3>Door unlocked. You got in.</h3>
-<video ref={ref} playsInline autoPlay loop muted>
+<video ref={ref} playsInline autoPlay loop muted> 
       <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' />
     </video>
     <img

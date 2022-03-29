@@ -1,10 +1,5 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
 import styles from './page9.module.scss'
-import {
-  openModalYellow,
-  closeModalYellow
-} from '@actions/modals.actions'
 
 const Page9 = () => {
 

@@ -1,0 +1,35 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 1286px;
+  width: 375px;
+  background-color: white;
+  padding-top: 111px;
+
+  .canvas {
+    overflow: hidden;
+    background-color: #ffffff;
+
+  }
+
+  h1 {
+    position: absolute;
+    width: 296px;
+    height: 20px;
+    left: 59px;
+    top: 1189px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    /* identical to box height, or 80% */
+    
+    
+    color: #000000;
+    
+  }
+  
+}

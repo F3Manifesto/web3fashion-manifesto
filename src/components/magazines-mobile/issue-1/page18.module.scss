@@ -1,0 +1,119 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 2050px;
+  background-color: #151515;
+  padding-top: 111px;
+
+  video {
+    position: absolute;
+width: 375px;
+left: 0px;
+top: 139px;
+
+  }
+
+  h1 {
+    position: absolute;
+width: 58px;
+height: 37px;
+left: 158px;
+top: 402px;
+
+font-family: 'NewYork';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+  }
+
+  h2 {
+    position: absolute;
+    width: 243px;
+    height: 228px;
+    left: 68px;
+    top: 445px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .collect {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 115px;
+    top: 600px;
+    
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .collectbutton {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 117px;
+    top: 680px;    
+
+    background: #FFEF62;
+    width: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.7rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+
+  h3 {
+    position: absolute;
+width: 208px;
+height: 57px;
+left: 80px;
+top: 780px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* or 119% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #ffffff;
+  }
+
+  .cc0text {
+    color:white;  
+  }
+
+}

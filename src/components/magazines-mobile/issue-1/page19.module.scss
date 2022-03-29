@@ -1,0 +1,44 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 1286px;
+  width: 375px;
+  background-color: white;
+  padding-top: 111px;
+
+  .canvas {
+    overflow: hidden;
+    background-color: #ffffff;
+
+  }
+
+  h1 {
+    position: absolute;
+    width: 310px;
+    height: 86px;
+    left: 33px;
+    top: 61px;
+    
+    font-family: 'Klik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    
+    
+    color: #000000;
+    
+  }
+  
+  
+
+  .nftblack{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 330px;
+  top: 17px;
+  }
+}

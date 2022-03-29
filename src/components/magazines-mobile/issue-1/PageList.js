@@ -16,6 +16,20 @@ const Page13 = loadable(() => import ('./Page13'))
 const Page14 = loadable(() => import ('./Page14'))
 const Page15 = loadable(() => import ('./Page15'))
 const Page16 = loadable(() => import ('./Page16'))
+const Page17 = loadable(() => import ('./Page17'))
+const Page18 = loadable(() => import ('./Page18'))
+const Page19 = loadable(() => import ('./Page19'))
+const Page20 = loadable(() => import ('./Page20'))
+const Page21 = loadable(() => import ('./Page21'))
+const Page22 = loadable(() => import ('./Page22'))
+const Page23 = loadable(() => import ('./Page23'))
+/*const Page24 = loadable(() => import ('./Page24'))
+const Page25 = loadable(() => import ('./Page25'))
+const Page26 = loadable(() => import ('./Page26'))
+const Page27 = loadable(() => import ('./Page27'))
+const Page28 = loadable(() => import ('./Page28'))
+const Page29 = loadable(() => import ('./Page29'))
+const Page30 = loadable(() => import ('./Page30'))*/
 
 const Backcover = loadable(() => import ('./Backcover'))
 
@@ -37,6 +51,21 @@ const PageList = [
   <Page14 />,
   <Page15 />,
   <Page16 />,
+  <Page17 />,
+  <Page18 />,
+  <Page19 />,
+  <Page20 />,
+  <Page21 />,
+  <Page22 />,
+  <Page23 />,
+  /*<Page24 />,
+  <Page25 />,
+  <Page26 />,
+  <Page27 />,
+  <Page28 />,
+  <Page29 />,
+  <Page30 />,*/
+
   <Backcover />
 ]
 
