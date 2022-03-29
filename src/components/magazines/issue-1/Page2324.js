@@ -71,7 +71,7 @@ const Page2324 = () => {
 <h9 className={styles.h9}> <a className={styles.cc0text2} href="https://github.com/F3Manifesto/ccomaterials/blob/main/zero"
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h9>
  </div>
-
+ <img className={styles.whiterect} src="/magazine/1/2324/whiterect.png" />
  <img className={styles.zeroglasses} src='./magazine/1/2324/zeroglasses.png' />
 
 

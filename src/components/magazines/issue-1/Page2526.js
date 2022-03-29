@@ -96,6 +96,8 @@ const Page2526 = () => {
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h6>
  </div>
 
+ <img className={styles.whiterect} src="/magazine/1/2324/whiterect.png" />
+ <img className={styles.zeroglasses} src='./magazine/1/2324/zeroglasses.png' />
 
     </div>
     

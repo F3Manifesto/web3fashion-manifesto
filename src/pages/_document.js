@@ -988,6 +988,19 @@ class MyDocument extends Document {
             }
 
             @font-face {
+              font-family: 'font-family: 'Confidential Information';
+              src: url("./fonts/Confidential Information.ttf");
+              font-weight: 400;
+            }
+
+            @font-face {
+              font-family: 'Diagramm';
+              src: url("./fonts/Diagramm-Regular.ttf");
+              font-weight: 400;
+            }
+
+
+            @font-face {
               font-family: 'Montserrat';
               src: url("./fonts/Montserrat-Bold.ttf");
               font-weight: 700;
