@@ -83,8 +83,8 @@ const mapList = [
       },
       {
         pageNum: 29,
-        x: '10',
-        y: '17',
+        x: '17',
+        y: '22',
         rotate: '0'
       }
     ]
