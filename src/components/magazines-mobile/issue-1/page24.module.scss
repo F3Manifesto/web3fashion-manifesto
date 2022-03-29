@@ -4,24 +4,24 @@
   @include magazineWrapper();
   position: relative;
   width: 375px;
-  height: 1479px;
+  height: 1142px;
   
-  background: #FFFFFF;
+  background: black;
 
-  .rect {
-    position: absolute;
-    width: 375px;
-    height: 1185px;
-    left: 0px;
-    top: 0px;
-  }
+img {
+position: absolute;
+width: 375px;
+height: 567px;
+left: 0px;
+top: 24px;
+}
 
   .h7 {
     position: absolute;
-    width: 319px;
-    height: 74px;
-    left: 28px;
-    top: 526px;
+    width: 325px;
+    height: 111px;
+    left: 25px;
+    top: 656px;
     
     font-family: 'NewYork';
     font-style: normal;
@@ -39,9 +39,9 @@
   .h8 {
     position: absolute;
     width: 248px;
-    height: 95px;
+    height: 38px;
     left: 64px;
-    top: 618px;
+    top: 816px;
     
     font-family: 'NewYork';
     font-style: normal;
@@ -54,7 +54,7 @@
     align-items: center;
     text-align: center;
     
-    color: #FFFFFF;   
+    color: #FFFFFF; 
   }
 
   .h9 {
@@ -62,7 +62,7 @@
     width: 223px;
     height: 57px;
     left: 76px;
-    top: 810px;
+    top: 962px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -79,28 +79,14 @@
     color: #FFFFFF;
   }
   
-  video {
-    position: absolute;
-    width: 375px;
-    left: 0px;
-    margin-top: 200px;
-    
-  }
-
-  .zerorender {
-    position: absolute;
-    width: 293px;
-    height: 293px;
-    left: 41px;
-    top: 1039px;
-  }
 
   .collectbutton {
     position: absolute;
     width: 166px;
     height: 42px;
     left: 117px;
-    top: 710px;    
+    top: 887px;
+    
 
     background: #FFEF62;
     width: 130px;
