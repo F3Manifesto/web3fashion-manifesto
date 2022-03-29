@@ -73,7 +73,7 @@ const Page2728 = () => {
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></p>
  </div>
 
-<img className={styles.zeropack} src='./magazine/1/2728/zeropack1.png' />
+<img className={styles.zeropack} src='./magazine/1/2728/packzoom.png' />
 
     </div>
     
