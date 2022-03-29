@@ -994,6 +994,12 @@ class MyDocument extends Document {
             }
 
             @font-face {
+              font-family: 'font-family: 'Proxima Nova';
+              src: url("./fonts/Proxima Nova Font.otf");
+              font-weight: 400;
+            }
+
+            @font-face {
               font-family: 'Diagramm';
               src: url("./fonts/Diagramm-Regular.ttf");
               font-weight: 400;

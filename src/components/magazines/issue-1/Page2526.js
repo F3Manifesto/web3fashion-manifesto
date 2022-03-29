@@ -97,7 +97,7 @@ const Page2526 = () => {
  </div>
 
  <img className={styles.whiterect} src="/magazine/1/2324/whiterect.png" />
- <img className={styles.zeroglasses} src='./magazine/1/2324/zeroglasses.png' />
+ <img className={styles.zeroglasses} src='./magazine/1/2526/gloveimage.png' />
 
     </div>
     
