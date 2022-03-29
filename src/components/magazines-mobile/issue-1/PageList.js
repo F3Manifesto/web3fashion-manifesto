@@ -25,11 +25,10 @@ const Page22 = loadable(() => import ('./Page22'))
 const Page23 = loadable(() => import ('./Page23'))
 const Page24 = loadable(() => import ('./Page24'))
 const Page25 = loadable(() => import ('./Page25'))
-/*const Page26 = loadable(() => import ('./Page26'))
+const Page26 = loadable(() => import ('./Page26'))
 const Page27 = loadable(() => import ('./Page27'))
 const Page28 = loadable(() => import ('./Page28'))
 const Page29 = loadable(() => import ('./Page29'))
-const Page30 = loadable(() => import ('./Page30'))*/
 
 const Backcover = loadable(() => import ('./Backcover'))
 
@@ -60,11 +59,11 @@ const PageList = [
   <Page23 />,
   <Page24 />,
   <Page25 />,
-  /*<Page26 />,
+  <Page26 />,
   <Page27 />,
   <Page28 />,
   <Page29 />,
-  <Page30 />,*/
+
 
   <Backcover />
 ]

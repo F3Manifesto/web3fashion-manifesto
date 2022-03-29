@@ -54,7 +54,7 @@ const Page2728 = () => {
 <p className={styles.leontag}>- Léon, Léon the Professional</p>
 
 <h5 className={styles.h7}>Hyperutility Pack: Zero 1.0</h5>
-<h6 className={styles.h8}>something something</h6>
+<h6 className={styles.h8}>The first pack to be revealed bundles items from Zero's wardrobe and toolset- inclusive of fashionable workarounds, new styles that skirt restrictions and uncanny gadgets to expedite her own metaversal passage.</h6>
 <div>
 
 <a 
