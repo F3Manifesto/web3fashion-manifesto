@@ -21,6 +21,7 @@ import config from '../utils/config';
 import '../assets/scss/global.scss';
 import styles from './styles.module.scss';
 import { className } from 'postcss-selector-parser';
+import { AppProvider } from '@utils/AppContext';
 
 if (config.SENTRY_DSN) {
   Sentry.init({
@@ -78,25 +79,27 @@ const MyApp = ({ Component, pageProps, store, err }) => {
   }
 
   return (
-    <Provider store={store}>
-      <Head>
-        <title>Web3 Fashion Manifesto</title>
-        <meta
-          name="description"
-          content="A Rally Flag for the Entire Web3 Fashion Movement."
-        />
-        <link rel="icon" type="image/png" href="/images/icons/favicon.ico" />
-      </Head>
-      <InitWrapper>
-        <HeaderTopLine isMagazineContents={isMagazineContents} />
-        <Modals />
-        <NetworkWrapper>
-          <Component {...pageProps} />
-        </NetworkWrapper>
-        <Footer isMagazineContents={isMagazineContents} />
-      </InitWrapper>
-      <ToastContainer />
-    </Provider>
+    <AppProvider>
+      <Provider store={store}>
+        <Head>
+          <title>Web3 Fashion Manifesto</title>
+          <meta
+            name="description"
+            content="A Rally Flag for the Entire Web3 Fashion Movement."
+          />
+          <link rel="icon" type="image/png" href="/images/icons/favicon.ico" />
+        </Head>
+        <InitWrapper>
+          <HeaderTopLine isMagazineContents={isMagazineContents} />
+          <Modals />
+          <NetworkWrapper>
+            <Component {...pageProps} />
+          </NetworkWrapper>
+          <Footer isMagazineContents={isMagazineContents} />
+        </InitWrapper>
+        <ToastContainer />
+      </Provider>
+    </AppProvider>
   );
 };
 

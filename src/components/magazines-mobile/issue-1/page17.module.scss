@@ -11,7 +11,7 @@
     width: 30px;
     height: 30px;
     left: 330px;
-  top: 17px;
+    top: 17px;
   }
 
 
@@ -23,7 +23,7 @@
   $cursor-duration: calc($duration / $width);
   $cursor-wait-duration: 0.8s;
   $cursor-wait-iteration: 2;
-  $paragraph-lengths: (5 2, 5 2, 4 5, 125 3, 231 4, 320 6, 100 2, 150 3, 156 3, 81 2, 17 1);
+  $paragraph-lengths: (18 1, 37 2, 139 6, 124 6, 231 11, 320 14, 100 5, 150 6, 156 6, 81 4, 17 1);
   
   @keyframes letters {
     // animation, go from left to right
@@ -86,35 +86,37 @@
     overflow: hidden;
     color: $text;
 
+    &.animate {
       // falls back to displaying static text
-    @supports (width: 1ch) {
-      &:before,
-      &:after {
-        box-sizing: border-box;
-        content: '';
-        position: absolute;
-        z-index: 1;
-        display: block;
-        height: 34px;
-        width: 100%;
-        background-color: $bg; 
-      }
+      @supports (width: 1ch) {
+        &:before,
+        &:after {
+          box-sizing: border-box;
+          content: '';
+          position: absolute;
+          z-index: 1;
+          display: block;
+          height: 34px;
+          width: 100%;
+          background-color: $bg; 
+        }
 
-      &:before {
-        // cursor and first line mask
-        border-left: 2px solid transparent;
-        top: 100%;
-        animation-name: letters, lines, cursor-type, cursor-wait;
-        animation-fill-mode: both, both, both, backwards;
-      }
+        &:before {
+          // cursor and first line mask
+          border-left: 2px solid transparent;
+          top: 100%;
+          animation-name: letters, lines, cursor-type, cursor-wait;
+          animation-fill-mode: both, both, both, backwards;
+        }
 
-      &:after {
-        // mask for subsequent lines
-        content: '';
-        height: 100%;
-        top: 100%;
-        left: 0;
-        margin-top: 1.5em;
+        &:after {
+          // mask for subsequent lines
+          content: '';
+          height: 100%;
+          top: 100%;
+          left: 0;
+          margin-top: 1.5em;
+        }
       }
     }
   }

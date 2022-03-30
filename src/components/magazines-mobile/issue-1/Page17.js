@@ -1,4 +1,5 @@
-import React from 'react'
+import { useAppContext } from '@utils/AppContext'
+import React, { useState, useEffect } from 'react'
 import styles from './page17.module.scss'
 
 const paragraphList = [
@@ -18,8 +19,21 @@ const paragraphList = [
 console.log(paragraphList.map(item => item.length))
 
 
-const Page17 = () => {
 
+const Page17 = (props) => {
+  const [animation, setAnimation] = useState(false)
+  const { pageIndex } = useAppContext() 
+  
+  useEffect(() => {
+    console.log('pageIndex: ', pageIndex)
+    if (pageIndex == 17) {
+      setAnimation(true)
+    } else {
+      setAnimation(false)
+    }
+    
+  }, [pageIndex])
+  
 
   return (
     <div className={styles.wrapper}>
@@ -28,7 +42,7 @@ const Page17 = () => {
 
     {
         paragraphList.map((item, index) => (
-          <p className={styles.type} key={index}>
+          <p className={[styles.type, animation ? styles.animate : ''].join(' ')} key={index}>
             {
               item
             }
