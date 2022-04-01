@@ -7,6 +7,8 @@ const Page21 = () => {
 
   return (
     <div className={styles.wrapper}>
+            <a href="https://polygonscan.com/tx/0x052a183eae90d00ab93fa33776ef956d2a8792403fedb8ac646185456e713eb7" target="_blank" rel="noreferrer">
+      <img className={styles.nftblack} src='/images/nftblack.png'></img></a>
      <p className={styles.zeropara}>She steps onto the platform, subway doors fast closing behind her. 
      <br></br><br></br>
 They've hidden this station beneath a thick coat of costumed tourists, all eagerly awaiting to catch their thrill ride to 15 minutes of obscurity. How could Andy Warhol have gotten it all so exactly backwards? 

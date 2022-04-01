@@ -138,7 +138,7 @@ const Page1920 = () => {
 
   return (
     <div className={styles.wrapper}>
-     <a href="https://polygonscan.com/tx/0x02d8c80ae1e0ffeb3fa6d485b30dec8c90c3c7b06f6a7342bee410d09dd8d668" target="_blank" rel="noreferrer">
+     <a href="https://polygonscan.com/tx/0x09ecad65ea093cce1804d2df1e270c47fd55495d6e1c071cf7fd00ba1ee1113c" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>     
       <h1>Meanwhile, inside the box, Schrödinger's cat plans its revenge.</h1>
       <canvas id="canvas" ref={refCanvas}></canvas>

@@ -37,7 +37,7 @@ const Page2122 = () => {
 
   return (
     <div className={styles.wrapper}>
-         <a href="https://polygonscan.com/tx/0x02d8c80ae1e0ffeb3fa6d485b30dec8c90c3c7b06f6a7342bee410d09dd8d668" target="_blank" rel="noreferrer">
+         <a href="https://polygonscan.com/tx/0x052a183eae90d00ab93fa33776ef956d2a8792403fedb8ac646185456e713eb7" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftblack.png'></img></a> 
     <h1>She steps onto the platform, subway doors fast closing behind her. 
 <br></br><br></br>
