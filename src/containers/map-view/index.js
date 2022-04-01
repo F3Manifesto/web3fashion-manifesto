@@ -63,7 +63,7 @@ const mapList = [
         y: '10',
         rotate: '0'
       },
-      {
+     /* {
         pageNum: 19,
         x: '73',
         y: '10',
@@ -86,7 +86,7 @@ const mapList = [
         x: '17',
         y: '22',
         rotate: '0'
-      }
+      }*/
     ]
   }
 ]

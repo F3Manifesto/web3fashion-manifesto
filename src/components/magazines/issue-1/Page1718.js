@@ -57,7 +57,7 @@ const onClickZoomOut = (isVideo, link) => {
 }
   return (
     <div className={styles.wrapper}>
- <a href="https://polygonscan.com/tx/0x02d8c80ae1e0ffeb3fa6d485b30dec8c90c3c7b06f6a7342bee410d09dd8d668" target="_blank" rel="noreferrer">
+ <a href="https://polygonscan.com/tx/0xb878a714e2a2881a41217e4f757fcfeaf16e8f26df8ed0c474bcb2abb1adb01f" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftwhite.png'></img></a>     
       {
         paragraphList.map((item, index) => (

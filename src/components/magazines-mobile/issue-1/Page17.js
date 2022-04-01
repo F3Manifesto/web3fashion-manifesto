@@ -37,7 +37,7 @@ const Page17 = (props) => {
 
   return (
     <div className={styles.wrapper}>
-    <a href="https://polygonscan.com/tx/0xc3dc438c2c01fe9c33429730fcaed429952d3f50c65d7992a47ca7656f79139c" target="_blank" rel="noreferrer">
+    <a href="https://polygonscan.com/tx/0xb878a714e2a2881a41217e4f757fcfeaf16e8f26df8ed0c474bcb2abb1adb01f" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftwhite.png'></img></a>
 
     {
