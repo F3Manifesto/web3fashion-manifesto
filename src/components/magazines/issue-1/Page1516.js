@@ -85,7 +85,7 @@ You enter the Konami code on the keypad.
       <source src='./magazine/1/videos/finalwithaudio.mp4' type='video/mp4' onClick={() => onClickZoomIn()}/>
     </video>
     <img
-        src={`./magazine/1/1516/15_16_${!play ? 'play' : 'pause'}.png`}
+        src={`./magazine/1/1516/15_16_${!play ? 'pause' : 'play'}.png`}
         className={styles.play}
         onClick={() => {
           setPlay(!play)

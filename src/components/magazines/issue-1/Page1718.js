@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import styles from './page1718.module.scss'
 import { useDispatch } from 'react-redux'
 import {
   openModalYellow,
-  closeModalYellow
+  closeModalYellow,
+  openModalContent
 } from '@actions/modals.actions'
 
 const paragraphList = [
@@ -26,6 +27,7 @@ console.log(paragraphList.map(item => item.length))
 const Page1718 = () => {
 
   const dispatch = useDispatch()
+  const contentRef = useRef()
 
 const onClickOkayButton = () => {
   dispatch(closeModalYellow())
@@ -38,6 +40,18 @@ const onClickCollectButton = () => {
       buttonText: 'Okay',
       text: 'The dedicated marketplace will launch soon so you can collect and interact with these NFTs!',
       onClick: () => onClickOkayButton()
+    })
+  )
+}
+
+const [play, setPlay] = useState(false)
+const ref = useRef()
+
+const onClickZoomOut = (isVideo, link) => {
+  dispatch(
+    openModalContent({
+      isVideo,
+      link
     })
   )
 }
@@ -55,11 +69,31 @@ const onClickCollectButton = () => {
         ))
       }
       <p className={styles.test}>Test</p>
+      <video ref={ref} autoPlay muted loop>
+      <source src='./magazine/1/videos/dezinformatsiya.mp4' type='video/mp4' onClick={() => onClickZoomIn()}/>
+    </video>
       <h1>д13а</h1>
       <h2>Dezinformatisya. Dezinformatsiya Et Cetera. The art of disinformation. Awake and aware, but not quite conscious, your signals have been pre-programmed, pre-scripted in the code. You get paid in crypto. Sometimes in digital machines. You’re a human computer.
  <br></br> <br></br>
  Another walking logic bomb.
  </h2>
+
+ <div
+        ref={contentRef}
+        
+        onClick={() => onClickZoomOut(true, './magazine/1/videos/dezinformatsiya.mp4')}
+      >
+        <img className={styles.zoomButton} src="/images/expandwhite.png" />
+      </div>
+
+      <img
+        src={`./magazine/1/1516/15_16_${!play ? 'pause' : 'play'}.png`}
+        className={styles.play}
+        onClick={() => {
+          setPlay(!play)
+          ref.current.muted = play
+        }}
+      />
       <div>
 
 <a

@@ -8,9 +8,10 @@
 
   video {
     position: absolute;
-width: 375px;
-left: 0px;
-top: 139px;
+    width: 264px;
+    height: 263px;
+    left: 57px;
+    top: 125px;
 
   }
 
@@ -114,6 +115,14 @@ color: #ffffff;
 
   .cc0text {
     color:white;  
+  }
+
+  .play {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 294px;
+    top: 132px;
   }
 
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import styles from './page18.module.scss'
 import {
@@ -8,6 +8,9 @@ import {
 
 const Page18 = () => {
   const dispatch = useDispatch()
+  const [play, setPlay] = useState(false)
+  const ref = useRef()
+  
 
   const onClickOkayButton = () => {
     dispatch(closeModalYellow())
@@ -25,9 +28,17 @@ const Page18 = () => {
   }
   return (
     <div className={styles.wrapper}>
-     <video playsInline autoPlay loop muted>
-        <source src='./magazine/1/videos/righttocreate.mp4' type='video/mp4' />
+     <video ref={ref} playsInline autoPlay loop muted> 
+        <source src='./magazine/1/videos/dezinformatsiya.mp4' type='video/mp4' />
       </video>
+      <img
+        src={`./magazine/1/1516/15_16_${!play ? 'play' : 'pause'}.png`}
+        className={styles.play}
+        onClick={() => {
+          setPlay(!play)
+          ref.current.muted = play
+        }}
+      />
       <h1>д13а</h1>
       <h2>Dezinformatisya. Dezinformatsiya Et Cetera. The art of disinformation. Awake and aware, but not quite conscious, your signals have been pre-programmed, pre-scripted in the code. You get paid in crypto. Sometimes in digital machines. You’re a human computer.
       <br></br><br></br>
