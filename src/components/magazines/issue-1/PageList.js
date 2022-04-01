@@ -10,11 +10,11 @@ const Page1112 = loadable(() => import('./Page1112'))
 const Page1314 = loadable(() => import('./Page1314'))
 const Page1516 = loadable(() => import('./Page1516'))
 const Page1718 = loadable(() => import('./Page1718'))
-/*const Page1920 = loadable(() => import('./Page1920'))
+const Page1920 = loadable(() => import('./Page1920'))
 const Page2122 = loadable(() => import('./Page2122'))
 const Page2324 = loadable(() => import('./Page2324'))
 const Page2526 = loadable(() => import('./Page2526'))
-const Page2728 = loadable(() => import('./Page2728'))
+/*const Page2728 = loadable(() => import('./Page2728'))
 const Page2930 = loadable(() => import('./Page2930'))*/
 
 const Backcover = loadable(() => import('./Backcover'))
@@ -30,11 +30,11 @@ const PageList = [
   <Page1314 />,
   <Page1516 />,
   <Page1718 />,
- /*<Page1920 />,
+ <Page1920 />,
   <Page2122 />,
   <Page2324 />,
   <Page2526 />,
-  <Page2728 />,
+/*  <Page2728 />,
   <Page2930 />,*/
 
   <Backcover />
