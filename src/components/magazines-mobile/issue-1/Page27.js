@@ -27,7 +27,7 @@ const Page27 = () => {
 
   return (
     <div className={styles.wrapper}>
-       <a href="https://polygonscan.com/tx/0x02d8c80ae1e0ffeb3fa6d485b30dec8c90c3c7b06f6a7342bee410d09dd8d668" target="_blank" rel="noreferrer">
+       <a href="https://polygonscan.com/tx/0x455f23ff2e51b3edb74a2050af63df267b474bef0785bddc886cee4c92c862f5" target="_blank" rel="noreferrer">
       <img className={styles.nftblack} src='/images/nftblack.png'></img></a>
 <h1>Hyperutility Packs for </h1>
 <h2>Practical Fashion Revolutionaries</h2>
