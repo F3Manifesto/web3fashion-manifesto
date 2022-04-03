@@ -1,0 +1,55 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: black;
+
+  
+.stripone {
+  position: absolute;
+  width: 1572.23px;
+  height: 374.25px;
+  left: 0px;
+  top: 1px;
+}
+   
+.striptwo {
+  position: absolute;
+  width: 1575.62px;
+  height: 374.25px;
+  left: 253px;
+  top: 375px;
+  
+}
+
+.stripthree {
+  position: absolute;
+  width: 1578.28px;
+  height: 374.25px;
+  left: 0px;
+  top: 749px;
+}
+
+
+.stripfour {
+  position: absolute;
+  width: 1183.6px;
+  height: 374.25px;
+  left: 736px;
+  top: 1123px;
+}
+
+  .nftwhite {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1829px;
+    top: 17px;
+  }
+
+
+}
+  

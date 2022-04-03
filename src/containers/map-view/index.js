@@ -78,13 +78,25 @@ const mapList = [
      {
         pageNum: 27,
         x: '10',
-        y: '22',
+        y: '24',
         rotate: '0'
       },
       {
         pageNum: 29,
         x: '17',
-        y: '22',
+        y: '24',
+        rotate: '0'
+      },
+      {
+        pageNum: 31,
+        x: '24',
+        y: '24',
+        rotate: '0'
+      },
+      {
+        pageNum: 33,
+        x: '31',
+        y: '24',
         rotate: '0'
       }
     ]

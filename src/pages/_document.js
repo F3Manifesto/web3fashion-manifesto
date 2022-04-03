@@ -512,10 +512,17 @@ class MyDocument extends Document {
             }
             
             @font-face {
+              font-family: 'Parable-Regular';
+              src: url("./fonts/Parable-Regular.otf");
+              font-weight: 400;
+            }
+
+            @font-face {
               font-family: 'Mervale Script';
               src: url("./fonts/MervaleScript-Regular.ttf");
               font-weight: 400;
             }
+
 
             @font-face {
               font-family: 'Metal Lord';

@@ -1,3 +1,4 @@
+import Page3132 from '@components/magazines/issue-1/Page3132'
 import loadable from '@loadable/component'
 const CoverPage = loadable(() => import ('./CoverPage'))
 const Page1 = loadable(() => import ('./Page1'))
@@ -29,6 +30,8 @@ const Page26 = loadable(() => import ('./Page26'))
 const Page27 = loadable(() => import ('./Page27'))
 const Page28 = loadable(() => import ('./Page28'))
 const Page29 = loadable(() => import ('./Page29'))
+const Page30 = loadable(() => import ('./Page30'))
+const Page31 = loadable(() => import ('./Page31'))
 
 const Backcover = loadable(() => import ('./Backcover'))
 
@@ -63,6 +66,8 @@ const PageList = [
   <Page27 />,
   <Page28 />,
   <Page29 />,
+  <Page30 />,
+  <Page31 />,
 
 
   <Backcover />
