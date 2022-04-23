@@ -1,12 +1,12 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import styles from './page22.module.scss'
+import styles from './page38.module.scss'
 import {
   openModalYellow,
   closeModalYellow
 } from '@actions/modals.actions'
 
-const Page22 = () => {
+const Page38 = () => {
   const dispatch = useDispatch()
 
   const onClickOkayButton = () => {
@@ -27,17 +27,16 @@ const Page22 = () => {
 
   return (
     <div className={styles.wrapper}>
+      
 
-<img className={styles.rect} src='/magazine/1/2122/Rectangle 1905.png'></img>
+<img className={styles.rect} src='./magazine/1/4344/blue2525 (2).png'></img>
 
-<video className={styles.zk} playsInline autoPlay muted loop>
-      <source src='./magazine/1/videos/zeitgeist.mp4' type='video/mp4' />
+<video playsInline autoPlay muted loop>
+      <source src='./magazine/1/videos/dropearrings.mp4' type='video/mp4' />
 </video>
 
-<p className={styles.h7}>ZK Cypherpunk Zeitgeist Jump Gate #1</p>
-<p className={styles.h8}>Can you resist the temptation to jump? 
-<br></br><br></br>
-Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
+<p className={styles.h7}>Forgotten Logic Dangle Earrings (Film Edition)</p>
+<p className={styles.h8}>A mesmorising shimmer. The royal blue gemstones contain all the most vital components for efficient navigation across whimsical and strange worlds.  </p>
 <div>
 
 <a 
@@ -52,14 +51,14 @@ Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
   >
   {" "}Collect{" "}
 </a> 
-<p className={styles.h9}> <a className={styles.cc0text} href="https://github.com/F3Manifesto/ccomaterials/blob/main/zkzeitgeist/"
+<p className={styles.h9}> <a className={styles.cc0text} href="https://github.com/F3Manifesto/ccomaterials/blob/main/edit"
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></p>
  </div>
 
-      <img className={styles.zerorender} src='/magazine/1/2122/zerorender.png'></img>
+      <img className={styles.zerorender} src='/magazine/1/4344/editear.png'></img>
 
  </div>
   )
 }
 
-export default Page22
+export default Page38

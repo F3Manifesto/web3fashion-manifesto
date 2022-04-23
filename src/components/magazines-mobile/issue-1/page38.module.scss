@@ -1,0 +1,137 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 375px;
+  height: 1479px;
+  
+  background: #FFFFFF;
+
+  .rect {
+    position: absolute;
+    width: 375px;
+    height: 1185px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .h7 {
+    position: absolute;
+    width: 319px;
+    height: 74px;
+    left: 28px;
+    top: 540px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .h8 {
+    position: absolute;
+    width: 260px;
+    height: 95px;
+    left: 64px;
+    top: 630px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;   
+  }
+
+  .h9 {
+    position: absolute;
+    width: 223px;
+    height: 57px;
+    left: 76px;
+    top: 810px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    /* or 106% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+  }
+  
+  video {
+    position: absolute;
+    width: 375px;
+    left: 0px;
+    margin-top: 200px;
+    
+  }
+
+  .zerorender {
+    position: absolute;
+    width: 293px;
+    height: 293px;
+    left: 41px;
+    top: 1039px;
+  }
+
+  .collectbutton {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 117px;
+    top: 740px;    
+
+    background: #FFEF62;
+    width: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.7rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+  
+  .cc0text {
+    color:white;  
+  }
+
+  .collect {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 115px;
+    top: 1171px;
+    
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+
+}

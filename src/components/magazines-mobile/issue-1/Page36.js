@@ -1,12 +1,12 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import styles from './page22.module.scss'
+import styles from './page36.module.scss'
 import {
   openModalYellow,
   closeModalYellow
 } from '@actions/modals.actions'
 
-const Page22 = () => {
+const Page36 = () => {
   const dispatch = useDispatch()
 
   const onClickOkayButton = () => {
@@ -27,17 +27,16 @@ const Page22 = () => {
 
   return (
     <div className={styles.wrapper}>
+      
 
-<img className={styles.rect} src='/magazine/1/2122/Rectangle 1905.png'></img>
+<img className={styles.rect} src='./magazine/1/4142/red23 (3).png'></img>
 
-<video className={styles.zk} playsInline autoPlay muted loop>
-      <source src='./magazine/1/videos/zeitgeist.mp4' type='video/mp4' />
+<video playsInline autoPlay muted loop>
+      <source src='./magazine/1/videos/fuzzyhat.mp4' type='video/mp4' />
 </video>
 
-<p className={styles.h7}>ZK Cypherpunk Zeitgeist Jump Gate #1</p>
-<p className={styles.h8}>Can you resist the temptation to jump? 
-<br></br><br></br>
-Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
+<p className={styles.h7}>Fuzzy Logic Bucket Hat (Film Edition)</p>
+<p className={styles.h8}>Employed to handle the concept of veracity with many degrees of comfort for weavers of progressive decentralisation. </p>
 <div>
 
 <a 
@@ -52,14 +51,14 @@ Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
   >
   {" "}Collect{" "}
 </a> 
-<p className={styles.h9}> <a className={styles.cc0text} href="https://github.com/F3Manifesto/ccomaterials/blob/main/zkzeitgeist/"
+<p className={styles.h9}> <a className={styles.cc0text} href="https://github.com/F3Manifesto/ccomaterials/blob/main/edit"
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></p>
  </div>
 
-      <img className={styles.zerorender} src='/magazine/1/2122/zerorender.png'></img>
+      <img className={styles.zerorender} src='/magazine/1/4142/edithatimage 1.png'></img>
 
  </div>
   )
 }
 
-export default Page22
+export default Page36

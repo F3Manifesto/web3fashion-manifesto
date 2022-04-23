@@ -98,6 +98,30 @@ const mapList = [
         x: '31',
         y: '24',
         rotate: '0'
+      },
+      {
+        pageNum: 35,
+        x: '38',
+        y: '24',
+        rotate: '0'
+      },
+      {
+        pageNum: 37,
+        x: '45',
+        y: '24',
+        rotate: '0'
+      },
+      {
+        pageNum: 39,
+        x: '52',
+        y: '24',
+        rotate: '0'
+      },
+      {
+        pageNum: 45,
+        x: '59',
+        y: '24',
+        rotate: '0'
       }
     ]
   }

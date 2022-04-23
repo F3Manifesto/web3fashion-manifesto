@@ -1,12 +1,12 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import styles from './page22.module.scss'
+import styles from './page35.module.scss'
 import {
   openModalYellow,
   closeModalYellow
 } from '@actions/modals.actions'
 
-const Page22 = () => {
+const Page35 = () => {
   const dispatch = useDispatch()
 
   const onClickOkayButton = () => {
@@ -31,10 +31,10 @@ const Page22 = () => {
 <img className={styles.rect} src='/magazine/1/2122/Rectangle 1905.png'></img>
 
 <video className={styles.zk} playsInline autoPlay muted loop>
-      <source src='./magazine/1/videos/zeitgeist.mp4' type='video/mp4' />
+      <source src='./magazine/1/videos/zeitgeist2.mp4' type='video/mp4' />
 </video>
 
-<p className={styles.h7}>ZK Cypherpunk Zeitgeist Jump Gate #1</p>
+<p className={styles.h7}>ZK Cypherpunk Zeitgeist Jump Gate #2</p>
 <p className={styles.h8}>Can you resist the temptation to jump? 
 <br></br><br></br>
 Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
@@ -56,10 +56,10 @@ Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></p>
  </div>
 
-      <img className={styles.zerorender} src='/magazine/1/2122/zerorender.png'></img>
+      <img className={styles.zerorender} src='/magazine/1/3940/editrender.png'></img>
 
  </div>
   )
 }
 
-export default Page22
+export default Page35

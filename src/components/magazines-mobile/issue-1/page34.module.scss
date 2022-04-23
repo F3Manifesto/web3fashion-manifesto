@@ -1,0 +1,40 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  height: 2900px;
+  width: 375px;
+  background-color: white;
+  
+
+  .zeropara {
+    position: absolute;
+    width: 288px;
+    left: 44px;
+    top: 58px;
+    
+    font-family: 'MADE Future X';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    /* or 135% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    
+  }
+
+
+  .nftblack{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 330px;
+  top: 17px;
+  }
+  
+}
