@@ -1929,6 +1929,12 @@ class MyDocument extends Document {
               src: url("./fonts/NewYork.otf");
             }
 
+
+            @font-face {
+              font-family: '04b_19';
+              src: url("./fonts/04B_19__.TTF");
+            }
+
             @font-face {
               font-family: 'Lemon Milk';
               src: url("./fonts/LEMONMILK-Regular.otf");

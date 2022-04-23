@@ -1,0 +1,206 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: white;
+
+
+  .nftwhite {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 878px;
+    top: 17px; 
+  }
+
+  p {
+    position: absolute;
+width: 720px;
+height: 1380px;
+left: 102px;
+top: 61px;
+
+font-family: 'MADE Future X';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+/* or 153% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+  }
+
+  h1 {
+    position: absolute;
+    width: 720px;
+    height: 1265px;
+    left: 114px;
+    top: 98px;
+    
+    font-family: 'MADE Future X';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    /* or 135% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;    
+  }
+
+.zk{
+  position: absolute;
+  width: 500px;
+  height: 440px;
+  left: 1190px;
+  top: 55px;
+  
+
+}  
+
+.rect {
+  position: absolute;
+  width: 960px;
+  height: 1185px;
+  left: 960px;
+  top: 0px;
+  
+}
+
+.zoomButton {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 1638px;
+  top: 445px;
+   
+  border: none;
+  padding: 0;
+  object-fit: fill;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background: transparent;
+    transform: scale(1.1);
+  }    
+}
+
+.zerorender {
+  position: absolute;
+  width: 500px;
+  height: 483px;
+  left: 1198px;
+  top: 944px;
+}
+
+.h7 {
+  position: absolute;
+  width: 531px;
+  height: 37px;
+  left: 1174px;
+  top: 553px;
+  
+  font-family: 'NewYork';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  
+}
+
+.h8 {
+  position: absolute;
+  width: 704px;
+  height: 95px;
+  left: 1088px;
+  top: 615px;
+  
+  font-family: 'NewYork';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  /* or 127% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.h9 {
+  position: absolute;
+  width: 549px;
+  height: 19px;
+  left: 1165px;
+  top: 808px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height, or 106% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  
+  color: #FFFFFF;
+}
+
+.cc0text2 {
+  color: white;  
+} 
+
+.collectbutton2{
+  position: absolute;
+  width: 166px;
+  height: 42px;
+  left: 1350px;
+  top: 727px;
+
+  
+  background: #FFEF62;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 1rem;
+  font-family: Lemon Milk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+
+  color: #4E4AFF;
+} 
+
+  .collect {
+    position: absolute;
+
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+}
+  

@@ -18,6 +18,12 @@ const Page2728 = loadable(() => import('./Page2728'))
 const Page2930 = loadable(() => import('./Page2930'))
 const Page3132 = loadable(() => import('./Page3132'))
 const Page3334 = loadable(() => import('./Page3334'))
+const Page3536 = loadable(() => import('./Page3536'))
+const Page3738 = loadable(() => import('./Page3738'))
+const Page3940 = loadable(() => import('./Page3940'))
+const Page4142 = loadable(() => import('./Page4142'))
+const Page4344 = loadable(() => import('./Page4344'))
+const Page4546 = loadable(() => import('./Page4546'))
 
 const Backcover = loadable(() => import('./Backcover'))
 
@@ -40,6 +46,12 @@ const PageList = [
   <Page2930 />,
   <Page3132 />,
   <Page3334 />,
+  <Page3536 />,
+  <Page3738 />,
+  <Page3940 />,
+  <Page4142 />,
+  <Page4344 />,
+  <Page4546 />,
 
   <Backcover />
 ]

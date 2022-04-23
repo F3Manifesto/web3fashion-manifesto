@@ -1,0 +1,67 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+
+  video {
+  position: absolute;
+    //width: 1920px;
+    height: 1700px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  h1 {
+    position: absolute;
+width: 429px;
+height: 50px;
+left: 77px;
+top: 400px;
+
+font-family: '04b_19';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 50px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+  }
+
+
+  h3 {
+    position: absolute;
+width: 774px;
+height: 280px;
+left: 77px;
+top: 480px;
+
+font-family: '04b_19';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+color: #060000;
+  }
+ 
+  .nftwhite {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1829px;
+    top: 17px;
+  }
+
+
+}
+  

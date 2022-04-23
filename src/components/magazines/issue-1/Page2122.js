@@ -109,7 +109,7 @@ Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</h8>
   >
   {" "}Collect{" "}
 </a> 
-<h9 className={styles.h9}> <a className={styles.cc0text2} href="https://github.com/F3Manifesto/ccomaterials/blob/main/zero"
+<h9 className={styles.h9}> <a className={styles.cc0text2} href="https://github.com/F3Manifesto/ccomaterials/tree/main/zkzeitgeist"
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></h9>
  </div>
 
