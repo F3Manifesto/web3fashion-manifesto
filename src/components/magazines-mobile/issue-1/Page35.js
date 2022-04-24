@@ -35,9 +35,9 @@ const Page35 = () => {
 </video>
 
 <p className={styles.h7}>ZK Cypherpunk Zeitgeist Jump Gate #2</p>
-<p className={styles.h8}>Can you resist the temptation to jump? 
+<p className={styles.h8}>Stranger and more wondrous with each voyage. Something so secretive, you’ve got to catch it at the right moment. 
 <br></br><br></br>
-Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
+The dividing point between the here and there, the now and then.</p>
 <div>
 
 <a 

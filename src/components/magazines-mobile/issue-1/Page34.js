@@ -13,7 +13,7 @@ const Page34 = () => {
 <br></br><br></br>
 The Red Door. 
 <br></br><br></br>
-Above him, three storeys up and slightly to the right. It stood striking against the bare white walls, held firmly in place by the trained Jasmine vines hugging the frame with spotted bursts of wildly sweet floral scents. Next to the door, a severely overridden bicycle leaned as an image of patience, showing no desire to ever move from its spot again. It’s days in motion now over. 
+Above him, three storeys up and slightly to the right. It stood striking against the bare white walls, held firmly in place by the trained Jasmine vines hugging the frame with spotted bursts of wildly sweet floral scents. Next to the door, a severely overridden bicycle leaned as an image of patience, showing no desire to ever move from its spot again. Its days in motion now over. 
 <br></br><br></br>
 Edit’s enthusiasm for the Red Door lay somewhere in between the mundane and the magical, the mad and the impossible. It tasted of adventure, of another world. The prospect so tantalising, he couldn’t help himself but to indulge infinitely in the idea of where it might possibly lead. 
 <br></br><br></br>
