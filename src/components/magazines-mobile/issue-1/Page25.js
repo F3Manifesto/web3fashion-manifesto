@@ -45,7 +45,8 @@ const Page25 = () => {
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/62/3/0/"
   target="_blank"
   rel="noreferrer"
   >
