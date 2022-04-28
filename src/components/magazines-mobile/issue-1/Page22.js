@@ -9,7 +9,7 @@ import {
 const Page22 = () => {
   const dispatch = useDispatch()
 
-  const onClickOkayButton = () => {
+ /* const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -22,7 +22,7 @@ const Page22 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
  
 
   return (
@@ -46,7 +46,8 @@ Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</p>
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/59/3/0/"
   target="_blank"
   rel="noreferrer"
   >

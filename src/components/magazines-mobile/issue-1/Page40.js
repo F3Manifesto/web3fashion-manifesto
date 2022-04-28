@@ -9,7 +9,7 @@ import {
 const Page40 = () => {
   const dispatch = useDispatch()
 
-  const onClickOkayButton = () => {
+ /* const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -22,7 +22,7 @@ const Page40 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
  
 
   return (
@@ -51,7 +51,8 @@ but then was brought to peace....They tied together a raft...Enkidu steered it..
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/58/3/0/"
   target="_blank"
   rel="noreferrer"
   >

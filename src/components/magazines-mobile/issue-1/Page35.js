@@ -9,7 +9,7 @@ import {
 const Page35 = () => {
   const dispatch = useDispatch()
 
-  const onClickOkayButton = () => {
+  /*const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -22,7 +22,7 @@ const Page35 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
  
 
   return (
@@ -46,7 +46,8 @@ The dividing point between the here and there, the now and then.</p>
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/60/3/0/"
   target="_blank"
   rel="noreferrer"
   >

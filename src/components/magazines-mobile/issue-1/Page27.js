@@ -9,7 +9,7 @@ import {
 const Page27 = () => {
   const dispatch = useDispatch()
 
-  const onClickOkayButton = () => {
+/*  const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -23,7 +23,7 @@ const Page27 = () => {
       })
     )
   }
- 
+ */
 
   return (
     <div className={styles.wrapper}>
@@ -50,7 +50,8 @@ const Page27 = () => {
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/57/3/0/"
   target="_blank"
   rel="noreferrer"
   >

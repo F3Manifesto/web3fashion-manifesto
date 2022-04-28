@@ -9,7 +9,7 @@ const Page2122 = () => {
   const dispatch = useDispatch()
   const contentRef = useRef()
 
-  const onClickOkayButton = () => {
+  /*const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -23,7 +23,7 @@ const Page2122 = () => {
       })
     )
   }
-
+*/
   const onClickZoomOut = (isVideo, link) => {
     dispatch(
       openModalContent({
@@ -103,7 +103,8 @@ Fasten your seatbelts. Bold magical realism. Unstoppable in motion.</h8>
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton2}
-  onClick={onClickCollectButton}
+ // onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/59/3/0/"
   target="_blank"
   rel="noreferrer"
   >

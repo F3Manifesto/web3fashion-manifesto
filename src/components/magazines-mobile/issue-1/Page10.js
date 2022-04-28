@@ -9,7 +9,7 @@ import {
 const Page10 = () => {
   const dispatch = useDispatch()
 
-  const onClickOkayButton = () => {
+ /* const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -22,7 +22,7 @@ const Page10 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
 
   return (
     <div className={styles.wrapper}>
@@ -42,7 +42,8 @@ Not your keys not your creativity.</h2>
 
 <a
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/56/2/0/"
   target="_blank"
   rel="noreferrer"
   >

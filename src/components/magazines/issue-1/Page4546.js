@@ -13,7 +13,7 @@ const Page4546 = () => {
   const dispatch = useDispatch()
   const contentRef = useRef()
 
-  const onClickOkayButton = () => {
+/*  const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -26,7 +26,7 @@ const Page4546 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
 
   const onClickZoomOut = (isVideo, link) => {
     dispatch(
@@ -64,7 +64,8 @@ but then was brought to peace....They tied together a raft...Enkidu steered it..
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/58/3/0/"
   target="_blank"
   rel="noreferrer"
   >

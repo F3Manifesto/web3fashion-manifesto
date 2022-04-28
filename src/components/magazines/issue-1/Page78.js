@@ -11,7 +11,7 @@ const Page78 = () => {
   const dispatch = useDispatch()
   const contentRef = useRef()
 
-  const onClickOkayButton = () => {
+   /* const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -24,7 +24,7 @@ const Page78 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
 
   const onClickZoomOut = (isVideo, link) => {
     dispatch(
@@ -92,7 +92,8 @@ Come and claim your stake.
 
 <a
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/53/1/0/"
   target="_blank"
   rel="noreferrer"
   >

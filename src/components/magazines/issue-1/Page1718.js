@@ -29,7 +29,7 @@ const Page1718 = () => {
   const dispatch = useDispatch()
   const contentRef = useRef()
 
-const onClickOkayButton = () => {
+/*const onClickOkayButton = () => {
   dispatch(closeModalYellow())
 }
 
@@ -42,7 +42,7 @@ const onClickCollectButton = () => {
       onClick: () => onClickOkayButton()
     })
   )
-}
+}*/
 
 const [play, setPlay] = useState(false)
 const ref = useRef()
@@ -102,7 +102,8 @@ const onClickZoomOut = (isVideo, link) => {
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/55/2/0/"
   target="_blank"
   rel="noreferrer"
   >

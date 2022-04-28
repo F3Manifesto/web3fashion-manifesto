@@ -11,7 +11,7 @@ const Page33 = () => {
   const [play, setPlay] = useState(false)
   const ref = useRef()
 
-  const onClickOkayButton = () => {
+  /*const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -24,7 +24,7 @@ const Page33 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
 
 
   return (
@@ -52,7 +52,8 @@ const Page33 = () => {
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/78/2/0/"
   target="_blank"
   rel="noreferrer"
   >

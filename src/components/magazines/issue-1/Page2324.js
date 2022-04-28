@@ -13,7 +13,7 @@ const Page2324 = () => {
   const dispatch = useDispatch()
   const contentRef = useRef()
 
-  const onClickOkayButton = () => {
+  /*const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -26,7 +26,7 @@ const Page2324 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
 
   const onClickZoomOut = (isVideo, link) => {
     dispatch(
@@ -62,7 +62,8 @@ const Page2324 = () => {
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton2}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/61/3/0/"
   target="_blank"
   rel="noreferrer"
   >
@@ -88,7 +89,8 @@ const Page2324 = () => {
   target="_blank"
   rel="noreferrer"*/
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/63/3/0/"
   target="_blank"
   rel="noreferrer"
   >

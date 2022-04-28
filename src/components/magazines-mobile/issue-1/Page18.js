@@ -12,7 +12,7 @@ const Page18 = () => {
   const ref = useRef()
   
 
-  const onClickOkayButton = () => {
+  /*const onClickOkayButton = () => {
     dispatch(closeModalYellow())
   }
   
@@ -25,7 +25,7 @@ const Page18 = () => {
         onClick: () => onClickOkayButton()
       })
     )
-  }
+  }*/
   return (
     <div className={styles.wrapper}>
      <video ref={ref} playsInline autoPlay loop muted> 
@@ -47,7 +47,8 @@ const Page18 = () => {
 
 <a
   className={styles.collectbutton}
-  onClick={onClickCollectButton}
+  //onClick={onClickCollectButton}
+  href="https://market.f3manifesto.xyz/product/55/2/0/"
   target="_blank"
   rel="noreferrer"
   >
