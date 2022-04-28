@@ -122,6 +122,12 @@ const mapList = [
         x: '59',
         y: '24',
         rotate: '0'
+      },
+      {
+        pageNum: 47,
+        x: '66',
+        y: '24',
+        rotate: '0'
       }
     ]
   }

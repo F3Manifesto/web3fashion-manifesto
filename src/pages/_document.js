@@ -838,6 +838,20 @@ class MyDocument extends Document {
               font-weight: 400;
             }
 
+
+            @font-face {
+              font-family: 'Artisual Deco DEMO';
+              src: url("./fonts/ArtisualDecoRegular_PERSONAL_USE_ONLY.otf");
+              font-weight: 400;
+            }
+
+
+            @font-face {
+              font-family: 'Artifika';
+              src: url("./fonts/Artifika-Regular.ttf");
+              font-weight: 400;
+            }
+
             @font-face {
               font-family: 'Diagramm';
               src: url("./fonts/Diagramm-Regular.ttf");

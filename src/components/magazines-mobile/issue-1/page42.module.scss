@@ -1,0 +1,69 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 375px;
+  height: 773px;
+
+  
+  background: white;
+
+ .pose1 {
+  position: absolute;
+  width: 375px;
+  height: 773px;
+  left: 0px;
+  top: 0px;
+  
+ }
+
+ h1 {
+  position: absolute;
+  width: 227px;
+  height: 80px;
+  left: 25px;
+  top: 637px;
+  
+  font-family: 'Artisual Deco DEMO';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  /* or 133% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+ }
+
+
+h2 {
+  position: absolute;
+width: 15px;
+height: 40px;
+left: 194px;
+top: 675px;
+
+font-family: 'Artifika';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.nftblack{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 330px;
+top: 17px;
+}
+}

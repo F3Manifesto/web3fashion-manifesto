@@ -1,0 +1,156 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: white;
+
+.backgroundimg {
+  position: absolute;
+width: 1920px;
+height: 1497px;
+left: 0px;
+top: 0px;
+}
+
+  
+  h1 {
+    position: absolute;
+width: 860px;
+height: 205px;
+left: 36px;
+top: -6px;
+
+font-family: 'Artisual Deco DEMO';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+  }
+ 
+
+h2 {
+  position: absolute;
+  width: 22px;
+  height: 60px;
+  left: 521px;
+  top: 67px;
+  
+  font-family: 'Artifika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  /* identical to box height, or 133% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+
+}
+
+
+h3 {
+  position: absolute;
+  width: 551px;
+  height: 60px;
+  left: 1288px;
+  top: 1331px;
+  
+  font-family: 'Artisual Deco DEMO';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  text-align: right;
+  
+  color: #FFFFFF;
+  
+  
+}
+
+h4 {
+  position: absolute;
+  width: 22px;
+  height: 60px;
+  left: 1820px;
+  top: 1332px;
+  
+  font-family: 'Artifika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  /* identical to box height, or 133% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+h5 {
+  position: absolute;
+  width: 461px;
+  height: 60px;
+  left: 1378px;
+  top: 1408px;
+  
+  font-family: 'Artisual Deco DEMO';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  text-align: right;
+  
+  color: #FFFFFF;
+}
+
+h6 {
+  position: absolute;
+  width: 22px;
+  height: 60px;
+  left: 1825px;
+  top: 1407px;
+  
+  font-family: 'Artifika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  /* identical to box height, or 133% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+.nftwhite {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 1850px;
+  top: 17px; 
+}
+  
+
+}
+  
