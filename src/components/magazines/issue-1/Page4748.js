@@ -16,7 +16,7 @@ const Page4748 = () => {
 <h1>what do you stand for</h1><h2>?</h2>
 <h3>how do you stand for it </h3><h4>?</h4>
 <h5>how do you stand it</h5><h6>?</h6>
-<a href="https://polygonscan.com/tx/" target="_blank" rel="noreferrer">
+<a href="https://polygonscan.com/tx/0x767ea3edba6952a4defbb2fdac2486b74d1e8fa84b2bcb904bca462ed1afd6b3" target="_blank" rel="noreferrer">
         <img className={styles.nftwhite} src='/images/nftwhite.png'></img>
       </a>
 
