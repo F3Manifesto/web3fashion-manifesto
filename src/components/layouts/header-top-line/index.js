@@ -41,12 +41,12 @@ const HeaderTopLine = ({
           <a href="https://f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
             Home Port
           </a>
-          <a href="https://web3fashionmanifesto.f3manifesto.xyz/manifesto/1/" className={styles.link} target="_blank" rel="noreferrer">
-            Web3 Fashion manifesto
+          <a href="https://popup.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+            Pop Up
           </a>
           
-          <a href="https://mirror.xyz/f3manifesto.eth" className={styles.link} target="_blank" rel="noreferrer">
-            Sub-thread weekly
+          <a href="https://market.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+            Digital Fashion Market
           </a>
           <a href="https://themanifest.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
             The Manifest Gallery
