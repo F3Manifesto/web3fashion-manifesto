@@ -1,0 +1,50 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 375px;
+  height: 773px;
+
+  
+  background: white;
+
+ .pose1 {
+  position: absolute;
+  width: 375px;
+  height: 773px;
+  left: 0px;
+  top: 0px;
+  
+ }
+
+ h1 {
+  position: absolute;
+width: 243px;
+height: 69px;
+left: 140px;
+top: 660px;
+
+font-family: 'Spray Letters';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+
+color: #CAEDFF;
+ }
+
+
+
+ .nftblack{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 330px;
+top: 17px;
+}
+}

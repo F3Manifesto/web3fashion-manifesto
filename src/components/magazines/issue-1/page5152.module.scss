@@ -1,0 +1,50 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: white;
+
+.backgroundimg {
+  position: absolute;
+  width: 1920px;
+  height: 1750px;
+  left: 0px;
+  top: 0px;
+}
+
+  
+  h1 {
+    position: absolute;
+    left: -350px;
+    top: 400px;
+    
+    font-family: 'Sister Spray';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150px;
+    /* or 120% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFB169;
+    
+    transform: rotate(90deg);
+  }
+ 
+
+.nftwhite {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 1850px;
+  top: 17px; 
+}
+  
+
+}
+  

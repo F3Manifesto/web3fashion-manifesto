@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './page45.module.scss'
+import styles from './page46.module.scss'
 
 
-const Page45 = () => {
+const Page46 = () => {
 
 
   return (
@@ -15,4 +15,4 @@ const Page45 = () => {
   )
 }
 
-export default Page45
+export default Page46

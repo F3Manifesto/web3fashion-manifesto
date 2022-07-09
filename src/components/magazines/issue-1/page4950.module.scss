@@ -1,0 +1,93 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: white;
+
+.backgroundimg {
+  position: absolute;
+  width: 1920px;
+  height: 1950px;
+  left: 0px;
+  top: 0px;
+}
+
+  
+  h1 {
+    position: absolute;
+    width: 709px;
+    height: 100px;
+    left: 47px;
+    top: 21px;
+    
+    font-family: 'Sister Spray';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100px;
+    /* identical to box height, or 333% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+ 
+
+h2 {
+  position: absolute;
+  height: 100px;
+  left: 47px;
+  top: 81px;
+  
+  font-family: 'Sister Spray';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100px;
+  /* identical to box height, or 500% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;  
+
+}
+
+
+h3 {
+  position: absolute;
+  width: 814px;
+  height: 120px;
+  left: 1156px;
+  top: 1361px;
+  
+  font-family: 'Sister Spray';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  /* or 300% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FF2B48;
+  
+  
+}
+
+.nftwhite {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 1850px;
+  top: 17px; 
+}
+  
+
+}
+  

@@ -1008,6 +1008,19 @@ class MyDocument extends Document {
               font-weight: 400;
             }
 
+
+            @font-face {
+              font-family: 'Sister Spray';
+              src: url("./fonts/Sister Spray.ttf");
+              font-weight: 400;
+            }
+
+            @font-face {
+              font-family: 'Spray Letters';
+              src: url("./fonts/Spray Letters.otf");
+              font-weight: 400;
+            }
+
             @font-face {
               font-family: 'Krungthep';
               src: url("./fonts/Krungthep.ttf");

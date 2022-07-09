@@ -1,0 +1,42 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 375px;
+  height: 773px;
+
+  
+  background: white;
+
+ .pose1 {
+  position: absolute;
+  width: 375px;
+  height: 773px;
+  left: 0px;
+  top: 0px;
+  
+ }
+
+ h1 {
+  position: absolute;
+  height: 60px;
+  left: -125px;
+  top: 200px;
+  
+  font-family: 'Sister Spray';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 60px;
+  /* identical to box height, or 353% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFB169;
+  
+  transform: rotate(90deg);
+ }
+
+}
