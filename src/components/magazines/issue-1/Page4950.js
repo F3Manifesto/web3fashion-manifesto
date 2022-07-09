@@ -6,7 +6,7 @@ const Page4950 = () => {
 
   return (
     <div className={styles.wrapper}>
-<img className={styles.backgroundimg} src='/magazine/1/4950/bitmap.png'></img>
+<img className={styles.backgroundimg} src='/magazine/1/4950/Bitmap.png'></img>
 <h1>EVERYTHING IS A CANVAS.</h1>
 <h2>IT STARTS WITH THE GUERRILLA HANDBOOK.</h2>
 <h3>AN AMPLIFYING GALLERY THAT MOVES WITH YOU THROUGH THE STREETS.</h3>
