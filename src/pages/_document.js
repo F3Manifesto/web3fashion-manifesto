@@ -1034,13 +1034,20 @@ class MyDocument extends Document {
             }
 
             @font-face {
-              font-family: 'font-family: 'Confidential Information';
+              font-family:'Confidential Information';
+              src: url("./fonts/Confidential Information.ttf");
+              font-weight: 400;
+            }
+
+
+            @font-face {
+              font-family 'Confidential Information';
               src: url("./fonts/Confidential Information.ttf");
               font-weight: 400;
             }
 
             @font-face {
-              font-family: 'font-family: 'Proxima Nova';
+              font-family: 'Proxima Nova';
               src: url("./fonts/Proxima Nova Font.otf");
               font-weight: 400;
             }
@@ -1664,6 +1671,11 @@ class MyDocument extends Document {
             @font-face {
               font-family: 'Mad Mecha';
               src: url("./fonts/Mad Mecha.ttf");
+            }
+
+            @font-face {
+              font-family: 'Mechanical Machine';
+              src: url("./fonts/Mechanical Machine.ttf");
             }
 
             @font-face {

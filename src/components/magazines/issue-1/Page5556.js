@@ -39,7 +39,7 @@ const Page5556 = () => {
 
   return (
     <div className={styles.wrapper}>
-     <a href="https://polygonscan.com/tx/0x001e2ee9e6858aeb8b6258a38a605590fd3b9f8a647b734a9b477b66f4b7557b" target="_blank" rel="noreferrer">
+     <a href="https://polygonscan.com/tx/0x6ad48d449737bc8f75b5b6c586614f4e5052a35e245d3248e4173ded8332828a" target="_blank" rel="noreferrer">
     <img className={styles.nftwhite} src='/images/nftblack.png'></img></a>   
       <p>As well as wondering about what fish, greenland sharks and other aquatic life thought, Nim also wondered about programmable oceanic machinery— how to better arrange the masts and scopes to minimise drag, how to increase the efficiency and thrust of the propeller and two upper control blades, and how to more effectively modify the forebody in such a way that the transition between laminar and turbulent flow is moved further downstream to reduce the total acoustic energy by an increasing proportion of the laminar boundary layer. 
 <br></br><br></br>

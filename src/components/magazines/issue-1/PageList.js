@@ -29,6 +29,14 @@ const Page4950 = loadable(() => import('./Page4950'))
 const Page5152 = loadable(() => import('./Page5152'))
 const Page5354 = loadable(() => import('./Page5354'))
 const Page5556 = loadable(() => import('./Page5556'))
+const Page5758 = loadable(() => import('./Page5758'))
+const Page5960 = loadable(() => import('./Page5960'))
+const Page6162 = loadable(() => import('./Page6162'))
+// const Page6364 = loadable(() => import('./Page6364'))
+// const Page6566 = loadable(() => import('./Page6566'))
+// const Page6768 = loadable(() => import('./Page6768'))
+// const Page6970 = loadable(() => import('./Page6970'))
+// const Page7172 = loadable(() => import('./Page7172'))
 
 const Backcover = loadable(() => import('./Backcover'))
 
@@ -43,11 +51,11 @@ const PageList = [
   <Page1314 />,
   <Page1516 />,
   <Page1718 />,
- <Page1920 />,
+  <Page1920 />,
   <Page2122 />,
   <Page2324 />,
   <Page2526 />,
- <Page2728 />,
+  <Page2728 />,
   <Page2930 />,
   <Page3132 />,
   <Page3334 />,
@@ -62,6 +70,14 @@ const PageList = [
   <Page5152 />,
   <Page5354 />,
   <Page5556 />,
+  <Page5758 />,
+  <Page5960 />,
+  <Page6162 />,
+  // <Page6364 />,
+  // <Page6566 />,
+  // <Page6768 />,
+  // <Page6970 />,
+  // <Page7172 />,
   <Backcover />
 ]
 

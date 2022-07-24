@@ -1,0 +1,384 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: black;
+
+  h4 {
+    position: absolute;
+    width: 700px;
+    height: 37px;
+    left: 1137px;
+    top: 1193px;    
+    
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: white;    
+  }
+  
+  h5 {
+    position: absolute;
+    width: 712px;
+    height: 38px;
+    left: 1084px;
+    top: 1260px;
+    
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: white;
+  }
+
+img {
+  position: absolute;
+  width: 960px;
+  //height: 1196.64px;
+  left: 960px;
+  top: 0px;
+  
+}
+
+  .collect {
+    position: absolute;
+
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .collectbutton{
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 1373px;
+    top: 1335px;
+  
+
+    background: #FFEF62;
+    width: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+
+  h6 {
+    position: absolute;
+    width: 549px;
+    height: 19px;
+    left: 1164px;
+    top: 1410px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height, or 146% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: white;    
+  }
+
+  .cc0text {
+    color: white;  
+  } 
+
+
+  .cc0text2 {
+    color: white;  
+  } 
+
+
+  .collectbutton2{
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 397px;
+    top: 770px;
+    
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+
+
+  .collectbutton1{
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 397px;
+    top: 971px;
+    
+    background: #FFEF62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-family: Lemon Milk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+    color: #4E4AFF;
+  } 
+
+
+  .h7 {
+    position: absolute;
+    width: 602px;
+    height: 37px;
+    left: 213px;
+    top: 650px;
+    
+
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  .h8 {
+    position: absolute;
+    width: 618px;
+    height: 38px;
+    left: 171px;
+    top: 710px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  .h9 {
+    position: absolute;
+    width: 549px;
+    height: 19px;
+    left: 205px;
+    top: 850px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height, or 106% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+  }
+
+  .cc0text1 {
+    color: white;  
+  } 
+
+  .videoglasses {
+    position: absolute;
+    width: 680px;
+    left: 140px;
+    top: 60px;
+  }
+
+  .zoomButton {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 760px;
+    top: 502px;
+    border: none;
+    padding: 0;
+    object-fit: fill;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background: transparent;
+      transform: scale(1.1);
+    }    
+  }
+
+
+  .background {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .glassone {
+    position: absolute;
+    width: 248px;
+    height: 185px;
+    left: 100px;
+    top: 81px;
+  }
+
+  .glasstwo {
+position: absolute;
+width: 249px;
+height: 185px;
+left: 356px;
+top: 81px;
+  }
+
+  .glassthree {
+    position: absolute;
+    width: 249px;
+    height: 185px;
+    left: 614px;
+    top: 81px;  
+  }
+
+  h1 {
+    position: absolute;
+    width: 760px;
+    height: 37px;
+    left: 180px;
+    top: 320px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  h2 {
+    position: absolute;
+    width: 325px;
+    height: 19px;
+    left: 315px;
+    top: 390px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 127% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  h3 {
+    position: absolute;
+    width: 549px;
+    height: 19px;
+    left: 205px;
+    top: 522px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height, or 106% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+  }
+
+  .whiterect {
+    position: absolute;
+width: 960px;
+height: 312px;
+left: 0px;
+top: 1185px;
+  }
+
+  .zeroglasses {
+    position: absolute;
+    width: 483px;
+    height: 483px;
+    left: 238px;
+    top: 944px;
+  }
+
+  .glovediagram {
+    position: absolute;
+    width: 1032px;
+    height: 1209px;
+    left: 916px;
+    top: 0px;
+
+  }
+
+}
+  

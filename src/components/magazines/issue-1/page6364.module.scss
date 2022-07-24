@@ -1,0 +1,110 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: white;
+
+
+  .nftwhite {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1850px;
+    top: 17px; 
+  }
+
+ .first {
+  position: absolute;
+width: 468px;
+height: 120px;
+left: 63px;
+top: 49px;
+-webkit-text-stroke-width: 0.3px;
+-webkit-text-stroke-color: white;
+
+font-family: 'Mechanical Machine';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+ }
+
+ .second {
+  position: absolute;
+width: 576px;
+height: 80px;
+left: 63px;
+top: 198px;
+-webkit-text-stroke-width: 0.3px;
+-webkit-text-stroke-color: white;
+
+font-family: 'Mechanical Machine';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+ }
+
+
+
+.third {
+  position: absolute;
+width: 353px;
+height: 40px;
+left: 63px;
+top: 315px;
+
+font-family: 'Mechanical Machine';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+-webkit-text-stroke-width: 0.3px;
+-webkit-text-stroke-color: white;
+
+}
+
+.fourth {
+  position: absolute;
+width: 1157px;
+height: 100px;
+left: 726px;
+top: 1364px;
+
+font-family: 'Mechanical Machine';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 100px;
+/* identical to box height, or 143% */
+
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+}
+}

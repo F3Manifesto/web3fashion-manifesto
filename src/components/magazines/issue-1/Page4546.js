@@ -46,7 +46,7 @@ const Page4546 = () => {
       </a>
 <h3> The destination was not really the point. The true desire was to get away—to go, as he concluded, ‘anywhere! anywhere! so long as it is out of the world!</h3>
 <h4>― Alain de Botton</h4>
-<p className={styles.steven}>Before the real city could be seen it had to be imagined, the way rumours and tall tales were a kind of charting.”</p>
+<p className={styles.steven}>Before the real city could be seen it had to be imagined, the way rumours and tall tales were a kind of charting.</p>
 <p className={styles.steventag}>― Michael Ondaatje</p>
 <p className={styles.susan}>He went on a distant journey, pushing himself to exhaustion,
 but then was brought to peace....They tied together a raft...Enkidu steered it...while Gilgamesh held the head of Humbaba.</p>

@@ -1,0 +1,17 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 1920px;
+  height: 1497px;
+  background: white;
+  
+  .backgroundimg {
+    position: absolute;
+  width: 1920px;
+  height: 1800px;
+  left: 0px;
+  top: 0px;
+  }
+}
