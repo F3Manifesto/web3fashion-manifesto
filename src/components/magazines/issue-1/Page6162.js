@@ -48,7 +48,7 @@ const Page6162 = () => {
 <h4>― Steve Zissou</h4>
 <p className={styles.steven}>You get paid for the seven and a half hours a day you put in here,” Kelly often told new Bell Labs employees in his speech to them on their first day, “but you get your raises and promotions on what you do in the other sixteen and a half hours.</p>
 <p className={styles.steventag}>― The Idea Factory</p>
-<p className={styles.susan}>No,no. Don't say where we are! Once we know where we are, then the world becomes as narrow as a map. When we don't know, the world feels unlimited.</p>
+<p className={styles.susan}>No, no. Don't say where we are! Once we know where we are, then the world becomes as narrow as a map. When we don't know, the world feels unlimited.</p>
 <p className={styles.susantag}>― The Dark Forest</p>
 <p className={styles.leon}>He knew that when the time came he wouldn't just do nothing. He couldn't do nothing.</p>
 <p className={styles.leontag}>― Blueback</p>
