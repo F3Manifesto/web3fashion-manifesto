@@ -55,6 +55,13 @@ const Page51 = loadable(() => import ('./Page51'))
 const Page52 = loadable(() => import ('./Page52'))
 const Page53 = loadable(() => import ('./Page53'))
 const Page54 = loadable(() => import ('./Page54'))
+const Page55 = loadable(() => import ('./Page55'))
+const Page56 = loadable(() => import ('./Page56'))
+const Page57 = loadable(() => import ('./Page57'))
+const Page58 = loadable(() => import ('./Page58'))
+const Page59 = loadable(() => import ('./Page59'))
+const Page60 = loadable(() => import ('./Page60'))
+
 
 const Backcover = loadable(() => import ('./Backcover'))
 
@@ -114,7 +121,12 @@ const PageList = [
   <Page52 />,
   <Page53 />,
   <Page54 />,
-
+  <Page55 />,
+  <Page56 />,
+  <Page57 />,
+  <Page58 />,
+  <Page59 />,
+  <Page60 />,
 
   <Backcover />
 ]

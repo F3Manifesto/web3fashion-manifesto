@@ -1,12 +1,12 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import styles from './page55.module.scss'
+import styles from './page57.module.scss'
 import {
   openModalYellow,
   closeModalYellow
 } from '@actions/modals.actions'
 
-const Page55 = () => {
+const Page57 = () => {
   const dispatch = useDispatch()
 
   /*const onClickOkayButton = () => {
@@ -29,14 +29,14 @@ const Page55 = () => {
     <div className={styles.wrapper}>
       
 
-<img className={styles.rect} src='./magazine/1/5758/red23.png'></img>
+<img className={styles.rect} src='./magazine/1/5960/blue2525.png'></img>
 
 <video playsInline autoPlay muted loop>
-      <source src='./magazine/1/videos/nimvidsun.mp4' type='video/mp4' />
+      <source src='./magazine/1/videos/pocketwatch.mp4' type='video/mp4' />
 </video>
 
-<p className={styles.h7}>Sunken Cat Eye Sunglasses (Film Edition)</p>
-<p className={styles.h8}>Striking out. The before and after. You might have never seen the relentless dedication otherwise. To the cause of freedom, truth and knowledge.</p>
+<p className={styles.h7}>Celestial Flux Pocket Watch (Film Edition)</p>
+<p className={styles.h8}>Interesting conversations about the future. A ticking compendium of liberty. A succession of self sovereign civilisations.</p>
 <div>
 
 <a 
@@ -46,7 +46,7 @@ const Page55 = () => {
   rel="noreferrer"*/
   className={styles.collectbutton}
   //onClick={onClickCollectButton}
-  href="https://market.f3manifesto.xyz/product/172/3/0/"
+  href="https://market.f3manifesto.xyz/product/167/3/0/"
   target="_blank"
   rel="noreferrer"
   >
@@ -56,10 +56,10 @@ const Page55 = () => {
   target="_blank" rel="noreferrer">Gather Source Materials & Make A Derivative of this CC0 NFT.</a></p>
  </div>
 
-      <img className={styles.zerorender} src='/magazine/1/5758/nimposedsunglasses 1.png'></img>
+      <img className={styles.zerorender} src='/magazine/1/5960/pocketsnimpose 1.png'></img>
 
  </div>
   )
 }
 
-export default Page55
+export default Page57
