@@ -1,19 +1,9 @@
 import React from "react";
-import styles from "./page6364.module.scss";
+import styles from "./page62.module.scss";
 
-const Page6364 = () => {
+const Page62 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.title}>
-        The pursuit of textiles and technology.
-      </div>
-      <a
-        href="https://polygonscan.com/tx/0xfa5f59d8be2cefdb5e74b1b68eea4ea6d7702dc2b63197f96be066903ba53655"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className={styles.nftwhite} src="/images/nftwhite.png"></img>
-      </a>
       <div className={styles.para1}>
         Corridors through space and time. <br></br>Machines of this revolution
         use web3.<br></br>A human story.
@@ -30,4 +20,4 @@ const Page6364 = () => {
   );
 };
 
-export default Page6364;
+export default Page62;

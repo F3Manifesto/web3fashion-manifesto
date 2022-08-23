@@ -1,0 +1,61 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 375px;
+  height: 650px;
+
+  
+  background: black;
+
+  .nftwhite{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 330px;
+    top: 17px;
+  }
+
+  .para1 {
+    color: white;
+    font-family: 'Mechanical Machine';
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 750px;
+    height: 120px;
+    left: 170px;
+    top: 390px;
+  }
+  
+  .para2 {
+    color: white;
+    font-family: 'Mechanical Machine';
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 750px;
+    height: 80px;
+    left: 95px;
+    top: 470px;
+  }
+
+  .para3 {
+    color: white;
+    font-family: 'Mechanical Machine';
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 750px;
+    height: 80px;
+    left: 95px;
+    top: 520px;
+  }
+  
+  
+
+}

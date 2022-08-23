@@ -1,0 +1,29 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  position: relative;
+  width: 375px;
+  height: 773px;
+
+  
+  background: black;
+
+  .nftwhite{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 330px;
+    top: 17px;
+  }
+
+  .title {
+    color: white;
+    font-family: 'Mechanical Machine';
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  
+
+}

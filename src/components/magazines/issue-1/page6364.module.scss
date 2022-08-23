@@ -5,8 +5,7 @@
   position: relative;
   width: 1920px;
   height: 1497px;
-  background: white;
-
+  background: black;
 
   .nftwhite {
     position: absolute;
@@ -16,95 +15,89 @@
     top: 17px; 
   }
 
- .first {
-  position: absolute;
-width: 468px;
-height: 120px;
-left: 63px;
-top: 49px;
--webkit-text-stroke-width: 0.3px;
--webkit-text-stroke-color: white;
+  .title {
+    position: absolute;
+    width: 1157px;
+    height: 100px;
+    left: 104px;
+    top: 86px;
+    
+    font-family: 'Mechanical Machine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 100px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+  }
 
-font-family: 'Mechanical Machine';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* or 133% */
+  .para1 {
+    color: white; 
+    font-family: "Mechanical Machine";
+    position: absolute;
+    width: 750px;
+    height: 120px;
+    left: 1344px;
+    top: 1081px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: right;
 
-color: #FFFFFF;
+    color: #FFFFFF;
+  }
+ 
+  .para2 {
+    position: absolute;
+    width: 750px;
+    height: 80px;
+    left: 1167px;
+    top: 1236px;
+    
+    font-family: 'Mechanical Machine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #FFFFFF;    
+  }
 
- }
-
- .second {
-  position: absolute;
-width: 576px;
-height: 80px;
-left: 63px;
-top: 198px;
--webkit-text-stroke-width: 0.3px;
--webkit-text-stroke-color: white;
-
-font-family: 'Mechanical Machine';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* or 133% */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
- }
-
-
-
-.third {
-  position: absolute;
-width: 353px;
-height: 40px;
-left: 63px;
-top: 315px;
-
-font-family: 'Mechanical Machine';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height, or 133% */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
--webkit-text-stroke-width: 0.3px;
--webkit-text-stroke-color: white;
-
-}
-
-.fourth {
-  position: absolute;
-width: 1157px;
-height: 100px;
-left: 726px;
-top: 1364px;
-
-font-family: 'Mechanical Machine';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 100px;
-/* identical to box height, or 143% */
-
-color: #FFFFFF;
-
-display: flex;
-align-items: center;
-}
+  .para3 {
+    position: absolute;
+    width: 750px;
+    height: 80px;
+    left: 1167px;
+    top: 1351px;
+    
+    font-family: 'Mechanical Machine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+  }
 }

@@ -1,8 +1,8 @@
 const magazineIssues = [
   {
-    issueId: '1',
-    freePageCount: 62
-  }
-]
+    issueId: "1",
+    freePageCount: 72,
+  },
+];
 
-export default magazineIssues
+export default magazineIssues;
