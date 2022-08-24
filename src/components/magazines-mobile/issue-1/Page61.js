@@ -5,7 +5,7 @@ const Page61 = () => {
   return (
     <div className={styles.wrapper}>
       <a
-        href="https://polygonscan.com/tx/0x6ad48d449737bc8f75b5b6c586614f4e5052a35e245d3248e4173ded8332828a"
+        href="https://polygonscan.com/tx/0xe877f0191c7576d62134e06c70566a58987106ec8419b29173d3742a1cb40406"
         target="_blank"
         rel="noreferrer"
       >

@@ -8,7 +8,7 @@ const Page6364 = () => {
         The pursuit of textiles and technology.
       </div>
       <a
-        href="https://polygonscan.com/tx/0xfa5f59d8be2cefdb5e74b1b68eea4ea6d7702dc2b63197f96be066903ba53655"
+        href="https://polygonscan.com/tx/0xe877f0191c7576d62134e06c70566a58987106ec8419b29173d3742a1cb40406"
         target="_blank"
         rel="noreferrer"
       >
